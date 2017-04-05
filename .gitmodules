@@ -1,0 +1,3 @@
+[submodule "Submodules/SharpCaster"]
+	path = Submodules/SharpCaster
+	url = https://github.com/Tapanila/SharpCaster.git
