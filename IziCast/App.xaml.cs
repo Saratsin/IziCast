@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using IziCast.Pages;
+using IziCast.ViewModels;
+using Xamarin.Forms;
 
 namespace IziCast
 {
@@ -8,7 +10,11 @@ namespace IziCast
 		{
 			InitializeComponent();
 
-			MainPage = new IziCastPage();
+			var page = new IziCastPage();
+			page.BindingContext = new IziCastViewModel();
+
+			MainPage = new NavigationPage(page);
+			UIPresenter.Singleton.Initialize((NavigationPage)MainPage);
 		}
 
 		protected override void OnStart()

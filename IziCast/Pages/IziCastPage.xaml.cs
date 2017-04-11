@@ -1,6 +1,7 @@
-﻿using Xamarin.Forms;
+﻿using IziCast.ViewModels;
+using Xamarin.Forms;
 
-namespace IziCast
+namespace IziCast.Pages
 {
 	public partial class IziCastPage : ContentPage
 	{
