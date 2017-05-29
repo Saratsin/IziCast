@@ -24,4 +24,5 @@
 	<style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
 		<item name="colorAccent">#FF4081</item>
 	</style>
+	<style name="Theme.Transparent" parent="@android:style/Theme.Translucent.NoTitleBar" />
 </resources>

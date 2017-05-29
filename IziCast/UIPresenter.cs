@@ -11,12 +11,11 @@ namespace IziCast
 {
 	public class UIPresenter
 	{
-		static UIPresenter _singleton;
-		public static UIPresenter Singleton => _singleton ?? (_singleton = new UIPresenter());
-
 		SemaphoreSlim _locker = new SemaphoreSlim(1);
 		NavigationPage _rootPage;
 		Dictionary<Type, Type> _viewModelPageDictionary = new Dictionary<Type, Type>();
+
+		public Page CurrentPage => _rootPage?.CurrentPage;
 
 		public void Initialize(NavigationPage rootPage)
 		{

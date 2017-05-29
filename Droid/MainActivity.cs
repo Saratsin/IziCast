@@ -1,17 +1,11 @@
-﻿using System;
-
-using Android.App;
-using Android.Content;
+﻿using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
 
 namespace IziCast.Droid
 {
-	[Activity(Label = "IziCast.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
+	[Activity(Label = "Izi Cast", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+	public class MainActivity : Xamarin.Forms.Platform.Android.FormsAppCompatActivity
 	{
 		protected override void OnCreate(Bundle bundle)
 		{
@@ -19,10 +13,14 @@ namespace IziCast.Droid
 			ToolbarResource = Resource.Layout.Toolbar;
 
 			base.OnCreate(bundle);
+			Xamarin.Forms.Forms.Init(this, bundle);
 
-			global::Xamarin.Forms.Forms.Init(this, bundle);
+			LoadApplication(new App(ShowFloatingOverlay));
+		}
 
-			LoadApplication(new App());
+		async void ShowFloatingOverlay()
+		{
+			await ChromecastButtonService.CallService(this, null, 5000);
 		}
 	}
 }

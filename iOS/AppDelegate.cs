@@ -14,7 +14,7 @@ namespace IziCast.iOS
 		{
 			global::Xamarin.Forms.Forms.Init();
 
-			LoadApplication(new App());
+			LoadApplication(new App(string.Empty));
 
 			return base.FinishedLaunching(app, options);
 		}

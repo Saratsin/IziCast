@@ -9,7 +9,7 @@ namespace IziCast
 			var index = obj.LastIndexOf(ending, StringComparison.Ordinal);
 			if (index >= 0)
 				return obj.Substring(0, index);
-
+			
 			return obj;
 		}
 	}

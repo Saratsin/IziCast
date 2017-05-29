@@ -11,10 +11,7 @@ namespace IziCast.ViewModels
 
 		protected void RaisePropertyChanged(string propertyName)
 		{
-			Device.BeginInvokeOnMainThread(() =>
-			{
-				PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-			});
+			Device.BeginInvokeOnMainThread(() => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName)));
 		}
 
 		protected bool SetProperty<T>(ref T storage, T value, [CallerMemberName] string propertyName = null)

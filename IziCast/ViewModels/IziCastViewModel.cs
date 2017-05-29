@@ -1,17 +1,27 @@
 ﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Input;
+using SharpCaster.Controllers;
+using SharpCaster.Services;
 using Xamarin.Forms;
 
 namespace IziCast.ViewModels
 {
 	public class IziCastViewModel : BaseViewModel
 	{
-		string _videoUri;
+		string _videoUri = "http://www.html5videoplayer.net/videos/toystory.mp4";
 		public string VideoUri
 		{
 			get { return _videoUri; }
-			set { SetProperty(ref _videoUri, value); }
+			set
+			{
+				if (SetProperty(ref _videoUri, value))
+					RaisePropertyChanged(nameof(CastButtonIsEnabled));
+			}
 		}
+
+		public bool CastButtonIsEnabled => Core.CoreApp.Current.ValidateUri(VideoUri);
 
 		ICommand _castCommand;
 		public ICommand CastCommand
@@ -20,12 +30,9 @@ namespace IziCast.ViewModels
 			{
 				return _castCommand ?? (_castCommand = new Command(async () =>
 				{
-					if (Uri.IsWellFormedUriString(VideoUri, UriKind.Absolute))
-					{
-						await UIPresenter.Singleton.PushAsync(new NewViewModel());
-					}
+					await Core.CoreApp.Current.ConnectToChromecast(new Core.Connectivity(), VideoUri);
 				}));
-		
+
 			}
 		}
 	}
