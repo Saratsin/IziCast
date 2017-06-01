@@ -1,2 +1,2 @@
 # IziCast
-PCL Plugin for Google Chromecast media sharing
+Android app for Google Chromecast easy media sharing
