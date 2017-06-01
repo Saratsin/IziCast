@@ -1,2 +1,2 @@
 # IziCast
-Crossplatform app for GoogleChromecast easy media sharing
+Crossplatform app for Google Chromecast easy media sharing
