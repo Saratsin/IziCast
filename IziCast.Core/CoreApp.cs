@@ -68,7 +68,7 @@ namespace IziCast.Core
 						}
 						catch (Exception ex)
 						{
-							connectivity.Status = ConnectivityStatus.Failed;
+                            connectivity.Status = ConnectivityStatus.Disconnected;
 							Debug.WriteLine(ex.Message + ex.StackTrace);
 						}
 					};
@@ -82,7 +82,6 @@ namespace IziCast.Core
 							var extension = System.IO.Path.GetExtension(videoUri);
 
 							var contentType = default(string);
-							var streamType = SharpCaster.Models.ChromecastRequests.StreamType.BUFFERED;
 
 							switch (extension)
 							{
@@ -95,12 +94,12 @@ namespace IziCast.Core
 
 							}
 
-							await _controller.LoadMedia(videoUri, contentType, null, streamType);
+							await _controller.LoadMedia(videoUri, contentType, null);
 							connectivity.Status = ConnectivityStatus.Connected;
 						}
 						catch (Exception ex)
 						{
-							connectivity.Status = ConnectivityStatus.Failed;
+                            connectivity.Status = ConnectivityStatus.Disconnected;
 							Debug.WriteLine(ex.Message + ex.StackTrace);
 						}
 					};
@@ -109,12 +108,12 @@ namespace IziCast.Core
 				}
 				else
 				{
-					connectivity.Status = ConnectivityStatus.Failed;
+                    connectivity.Status = ConnectivityStatus.Disconnected;
 				}
 			}
 			catch (Exception ex)
 			{
-				connectivity.Status = ConnectivityStatus.Failed;
+                connectivity.Status = ConnectivityStatus.Disconnected;
 				Debug.WriteLine(ex.Message + ex.StackTrace);
 			}
 		}

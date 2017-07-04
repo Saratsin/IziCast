@@ -1,24 +1,21 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
-using Android.Content.Res;
 using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
-using Android.Support.Design.Widget;
 using Android.Views;
+using IziCast.Core;
 
 namespace IziCast.Droid
 {
 	[Service]
-	partial class ChromecastButtonService : Service
+	public partial class ChromecastButtonService : Service
 	{
-		internal IWindowManager WindowManager => ApplicationContext.GetSystemService(WindowService).JavaCast<IWindowManager>();
+		IWindowManager WindowManager => ApplicationContext.GetSystemService(WindowService).JavaCast<IWindowManager>();
 
-		internal FloatingActionButton Button;
+        ChromecastButton Button;
 		internal Messenger Messenger;
-		ChromecastButtonListener _buttonListener;
 
 		public override StartCommandResult OnStartCommand(Intent intent, StartCommandFlags flags, int startId)
 		{
@@ -35,19 +32,10 @@ namespace IziCast.Droid
 		{
 			base.OnCreate();
 
-			var themedContext = new ContextThemeWrapper(this, Resource.Style.Theme_AppCompat_NoActionBar);
+			_connectivity = new Connectivity();
+            var buttonListener = new ChromecastButtonListener(this, _connectivity);
 
-			Button = new FloatingActionButton(themedContext)
-			{
-				BackgroundTintList = new ColorStateList(new int[][] { new int[0] }, new int[] { Color.ParseColor("#03A9F4") }),
-				Visibility = ViewStates.Invisible,
-				Elevation = 0f,
-				CompatElevation = 0f
-			};
-			Button.SetImageResource(Resource.Drawable.mr_button_connecting_dark);
-
-			_buttonListener = new ChromecastButtonListener(this);
-			Button.SetOnTouchListener(_buttonListener);
+            Button = new ChromecastButton(this, buttonListener);
 
 			var parameters = new WindowManagerLayoutParams(ViewGroup.LayoutParams.WrapContent, ViewGroup.LayoutParams.WrapContent,
 				WindowManagerTypes.SystemAlert, WindowManagerFlags.NotFocusable | WindowManagerFlags.NotTouchModal, Format.Translucent)
@@ -56,19 +44,23 @@ namespace IziCast.Droid
 				Y = 50
 			};
 
-
 			WindowManager.AddView(Button, parameters);
 
 			await Task.Delay(BUTTON_SHOW_ANIMATION_DELAY);
-			Button.Show(_buttonListener);
+			Button.Show();
 		}
 
 		public override void OnDestroy()
 		{
 			base.OnDestroy();
-			if (Button != null)
+			
+            if (Button != null)
 			{
-				Button.Hide(_buttonListener);
+				Button.Hide(() =>
+				{
+					WindowManager.RemoveView(Button);
+					Button = null;
+				});
 			}
 		}
 	}

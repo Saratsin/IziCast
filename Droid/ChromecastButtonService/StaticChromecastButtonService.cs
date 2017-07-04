@@ -6,7 +6,7 @@ using IziCast.Core;
 
 namespace IziCast.Droid
 {
-	partial class ChromecastButtonService
+	public partial class ChromecastButtonService
 	{
 		const int BUTTON_SHOW_ANIMATION_DELAY = 2000;
 		const string MESSENGER_NAME = "com.tsh.izicast.BUTTON_MESSENGER";
@@ -19,7 +19,7 @@ namespace IziCast.Droid
 		{
 			_autoClose = true;
 			_buttonClickAction = buttonClickAction;
-			var handler = new Handler(OnMessageHandled);
+			var handler = new Handler(OnConnectButtonClicked);
 			var messenger = new Messenger(handler);
 			var svc = new Intent(context, typeof(ChromecastButtonService));
 			svc.PutExtra(MESSENGER_NAME, messenger);
@@ -32,20 +32,15 @@ namespace IziCast.Droid
 			}
 		}
 
-		static void OnMessageHandled(Message msg)
+        static async void OnConnectButtonClicked(Message msg)
 		{
-			if (msg.What == 42) //Handles button clicked
-				OnButtonClicked(msg);
-		}
-
-		static async void OnButtonClicked(Message msg)
-		{
-			_autoClose = false;
-			var javaObj = (JavaWrapper)msg.Obj;
-			_connectivity = (Connectivity)javaObj.Obj;
-			var task = _buttonClickAction?.Invoke(_connectivity);
-			if (task != null)
-				await task;
+            if (msg.What == 42) //Handles button clicked
+            {
+				_autoClose = false;
+				var task = _buttonClickAction?.Invoke(_connectivity);
+				if (task != null)
+					await task;
+            }
 		}
 	}
 }

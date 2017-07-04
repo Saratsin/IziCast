@@ -5,7 +5,6 @@ namespace IziCast.Core
 	{
 		Connecting,
 		Connected,
-		Failed,
 		Disconnected
 	}
 
