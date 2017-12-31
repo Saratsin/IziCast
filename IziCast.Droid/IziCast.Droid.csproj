@@ -29,6 +29,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <LangVersion>Latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,6 +40,7 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <LangVersion>Latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Build.Download" Version="0.4.7" />
@@ -86,6 +88,9 @@
     <PackageReference Include="Xamarin.Android.Support.Vector.Drawable">
       <Version>26.1.0.1</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter">
+      <Version>26.1.0.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
@@ -107,6 +112,13 @@
     <Folder Include="Resources\drawable-mdpi\" />
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Widgets\" />
+    <Folder Include="Listeners\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Services\" />
+    <Folder Include="Base\" />
+    <Folder Include="Base\Services\" />
+    <Folder Include="Base\Views\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\splash.png" />
@@ -126,6 +138,7 @@
     <AndroidResource Include="Resources\values\strings.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\values-v21\styles.xml" />
+    <AndroidResource Include="Resources\layout\overlay_chromecast_button_view.axml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
@@ -138,9 +151,22 @@
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\FirstView.cs" />
-    <Compile Include="Views\BaseView.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
-    <Compile Include="Views\OverlayButtonActivity.cs" />
+    <Compile Include="Views\OverlayChromecastButtonActivity.cs" />
+    <Compile Include="Widgets\ChromecastButton.cs" />
+    <Compile Include="Listeners\ChromecastButtonListener.cs" />
+    <Compile Include="Extensions\ContextExtensions.cs" />
+    <Compile Include="Views\OverlayChromecastButtonView.cs" />
+    <Compile Include="OverlayMvxAndroidViewPresenter.cs" />
+    <Compile Include="Services\OverlayChromecastButtonService.cs" />
+    <Compile Include="Base\Services\IMvxOverlayService.cs" />
+    <Compile Include="Base\Services\MvxOverlayService.cs" />
+    <Compile Include="Base\Services\StickyIntentService.cs" />
+    <Compile Include="Base\Services\MvxStickyIntentService.cs" />
+    <Compile Include="Base\Views\BaseActivity.cs" />
+    <Compile Include="Base\Views\MvxOverlayAndroidView.cs" />
+    <Compile Include="Base\Views\MvxOverlayAndroidViewOfTViewModel.cs" />
+    <Compile Include="Base\Views\ViewLocationParams.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />

@@ -84,9 +84,9 @@ namespace IziCast.Droid
 
         public void Include(MvvmCross.Platform.IoC.MvxPropertyInjector injector)
         {
-#pragma warning disable RECS0099 // Parameter is assigned but its value is never used
+            #pragma warning disable RECS0099
             injector = new MvvmCross.Platform.IoC.MvxPropertyInjector();
-#pragma warning restore RECS0099 // Parameter is assigned but its value is never used
+            #pragma warning restore RECS0099
         }
         public void Include(System.ComponentModel.INotifyPropertyChanged changed)
         {

@@ -1,19 +1,21 @@
 using Android.App;
 using Android.OS;
+using IziCast.Droid.Base.Views;
 
 namespace IziCast.Droid.Views
 {
     [Activity(Label = "View for FirstViewModel")]
-    public class FirstView : BaseView
+    public class FirstView : Activity
     {
-        protected override int LayoutResource => Resource.Layout.FirstView;
+        //protected override int LayoutResource => Resource.Layout.FirstView;
 
-        protected override void OnCreate(Bundle bundle)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(bundle);
+            base.OnCreate(savedInstanceState);
 
 
-            SupportActionBar.SetDisplayHomeAsUpEnabled(false);
+
+            //SupportActionBar.SetDisplayHomeAsUpEnabled(false);
         }
     }
 }

@@ -1,6 +1,9 @@
 using Android.Content;
+using IziCast.Core;
+using IziCast.Core.Enums;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.AppCompat;
+using MvvmCross.Droid.Views;
 using MvvmCross.Platform.Platform;
 
 namespace IziCast.Droid
@@ -13,7 +16,15 @@ namespace IziCast.Droid
 
         protected override IMvxApplication CreateApp()
         {
-            return new Core.App();
+            return new App();
+        }
+
+        protected override IMvxAndroidViewPresenter CreateViewPresenter()
+        {
+            if (AppLaunchMode.GetMode() != LaunchMode.Overlay)
+                return base.CreateViewPresenter();
+
+            return new OverlayMvxAndroidViewPresenter(ApplicationContext);
         }
 
         protected override IMvxTrace CreateDebugTrace()

@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.Transparent" parent="MyTheme"/>
 	<style name="MyTheme" parent="MyTheme.Base">
 	</style>
+
+    <style name="OverlayTheme" parent="Theme.AppCompat.NoActionBar"/>
 	<!-- Base theme applied no matter what API -->
 	<style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
 		<item name="windowNoTitle">true</item>

@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using Android.App;
 using Android.Content.PM;
 using MvvmCross.Droid.Views;
@@ -13,8 +15,7 @@ namespace IziCast.Droid
         , ScreenOrientation = ScreenOrientation.Portrait)]
     public class SplashScreen : MvxSplashScreenActivity
     {
-        public SplashScreen()
-            : base(Resource.Layout.SplashScreen)
+        public SplashScreen() : base(Resource.Layout.SplashScreen)
         {
         }
     }

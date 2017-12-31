@@ -2,9 +2,9 @@ using Android.OS;
 using Android.Support.V7.Widget;
 using MvvmCross.Droid.Support.V7.AppCompat;
 
-namespace IziCast.Droid.Views
+namespace IziCast.Droid.Base.Views
 {
-    public abstract class BaseView : MvxAppCompatActivity
+    public abstract class BaseActivity : MvxAppCompatActivity
     {
         protected Toolbar Toolbar { get; set; }
 
