@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<izicast.droid.widgets.ChromecastButton xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:clipChildren="false"
     android:clipToPadding="false"
-    android:padding="16dp"
-    app:MvxBind="IsVisible ButtonIsVisible; Status Status" />
+    android:padding="16dp">
+
+    <izicast.droid.widgets.ChromecastButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:MvxBind="IsVisible ButtonIsVisible; Status Status" />
+</FrameLayout>

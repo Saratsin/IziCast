@@ -4,6 +4,7 @@ using Android.Graphics;
 using Android.Graphics.Drawables;
 using Android.Runtime;
 using Android.Support.Design.Widget;
+using Android.Util;
 using Android.Views;
 using Android.Widget;
 using IziCast.Core.Enums;
@@ -18,7 +19,7 @@ namespace IziCast.Droid.Widgets
         private readonly AnimationDrawable _connectingDrawable;
         private readonly AnimationDrawable _connectedDrawable;
 
-        private bool _isVisible = false;
+        private bool _isVisible = true;
         public bool IsVisible
         {
             get => _isVisible;
@@ -71,6 +72,17 @@ namespace IziCast.Droid.Widgets
 
             BackgroundTintList = new ColorStateList(new int[][] { new int[0] }, new int[] { BackgroundColor });
             Visibility = ViewStates.Invisible;
+            SetImageDrawable(_connectingDrawable);
+            SetOnTouchListener(_listener);
+        }
+
+        public ChromecastButton(Context context, IAttributeSet attrs) : base(context, attrs)
+        {
+            _connectingDrawable = (AnimationDrawable)Resources.GetDrawable(Resource.Drawable.mr_button_connecting_dark, context.Theme);
+            _connectedDrawable = (AnimationDrawable)Resources.GetDrawable(Resource.Drawable.mr_button_connected_dark, context.Theme);
+
+            BackgroundTintList = new ColorStateList(new int[][] { new int[0] }, new int[] { BackgroundColor });
+            Visibility = ViewStates.Visible;
             SetImageDrawable(_connectingDrawable);
             SetOnTouchListener(_listener);
         }

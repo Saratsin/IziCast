@@ -7,6 +7,10 @@ namespace IziCast.Core.ViewModels
 {
     public class OverlayChromecastButtonViewModel : BaseViewModel
     {
+        public OverlayChromecastButtonViewModel()
+        {
+        }
+
         ConnectivityStatus _status = ConnectivityStatus.Disconnected;
         public ConnectivityStatus Status
         {

@@ -148,7 +148,6 @@
     <Compile Include="DebugTrace.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Setup.cs" />
-    <Compile Include="SplashScreen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\FirstView.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -167,6 +166,13 @@
     <Compile Include="Base\Views\MvxOverlayAndroidView.cs" />
     <Compile Include="Base\Views\MvxOverlayAndroidViewOfTViewModel.cs" />
     <Compile Include="Base\Views\ViewLocationParams.cs" />
+    <Compile Include="Views\SplashActivity.cs" />
+    <Compile Include="Base\Views\MvxEventSourceOverlayAndroidView.cs" />
+    <Compile Include="Base\Views\MvxOverlayAndroidViewExtensions.cs" />
+    <Compile Include="Base\Views\IMvxEventSourceOverlayAndroidView.cs" />
+    <Compile Include="Base\Views\MvxOverlayAndroidViewAdapter.cs" />
+    <Compile Include="Base\Views\MvxBaseOverlayAndroidViewAdapter.cs" />
+    <Compile Include="Base\Views\MvxBindingOverlayAndroidViewAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />

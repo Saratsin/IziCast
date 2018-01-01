@@ -3,6 +3,7 @@ using Android.Content;
 using Android.Views;
 using IziCast.Core;
 using IziCast.Core.Enums;
+using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
 
 namespace IziCast.Droid.Base.Services
@@ -33,6 +34,7 @@ namespace IziCast.Droid.Base.Services
                 throw new Exception("IMvxOverlayService singleton is already registered. That should never happen");
 
             Mvx.RegisterSingleton<IMvxOverlayService>(this);
+            Mvx.Resolve<IMvxAppStart>().Start();
         }
     }
 }

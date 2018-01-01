@@ -1,4 +1,5 @@
-﻿using Android.Content;
+﻿using System;
+using Android.Content;
 using Android.Views;
 using Android.Widget;
 using MvvmCross.Binding.BindingContext;
@@ -6,20 +7,23 @@ using MvvmCross.Binding.Droid.BindingContext;
 using MvvmCross.Binding.Droid.Views;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Core.Views;
+using MvvmCross.Droid.Views;
 
 namespace IziCast.Droid.Base.Views
 {
-    public abstract class MvxOverlayAndroidView : FrameLayout, IMvxView, IMvxBindingContextOwner, IMvxLayoutInflaterHolder
+    public abstract class MvxOverlayAndroidView : MvxEventSourceOverlayAndroidView, IMvxView, IMvxLayoutInflaterHolder, IMvxBindingContextOwner
     {
         protected MvxOverlayAndroidView(Context context) : base(context) => Init();
 
         private void Init()
         {
-			BindingContext = new MvxAndroidBindingContext(Context,this);
+			BindingContext = new MvxAndroidBindingContext(Context, this);
 
-            var layoutView = LayoutInflater.Inflate(LayoutId, null);
+            var layoutView = this.BindingInflate(LayoutId, this, false);
 
             AddView(layoutView);
+
+            this.AddEventListeners();
         }
 
         private Context _context;

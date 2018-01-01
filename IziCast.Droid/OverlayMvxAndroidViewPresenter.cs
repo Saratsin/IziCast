@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using Android.Content;
 using Android.Graphics;
+using Android.OS;
+using Android.Runtime;
 using Android.Views;
 using IziCast.Droid.Base.Services;
 using IziCast.Droid.Base.Views;
@@ -25,7 +27,7 @@ namespace IziCast.Droid
             get
             {
                 if (_windowManager == null)
-                    _windowManager = (IWindowManager)_context.GetSystemService(Context.WindowService);
+                    _windowManager = _context.GetSystemService(Context.WindowService).JavaCast<IWindowManager>();
 
                 return _windowManager;
             }
@@ -100,11 +102,17 @@ namespace IziCast.Droid
 
         private WindowManagerLayoutParams CreateWindowManagerParams(ViewLocationParams locationParams)
         {
+            var type = WindowManagerTypes.Phone;
+
+            if (Build.VERSION.SdkInt >= BuildVersionCodes.O)
+                type = WindowManagerTypes.ApplicationOverlay;
+
+
             return new WindowManagerLayoutParams(w: locationParams.Width,
                                                  h: locationParams.Height,
                                                  xpos: locationParams.X,
                                                  ypos: locationParams.Y,
-                                                 _type: WindowManagerTypes.SystemAlert,
+                                                 _type: type,
                                                  _flags: WindowManagerFlags.NotFocusable | WindowManagerFlags.NotTouchModal,
                                                  _format: Format.Translucent)
             {
