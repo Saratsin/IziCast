@@ -17,25 +17,23 @@ namespace IziCast.Droid.Base.Views
 
         private void Init()
         {
+
+
 			BindingContext = new MvxAndroidBindingContext(Context, this);
-
-            var layoutView = this.BindingInflate(LayoutId, this, false);
-
-            AddView(layoutView);
 
             this.AddEventListeners();
         }
 
         private Context _context;
-        public new Context Context
-        {
-            get
-            {
-                if (_context == null)
-                    _context = MvxContextWrapper.Wrap(base.Context, this);
+        public new Context Context => _context ?? (_context = MvxContextWrapper.Wrap(base.Context, this));
 
-                return _context;
-            }
+        protected override void OnAttachedToWindow()
+        {
+            base.OnAttachedToWindow();
+
+            var layoutView = this.BindingInflate(LayoutId, this, false);
+
+            AddView(layoutView);
         }
 
         public abstract int LayoutId { get; }
@@ -64,9 +62,9 @@ namespace IziCast.Droid.Base.Views
             get
             {
                 if (_layoutInflater == null)
-                    _layoutInflater = LayoutInflater.From(Context);
+                    _layoutInflater = (LayoutInflater)Context.GetSystemService(Context.LayoutInflaterService);
 
-                return _layoutInflater;
+                 return _layoutInflater;
             }
         }
 

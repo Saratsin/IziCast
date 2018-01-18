@@ -12,9 +12,12 @@ namespace IziCast.Droid.Services
     [IntentFilter(new[] { Intent.ActionView }, Categories = new[] { Intent.CategoryDefault, Intent.CategoryBrowsable }, DataScheme = "http", DataMimeType = "video/*")]
     public class OverlayChromecastButtonService : MvxOverlayService
     {
-        protected override void OnHandleIntent(Intent intent)
+        public override void OnCreate()
         {
-            base.OnHandleIntent(intent);
+            base.OnCreate();
+        //protected override void OnHandleIntent(Intent intent)
+        //{
+            //base.OnHandleIntent(intent);
         }
     }
 }

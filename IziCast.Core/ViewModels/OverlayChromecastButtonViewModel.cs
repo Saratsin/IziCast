@@ -9,6 +9,28 @@ namespace IziCast.Core.ViewModels
     {
         public OverlayChromecastButtonViewModel()
         {
+            Init(); 
+        }
+
+        async void Init()
+        {
+            while (true)
+            {
+                switch (Status)
+                {
+                    case ConnectivityStatus.Connected:
+                        Status = ConnectivityStatus.Disconnected;
+                        break;
+                    case ConnectivityStatus.Connecting:
+                        Status = ConnectivityStatus.Connected;
+                        break;
+                    case ConnectivityStatus.Disconnected:
+                        Status = ConnectivityStatus.Connecting;
+                        break;
+                }
+
+                await Task.Delay(1000);
+            }
         }
 
         ConnectivityStatus _status = ConnectivityStatus.Disconnected;

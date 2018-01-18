@@ -9,7 +9,8 @@ namespace IziCast.Droid.Base.Views
     public class MvxEventSourceOverlayAndroidView : FrameLayout, IMvxEventSourceOverlayAndroidView
     {
         public MvxEventSourceOverlayAndroidView(Android.Content.Context context) : base(context)
-        { }
+        {
+        }
 
         protected override void OnAttachedToWindow()
         {
