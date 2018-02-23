@@ -8,13 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="5.6.2" />
-    <PackageReference Include="MvvmCross.Binding" Version="5.6.2" />
-    <PackageReference Include="MvvmCross.Core" Version="5.6.2" />
-    <PackageReference Include="MvvmCross.Platform" Version="5.6.2" />
+    <PackageReference Include="MvvmCross" Version="5.6.3" />
+    <PackageReference Include="MvvmCross.Binding" Version="5.6.3" />
+    <PackageReference Include="MvvmCross.Core" Version="5.6.3" />
+    <PackageReference Include="MvvmCross.Platform" Version="5.6.3" />
   </ItemGroup>
     
   <ItemGroup>
     <Folder Include="Enums\" />
+    <Folder Include="Bindings\" />
   </ItemGroup>
 </Project>

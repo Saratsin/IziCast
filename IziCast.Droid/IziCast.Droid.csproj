@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--/-:cnd -->
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -44,14 +42,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Build.Download" Version="0.4.7" />
-    <PackageReference Include="MvvmCross" Version="5.6.2" />
-    <PackageReference Include="MvvmCross.Core" Version="5.6.2" />
-    <PackageReference Include="MvvmCross.Binding" Version="5.6.2" />
-    <PackageReference Include="MvvmCross.Platform" Version="5.6.2" />
-    <PackageReference Include="MvvmCross.Droid.Support.Core.UI" Version="5.6.2" />
-    <PackageReference Include="MvvmCross.Droid.Support.Fragment" Version="5.6.2" />
-    <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat" Version="5.6.2" />
-    <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView" Version="5.6.2" />
     <PackageReference Include="Xamarin.Android.Support.Animated.Vector.Drawable">
       <Version>26.1.0.1</Version>
     </PackageReference>
@@ -90,6 +80,30 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter">
       <Version>26.1.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross">
+      <Version>5.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Core">
+      <Version>5.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Binding">
+      <Version>5.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Platform">
+      <Version>5.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Droid.Support.Core.UI">
+      <Version>5.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Droid.Support.Fragment">
+      <Version>5.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat">
+      <Version>5.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView">
+      <Version>5.6.3</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -137,7 +151,6 @@
     <AndroidResource Include="Resources\values\SplashStyle.xml" />
     <AndroidResource Include="Resources\values\strings.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
-    <AndroidResource Include="Resources\values-v21\styles.xml" />
     <AndroidResource Include="Resources\layout\overlay_chromecast_button_view.axml" />
   </ItemGroup>
   <ItemGroup>
@@ -149,30 +162,28 @@
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\FirstView.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
-    <Compile Include="Views\OverlayChromecastButtonActivity.cs" />
+    <Compile Include="Views\OverlayChromecastButtonServiceActivity.cs" />
     <Compile Include="Widgets\ChromecastButton.cs" />
     <Compile Include="Listeners\ChromecastButtonListener.cs" />
-    <Compile Include="Extensions\ContextExtensions.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
     <Compile Include="Views\OverlayChromecastButtonView.cs" />
     <Compile Include="OverlayMvxAndroidViewPresenter.cs" />
     <Compile Include="Services\OverlayChromecastButtonService.cs" />
     <Compile Include="Base\Services\IMvxOverlayService.cs" />
     <Compile Include="Base\Services\MvxOverlayService.cs" />
     <Compile Include="Base\Services\StickyIntentService.cs" />
-    <Compile Include="Base\Services\MvxStickyIntentService.cs" />
     <Compile Include="Base\Views\BaseActivity.cs" />
-    <Compile Include="Base\Views\MvxOverlayAndroidView.cs" />
     <Compile Include="Base\Views\MvxOverlayAndroidViewOfTViewModel.cs" />
     <Compile Include="Base\Views\ViewLocationParams.cs" />
     <Compile Include="Views\SplashActivity.cs" />
     <Compile Include="Base\Views\MvxEventSourceOverlayAndroidView.cs" />
-    <Compile Include="Base\Views\MvxOverlayAndroidViewExtensions.cs" />
     <Compile Include="Base\Views\IMvxEventSourceOverlayAndroidView.cs" />
+    <Compile Include="Base\Views\MvxOverlayAndroidView.cs" />
     <Compile Include="Base\Views\MvxOverlayAndroidViewAdapter.cs" />
-    <Compile Include="Base\Views\MvxBaseOverlayAndroidViewAdapter.cs" />
-    <Compile Include="Base\Views\MvxBindingOverlayAndroidViewAdapter.cs" />
+    <Compile Include="IziCastContext.cs" />
+    <Compile Include="Services\UserInteractionService.cs" />
+    <Compile Include="Services\OverlayPermissionService.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />

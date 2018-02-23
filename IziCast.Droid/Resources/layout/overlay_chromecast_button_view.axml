@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     android:clipChildren="false"
     android:clipToPadding="false"
+    app:MvxBind="IsVisible ButtonIsVisible"
     android:padding="16dp">
 
     <izicast.droid.widgets.ChromecastButton

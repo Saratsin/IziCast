@@ -14,14 +14,7 @@ namespace IziCast.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-
-            if (AppLaunchMode.GetMode() != LaunchMode.Overlay)
-            {
-				RegisterNavigationServiceAppStart<FirstViewModel>();
-                return;
-            }
-
-            RegisterAppStart(new MvxOverlayAppStart<OverlayChromecastButtonViewModel>());
+            RegisterAppStart(new IziCastAppStart());
         }
     }
 }

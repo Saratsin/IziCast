@@ -7,36 +7,29 @@ using MvvmCross.Binding.Droid.BindingContext;
 using MvvmCross.Binding.Droid.Views;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Core.Views;
+using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Droid.Views;
 
 namespace IziCast.Droid.Base.Views
 {
-    public abstract class MvxOverlayAndroidView : MvxEventSourceOverlayAndroidView, IMvxView, IMvxLayoutInflaterHolder, IMvxBindingContextOwner
+    public abstract class MvxOverlayAndroidView : MvxEventSourceOverlayAndroidView, IMvxView, IMvxBindingContextOwner, IMvxLayoutInflaterHolder
     {
-        protected MvxOverlayAndroidView(Context context) : base(context) => Init();
+        private readonly MvxOverlayAndroidViewAdapter _viewAdapter;
 
-        private void Init()
+        protected MvxOverlayAndroidView(Context context)
         {
+            Context = MvxContextWrapper.Wrap(context, this);
 
+            BindingContext = new MvxAndroidBindingContext(Context, this);
 
-			BindingContext = new MvxAndroidBindingContext(Context, this);
-
-            this.AddEventListeners();
+            _viewAdapter = new MvxOverlayAndroidViewAdapter(this);
         }
 
-        private Context _context;
-        public new Context Context => _context ?? (_context = MvxContextWrapper.Wrap(base.Context, this));
-
-        protected override void OnAttachedToWindow()
-        {
-            base.OnAttachedToWindow();
-
-            var layoutView = this.BindingInflate(LayoutId, this, false);
-
-            AddView(layoutView);
-        }
-
-        public abstract int LayoutId { get; }
+		public View View { get; private set; }
+  
+        public ViewLocationParams LocationParams { get; private set; }
+  
+        public Context Context { get; }
 
         public IMvxBindingContext BindingContext { get; set; }
 
@@ -56,22 +49,43 @@ namespace IziCast.Droid.Base.Views
             }
         }
 
-        private LayoutInflater _layoutInflater;
+        private MvxLayoutInflater _layoutInflater;
         public LayoutInflater LayoutInflater
         {
             get
             {
-                if (_layoutInflater == null)
-                    _layoutInflater = (LayoutInflater)Context.GetSystemService(Context.LayoutInflaterService);
+                if(_layoutInflater == null)
+                    _layoutInflater = (MvxLayoutInflater)LayoutInflater.From(Context);
 
-                 return _layoutInflater;
+                return _layoutInflater;
             }
         }
 
-        public abstract ViewLocationParams LocationParams { get; set; }
+        public abstract View CreateAndSetViewBindings();
+
+        public abstract ViewLocationParams CreateLocationParams();
 
         protected virtual void OnViewModelSet()
         {
+        }
+
+        protected override void OnViewCreated()
+        {
+            LocationParams = CreateLocationParams();
+        }
+
+        protected override void OnViewWillAttachToWindow()
+        {
+            View = this.BindingInflate(Resource.Layout.overlay_chromecast_button_view, null);
+
+            View = CreateAndSetViewBindings();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+			_viewAdapter.Dispose();
+            View.Dispose();
+            base.Dispose(disposing);
         }
     }
 }

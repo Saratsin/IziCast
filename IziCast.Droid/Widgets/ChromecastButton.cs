@@ -71,7 +71,7 @@ namespace IziCast.Droid.Widgets
             _connectedDrawable = (AnimationDrawable)Resources.GetDrawable(Resource.Drawable.mr_button_connected_dark, context.Theme);
 
             BackgroundTintList = new ColorStateList(new int[][] { new int[0] }, new int[] { BackgroundColor });
-            Visibility = ViewStates.Invisible;
+            Visibility = ViewStates.Visible;
             SetImageDrawable(_connectingDrawable);
             SetOnTouchListener(_listener);
         }

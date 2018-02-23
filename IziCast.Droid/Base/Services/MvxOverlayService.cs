@@ -1,46 +1,40 @@
 ﻿using System;
 using Android.Content;
+using Android.Runtime;
 using Android.Views;
 using IziCast.Core;
 using IziCast.Core.Enums;
-using MvvmCross.Binding.Droid.Views;
 using MvvmCross.Core.ViewModels;
+using MvvmCross.Droid.Platform;
 using MvvmCross.Platform;
 
 namespace IziCast.Droid.Base.Services
 {
-    public abstract class MvxOverlayService : MvxStickyIntentService, IMvxOverlayService, IAppLaunchModeSetter
+    [Register("izicast.droid.services.MvxOverlayService")]
+    public abstract class MvxOverlayService : StickyIntentService, IMvxOverlayService
     {
-        private Context _context;
-        protected override Context Context
+        private IziCastContext _context;
+        protected IziCastContext Context
         {
             get
             {
                 if(_context == null)
-                    _context = new ContextThemeWrapper(ApplicationContext, Resource.Style.OverlayTheme);
+                    _context = IziCastContext.FromApplicationContext(Resource.Style.OverlayTheme, LaunchMode.Overlay);
                 
                 return _context;
             }
         }
 
-        LaunchMode IAppLaunchModeSetter.LaunchMode { get; } = LaunchMode.Overlay;
-
-        public override void OnCreate()
+        protected override void OnHandleIntent(Intent intent)
         {
-            AppLaunchMode.SetMode(this);
-
-            base.OnCreate();
-        //protected override void OnHandleIntent(Intent intent)
-        //{
-            //AppLaunchMode.SetMode(this);
-
-            //base.OnHandleIntent(intent);
+            var setup = MvxAndroidSetupSingleton.EnsureSingletonAvailable(Context);
+            setup.EnsureInitialized();
 
             if (Mvx.CanResolve<IMvxOverlayService>())
                 throw new Exception("IMvxOverlayService singleton is already registered. That should never happen");
-
+            
             Mvx.RegisterSingleton<IMvxOverlayService>(this);
-            Mvx.Resolve<IMvxAppStart>().Start();
+            Mvx.Resolve<IMvxAppStart>().Start(LaunchMode.Overlay);
         }
     }
 }

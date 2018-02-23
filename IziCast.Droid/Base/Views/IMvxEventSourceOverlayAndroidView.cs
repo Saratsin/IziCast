@@ -3,12 +3,19 @@ using MvvmCross.Platform.Core;
 
 namespace IziCast.Droid.Base.Views
 {
-    public interface IMvxEventSourceOverlayAndroidView : IMvxDisposeSource
+    public interface IMvxEventSourceOverlayAndroidView
     {
-        event EventHandler AttachWillBeCalled;
+        event EventHandler ViewCreated;
+        event EventHandler ViewWillAttachToWindow;
+        event EventHandler ViewAttachedToWindow;
+        event EventHandler ViewWillDetachFromWindow;
+        event EventHandler ViewDetachedFromWindow;
+        event EventHandler ViewDisposed;
 
-        event EventHandler AttachCalled;
-
-        event EventHandler DetachCalled;
+        void RaiseViewCreated();
+        void RaiseViewWillAttachToWindow();
+        void RaiseViewAttachedToWindow();
+        void RaiseViewWillDetachFromWindow();
+        void RaiseViewDetachedFromWindow();
     }
 }

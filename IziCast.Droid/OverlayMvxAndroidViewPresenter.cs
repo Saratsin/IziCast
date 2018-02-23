@@ -12,87 +12,95 @@ using MvvmCross.Core.Views;
 using MvvmCross.Droid.Views;
 using MvvmCross.Platform;
 using MvvmCross.Platform.Logging;
+using IziCast.Droid.Services;
 
 namespace IziCast.Droid
 {
     public class OverlayMvxAndroidViewPresenter : MvxViewPresenter, IMvxAndroidViewPresenter
     {
-        private readonly Context _context;
+        private readonly List<MvxOverlayAndroidView> _currentViews = new List<MvxOverlayAndroidView>();
+        private readonly IMvxLog _logger = Mvx.Resolve<IMvxLog>();
+        private readonly IMvxViewsContainer _viewsContainer = Mvx.Resolve<IMvxViewsContainer>();
+        private readonly IziCastContext _context;
+        private readonly IWindowManager _windowManager;
 
-        public OverlayMvxAndroidViewPresenter(Context context) => _context = context;
-
-        private IWindowManager _windowManager;
-        private IWindowManager WindowManager
+        public OverlayMvxAndroidViewPresenter(IziCastContext context)
         {
-            get
-            {
-                if (_windowManager == null)
-                    _windowManager = _context.GetSystemService(Context.WindowService).JavaCast<IWindowManager>();
-
-                return _windowManager;
-            }
+            _context = context;
+            _windowManager = _context.GetSystemService(Context.WindowService).JavaCast<IWindowManager>();
         }
 
-        private IMvxViewsContainer _viewsContainer;
-        private IMvxViewsContainer ViewsContainer
+        public override async void Show(MvxViewModelRequest request)
         {
-            get
+            if(!OverlayPermissionService.Instance.CanDrawOverlays)
             {
-                if (_viewsContainer == null)
-                    _viewsContainer = Mvx.Resolve<IMvxViewsContainer>();
-                return _viewsContainer;
+                var permissionIsEnabled = await OverlayPermissionService.Instance.TryEnablePermissionIfDisabled(TimeSpan.FromSeconds(15));
+
+                if (!permissionIsEnabled)
+                {
+                    Mvx.Resolve<IMvxOverlayService>().StopSelf();
+                    return;
+                }
             }
-        }
 
-        private IMvxLog _logger;
-        private IMvxLog Logger
-        {
-            get
-            {
-                if (_logger == null)
-                    _logger = Mvx.Resolve<IMvxLog>();
-                return _logger;
-            }
-        }
-
-        private List<MvxOverlayAndroidView> CurrentViews { get; } = new List<MvxOverlayAndroidView>();
-
-        public override void Show(MvxViewModelRequest request)
-        {
             var viewToShow = CreateView(request);
+
+            ((IMvxEventSourceOverlayAndroidView)viewToShow).RaiseViewCreated();
+
             var parameters = CreateWindowManagerParams(viewToShow.LocationParams);
 
-            WindowManager.AddView(viewToShow, parameters);
-            CurrentViews.Add(viewToShow);
+            ((IMvxEventSourceOverlayAndroidView)viewToShow).RaiseViewWillAttachToWindow();
+
+            _windowManager.AddView(viewToShow.View, parameters);
+            _currentViews.Add(viewToShow);
+
+            ((IMvxEventSourceOverlayAndroidView)viewToShow).RaiseViewAttachedToWindow();
         }
 
         public override void Close(IMvxViewModel viewModel)
         {
-            var viewToClose = CurrentViews.Find(fragment => fragment.ViewModel == viewModel);
+            var viewToClose = _currentViews.Find(view => view.ViewModel == viewModel);
 
             if (viewToClose == null)
             {
-                Logger.Warn($"No fragment found for view model: {viewModel.GetType().Name}");
+                _logger.Warn($"No view found for view model: {viewModel.GetType().Name}");
                 return;
             }
 
-			CurrentViews.Remove(viewToClose);
-            WindowManager.RemoveView(viewToClose);
+            ((IMvxEventSourceOverlayAndroidView)viewToClose).RaiseViewWillDetachFromWindow();
 
-            if (CurrentViews.Count == 0)
+			_currentViews.Remove(viewToClose);
+            _windowManager.RemoveView(viewToClose.View);
+
+            ((IMvxEventSourceOverlayAndroidView)viewToClose).RaiseViewDetachedFromWindow();
+
+            viewToClose.Dispose();
+
+            if (_currentViews.Count == 0)
                 Mvx.Resolve<IMvxOverlayService>().StopSelf();
         }
 
-        public override void ChangePresentation(MvxPresentationHint hint) => throw new NotSupportedException();
+        public override void ChangePresentation(MvxPresentationHint hint)
+        {
+            if (HandlePresentationChange(hint)) return;
+
+            if (hint is MvxClosePresentationHint presentationHint)
+            {
+                Close(presentationHint.ViewModelToClose);
+                return;
+            }
+
+            _logger.Warn("Hint ignored {0}", hint.GetType().Name);
+        }
 
         private MvxOverlayAndroidView CreateView(MvxViewModelRequest request)
         {
-            var viewType = ViewsContainer.GetViewType(request.ViewModelType);
+            var viewType = _viewsContainer.GetViewType(request.ViewModelType);
 
             if (viewType == null || !viewType.IsSubclassOf(typeof(MvxOverlayAndroidView)))
                 throw new NotSupportedException();
-
-            var viewInstance = (MvxOverlayAndroidView)Activator.CreateInstance(viewType, _context);
+            
+            var viewInstance = (MvxOverlayAndroidView)Activator.CreateInstance(viewType, new MutableContextWrapper(_context));
 
             if (request is MvxViewModelInstanceRequest instanceRequest)
                 viewInstance.ViewModel = instanceRequest.ViewModelInstance;

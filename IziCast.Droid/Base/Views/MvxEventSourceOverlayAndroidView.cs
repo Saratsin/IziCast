@@ -1,42 +1,103 @@
 ﻿using System;
-using Android.OS;
-using Android.Widget;
-using MvvmCross.Droid.Views;
-using MvvmCross.Platform.Core;
 
 namespace IziCast.Droid.Base.Views
 {
-    public class MvxEventSourceOverlayAndroidView : FrameLayout, IMvxEventSourceOverlayAndroidView
+    public abstract class MvxEventSourceOverlayAndroidView : IMvxEventSourceOverlayAndroidView, IDisposable
     {
-        public MvxEventSourceOverlayAndroidView(Android.Content.Context context) : base(context)
+        protected MvxEventSourceOverlayAndroidView()
         {
         }
 
-        protected override void OnAttachedToWindow()
+
+        public event EventHandler ViewCreated;
+
+		public event EventHandler ViewWillAttachToWindow;
+
+		public event EventHandler ViewAttachedToWindow;
+
+        public event EventHandler ViewWillDetachFromWindow;
+
+        public event EventHandler ViewDetachedFromWindow;
+
+        public event EventHandler ViewDisposed;
+
+
+        void IMvxEventSourceOverlayAndroidView.RaiseViewCreated()
         {
-            AttachWillBeCalled?.Invoke(this, EventArgs.Empty);
-            base.OnAttachedToWindow();
-            AttachCalled?.Invoke(this, EventArgs.Empty);
+			OnViewCreated();
+            var viewCreated = ViewCreated;
+            viewCreated?.Invoke(this, EventArgs.Empty);
         }
 
-        protected override void OnDetachedFromWindow()
+        void IMvxEventSourceOverlayAndroidView.RaiseViewWillAttachToWindow()
         {
-            base.OnDetachedFromWindow();
-            DetachCalled?.Invoke(this, EventArgs.Empty);
+            OnViewWillAttachToWindow();
+            var viewWillAttachToWindow = ViewWillAttachToWindow;
+            viewWillAttachToWindow?.Invoke(this, EventArgs.Empty);
         }
 
-        protected override void Dispose(bool disposing)
+        void IMvxEventSourceOverlayAndroidView.RaiseViewAttachedToWindow()
         {
-            base.Dispose(disposing);
-            DisposeCalled?.Invoke(this, EventArgs.Empty);
+            OnViewAttachedToWindow();
+            var viewAttachedToWindow = ViewAttachedToWindow;
+            viewAttachedToWindow?.Invoke(this, EventArgs.Empty);
         }
 
-        public event EventHandler AttachWillBeCalled;
+        void IMvxEventSourceOverlayAndroidView.RaiseViewWillDetachFromWindow()
+        {
+            OnViewWillDetachFromWindow();
+            var viewWillDetachFromWindow = ViewWillDetachFromWindow;
+            viewWillDetachFromWindow?.Invoke(this, EventArgs.Empty);
+        }
 
-        public event EventHandler AttachCalled;
+        void IMvxEventSourceOverlayAndroidView.RaiseViewDetachedFromWindow()
+        {
+            OnViewDetachedFromWindow();
+            var viewDetachedFromWindow = ViewDetachedFromWindow;
+            viewDetachedFromWindow?.Invoke(this, EventArgs.Empty);
+        }
 
-        public event EventHandler DetachCalled;
 
-		public event EventHandler DisposeCalled;
+        protected virtual void OnViewCreated()
+        {
+        }
+
+        protected virtual void OnViewWillAttachToWindow()
+        {
+        }
+
+        protected virtual void OnViewAttachedToWindow()
+        {
+        }
+
+        protected virtual void OnViewWillDetachFromWindow()
+        {
+        }
+
+        protected virtual void OnViewDetachedFromWindow()
+        {
+        }
+
+
+        #region IDisposable implementation
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (_disposed)
+                return;
+
+            if (disposing)
+            {
+                var viewDisposed = ViewDisposed;
+
+                viewDisposed?.Invoke(this, EventArgs.Empty);
+            }
+
+            _disposed = true;
+        }
+
+        public void Dispose() => Dispose(true);
+        #endregion
     }
 }
