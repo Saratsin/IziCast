@@ -1,6 +1,8 @@
 using IziCast.Core.Enums;
+using IziCast.Core.Services;
 using IziCast.Core.ViewModels;
 using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
 using MvvmCross.Platform.IoC;
 
 namespace IziCast.Core
@@ -13,6 +15,8 @@ namespace IziCast.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
+
+            Mvx.RegisterSingleton<IChromecastClient>(new SharpcasterChromecastClient());
 
             RegisterAppStart(new IziCastAppStart());
         }

@@ -30,9 +30,6 @@ namespace IziCast.Droid.Base.Services
             var setup = MvxAndroidSetupSingleton.EnsureSingletonAvailable(Context);
             setup.EnsureInitialized();
 
-            if (Mvx.CanResolve<IMvxOverlayService>())
-                throw new Exception("IMvxOverlayService singleton is already registered. That should never happen");
-            
             Mvx.RegisterSingleton<IMvxOverlayService>(this);
             Mvx.Resolve<IMvxAppStart>().Start(LaunchMode.Overlay);
         }

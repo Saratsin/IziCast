@@ -17,5 +17,14 @@
   <ItemGroup>
     <Folder Include="Enums\" />
     <Folder Include="Bindings\" />
+    <Folder Include="ChromecastClients\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\IsBusyHandler\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Submodules\SharpCaster\SharpCaster\Sharpcaster.csproj" />
+    <ProjectReference Include="..\Submodules\SharpCaster\Sharpcaster.Core\Sharpcaster.Core.csproj" />
+    <ProjectReference Include="..\Submodules\SharpCaster\Sharpcaster.Discovery\Sharpcaster.Discovery.csproj" />
   </ItemGroup>
 </Project>

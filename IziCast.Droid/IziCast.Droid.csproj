@@ -184,6 +184,8 @@
     <Compile Include="IziCastContext.cs" />
     <Compile Include="Services\UserInteractionService.cs" />
     <Compile Include="Services\OverlayPermissionService.cs" />
+    <Compile Include="LocalCastChromecastClient.cs" />
+    <Compile Include="Services\MainThreadDispatcherService.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />
