@@ -1,9 +1,11 @@
 using IziCast.Core.Enums;
 using IziCast.Core.Services;
 using IziCast.Core.ViewModels;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Platform;
-using MvvmCross.Platform.IoC;
+using MvvmCross;
+using MvvmCross.IoC;
+using MvvmCross.ViewModels;
+using MvvmCross.Navigation;
+using System.ComponentModel;
 
 namespace IziCast.Core
 {
@@ -11,14 +13,25 @@ namespace IziCast.Core
     {
         public override void Initialize()
         {
-            CreatableTypes()
-                .EndingWith("Service")
-                .AsInterfaces()
-                .RegisterAsLazySingleton();
+            CreatableTypes().EndingWith("Service")
+                            .AsInterfaces()
+                            .RegisterAsLazySingleton();
 
             Mvx.RegisterSingleton<IChromecastClient>(new SharpcasterChromecastClient());
 
-            RegisterAppStart(new IziCastAppStart());
+            RegisterCustomAppStart<AppStart>();
         }
-    }
+
+		public override void Startup(object hint)
+		{
+            var appStartMode = hint as LaunchMode?;
+
+            var viewModelType = typeof(FirstViewModel);
+
+            if (appStartMode == LaunchMode.Overlay)
+                viewModelType = typeof(OverlayChromecastButtonViewModel);
+            
+            Mvx.Resolve<IMvxNavigationService>().Navigate(viewModelType);
+		}
+	}
 }

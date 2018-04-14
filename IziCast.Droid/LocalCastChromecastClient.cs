@@ -4,10 +4,10 @@ using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 using Android.Content.PM;
+using IziCast.Core;
 using IziCast.Core.Models;
 using IziCast.Core.Services;
-using MvvmCross.Platform;
-using MvvmCross.Platform.Logging;
+using MvvmCross.Logging;
 using AUri = Android.Net.Uri;
 
 namespace IziCast.Droid
@@ -52,7 +52,7 @@ namespace IziCast.Droid
             }
             catch (Exception ex)
             {
-                Mvx.Resolve<IMvxLog>().Warn(ex, "Failed to send media");
+                IziCastLog.Instance.Warn(ex, "Failed to send media");
                 return Task.FromResult(Try.Unsucceed());
             }
         }

@@ -1,6 +1,6 @@
 ﻿using Android.Content;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Core.Views;
+using MvvmCross.ViewModels;
+using MvvmCross.Views;
 
 namespace IziCast.Droid.Base.Views
 {

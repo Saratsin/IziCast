@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Threading.Tasks;
 using IziCast.Core.Services;
-using MvvmCross.Platform;
+using MvvmCross;
+using MvvmCross.Base;
 
 namespace IziCast.Core.Models.IsBusyHandler
 {
     public class IsBusyHandler
     {
-        private readonly IMainThreadDispatcherService _mainThreadService = Mvx.Resolve<IMainThreadDispatcherService>();
+        private readonly IMvxMainThreadAsyncDispatcher _mainThreadService = Mvx.Resolve<IMvxMainThreadAsyncDispatcher>();
 
         public event EventHandler<bool> IsBusyChanged;
 
@@ -100,7 +101,7 @@ namespace IziCast.Core.Models.IsBusyHandler
             if (isBusyChanged == null)
                 return;
 
-            _mainThreadService.DispatchOnMainThread(() =>
+            _mainThreadService.ExecuteOnMainThreadAsync(() =>
             {
 				isBusyChanged.Invoke(this, value);
             });

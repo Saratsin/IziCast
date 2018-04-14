@@ -101,7 +101,7 @@ namespace IziCast.Droid.Listeners
             //}
         }
 
-        async void OnButtonTouchedDown()
+        void OnButtonTouchedDown()
         {
             //if (_connectivity.Status == ConnectivityStatus.Disconnected)
             //{

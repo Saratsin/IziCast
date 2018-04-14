@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Support.V7.App;
 using AUri = Android.Net.Uri;
 using IziCast.Droid.Services;
+using System.Threading.Tasks;
 
 namespace IziCast.Droid.Views
 {
@@ -22,7 +23,8 @@ namespace IziCast.Droid.Views
 
             intent.SetDataAndType(Intent.Data, Intent.Type);
 
-            StartService(intent);
+            Task.Run( () => StartService(intent));
+
             Finish();
         }
     }

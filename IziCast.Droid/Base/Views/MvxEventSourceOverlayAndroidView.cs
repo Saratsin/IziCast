@@ -8,7 +8,6 @@ namespace IziCast.Droid.Base.Views
         {
         }
 
-
         public event EventHandler ViewCreated;
 
 		public event EventHandler ViewWillAttachToWindow;
@@ -20,7 +19,6 @@ namespace IziCast.Droid.Base.Views
         public event EventHandler ViewDetachedFromWindow;
 
         public event EventHandler ViewDisposed;
-
 
         void IMvxEventSourceOverlayAndroidView.RaiseViewCreated()
         {
@@ -80,24 +78,17 @@ namespace IziCast.Droid.Base.Views
 
 
         #region IDisposable implementation
-        private bool _disposed = false;
-
         protected virtual void Dispose(bool disposing)
         {
-            if (_disposed)
-                return;
-
-            if (disposing)
-            {
-                var viewDisposed = ViewDisposed;
-
-                viewDisposed?.Invoke(this, EventArgs.Empty);
-            }
-
-            _disposed = true;
         }
 
-        public void Dispose() => Dispose(true);
+        public void Dispose()
+        {
+            Dispose(true);
+
+            var viewDisposed = ViewDisposed;
+            viewDisposed?.Invoke(this, EventArgs.Empty);
+        }
         #endregion
     }
 }

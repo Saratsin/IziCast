@@ -1,5 +1,3 @@
-using MvvmCross.Core.ViewModels;
-
 namespace IziCast.Core.ViewModels
 {
     public class FirstViewModel : BaseViewModel

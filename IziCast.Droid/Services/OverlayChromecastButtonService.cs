@@ -3,7 +3,7 @@ using Android.Content;
 using Android.Widget;
 using IziCast.Core.Services;
 using IziCast.Droid.Base.Services;
-using MvvmCross.Platform;
+using MvvmCross;
 
 namespace IziCast.Droid.Services
 {

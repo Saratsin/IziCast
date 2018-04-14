@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using IziCast.Core.Enums;
 using IziCast.Core.Models.IsBusyHandler;
 using IziCast.Core.Services;
-using MvvmCross.Core.ViewModels;
+using MvvmCross.Commands;
 
 namespace IziCast.Core.ViewModels
 {
@@ -90,7 +90,7 @@ namespace IziCast.Core.ViewModels
         private void Close()
         {
             _autoClose = false;
-            Close(this);
+            NavigationService.Close(this);
         }
 
         /*

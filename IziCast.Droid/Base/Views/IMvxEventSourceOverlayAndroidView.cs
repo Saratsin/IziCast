@@ -1,5 +1,4 @@
 ﻿using System;
-using MvvmCross.Platform.Core;
 
 namespace IziCast.Droid.Base.Views
 {

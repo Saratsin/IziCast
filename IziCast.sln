@@ -15,10 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharpcaster.Core", "Submodu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharpcaster.Discovery", "Submodules\SharpCaster\Sharpcaster.Discovery\Sharpcaster.Discovery.csproj", "{08CA785F-2F03-4EA7-BFA0-1B439076A015}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{296E996B-CA9E-4E01-BD82-2AFEDEEC44E3}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "IziCast.iOS", "IziCast.iOS\IziCast.iOS.csproj", "{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,22 +107,6 @@ Global
 		{08CA785F-2F03-4EA7-BFA0-1B439076A015}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
 		{08CA785F-2F03-4EA7-BFA0-1B439076A015}.AppStore|iPhone.ActiveCfg = Release|Any CPU
 		{08CA785F-2F03-4EA7-BFA0-1B439076A015}.AppStore|iPhone.Build.0 = Release|Any CPU
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Debug|iPhone.Build.0 = Debug|iPhone
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Release|iPhone.ActiveCfg = Release|iPhone
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Release|iPhone.Build.0 = Release|iPhone
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
-		{19829C21-EACB-49ED-BA68-AECEE5B5F1B3}.AppStore|iPhone.Build.0 = AppStore|iPhone
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F0FFC6B8-CA58-4BA6-B25C-8D1319D62041} = {8E1594DA-79EC-45A0-8474-1E1BB7F7107C}

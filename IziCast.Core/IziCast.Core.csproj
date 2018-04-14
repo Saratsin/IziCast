@@ -3,28 +3,27 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.6</TargetFramework>
-    <PackageTargetFallback>portable-net45+win8+wpa81</PackageTargetFallback>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="5.6.3" />
-    <PackageReference Include="MvvmCross.Binding" Version="5.6.3" />
-    <PackageReference Include="MvvmCross.Core" Version="5.6.3" />
-    <PackageReference Include="MvvmCross.Platform" Version="5.6.3" />
+    <PackageReference Include="MvvmCross" Version="6.0.0" />
   </ItemGroup>
     
   <ItemGroup>
     <Folder Include="Enums\" />
-    <Folder Include="Bindings\" />
     <Folder Include="ChromecastClients\" />
     <Folder Include="Models\" />
     <Folder Include="Models\IsBusyHandler\" />
-    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Submodules\SharpCaster\SharpCaster\Sharpcaster.csproj" />
     <ProjectReference Include="..\Submodules\SharpCaster\Sharpcaster.Core\Sharpcaster.Core.csproj" />
     <ProjectReference Include="..\Submodules\SharpCaster\Sharpcaster.Discovery\Sharpcaster.Discovery.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Bindings\MvxEventNameTargetBinding.cs" />
+    <Compile Remove="IziCastAppStart.cs" />
+    <Compile Remove="Services\IMainThreadDispatcherService.cs" />
   </ItemGroup>
 </Project>

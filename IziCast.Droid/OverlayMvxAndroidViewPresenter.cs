@@ -7,20 +7,21 @@ using Android.Runtime;
 using Android.Views;
 using IziCast.Droid.Base.Services;
 using IziCast.Droid.Base.Views;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Core.Views;
-using MvvmCross.Droid.Views;
-using MvvmCross.Platform;
-using MvvmCross.Platform.Logging;
 using IziCast.Droid.Services;
+using MvvmCross.Presenters;
+using MvvmCross.Platforms.Android.Presenters;
+using MvvmCross.Views;
+using MvvmCross;
+using MvvmCross.ViewModels;
+using IziCast.Core;
+using MvvmCross.Logging;
+using MvvmCross.Presenters.Hints;
 
 namespace IziCast.Droid
 {
     public class OverlayMvxAndroidViewPresenter : MvxViewPresenter, IMvxAndroidViewPresenter
     {
         private readonly List<MvxOverlayAndroidView> _currentViews = new List<MvxOverlayAndroidView>();
-        private readonly IMvxLog _logger = Mvx.Resolve<IMvxLog>();
-        private readonly IMvxViewsContainer _viewsContainer = Mvx.Resolve<IMvxViewsContainer>();
         private readonly IziCastContext _context;
         private readonly IWindowManager _windowManager;
 
@@ -29,6 +30,8 @@ namespace IziCast.Droid
             _context = context;
             _windowManager = _context.GetSystemService(Context.WindowService).JavaCast<IWindowManager>();
         }
+
+        private IMvxViewsContainer ViewsContainer => Mvx.Resolve<IMvxViewsContainer>();
 
         public override async void Show(MvxViewModelRequest request)
         {
@@ -63,7 +66,7 @@ namespace IziCast.Droid
 
             if (viewToClose == null)
             {
-                _logger.Warn($"No view found for view model: {viewModel.GetType().Name}");
+                IziCastLog.Instance.Warn($"No view found for view model: {viewModel.GetType().Name}");
                 return;
             }
 
@@ -90,12 +93,12 @@ namespace IziCast.Droid
                 return;
             }
 
-            _logger.Warn("Hint ignored {0}", hint.GetType().Name);
+            IziCastLog.Instance.Warn("Hint ignored {0}", hint.GetType().Name);
         }
 
         private MvxOverlayAndroidView CreateView(MvxViewModelRequest request)
         {
-            var viewType = _viewsContainer.GetViewType(request.ViewModelType);
+            var viewType = ViewsContainer.GetViewType(request.ViewModelType);
 
             if (viewType == null || !viewType.IsSubclassOf(typeof(MvxOverlayAndroidView)))
                 throw new NotSupportedException();

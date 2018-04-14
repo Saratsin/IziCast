@@ -2,8 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using IziCast.Core.Models;
-using MvvmCross.Platform;
-using MvvmCross.Platform.Logging;
+using MvvmCross.Logging;
 using Sharpcaster;
 using Sharpcaster.Core.Interfaces;
 using Sharpcaster.Discovery;
@@ -49,7 +48,7 @@ namespace IziCast.Core.Services
             }
             catch(Exception ex)
             {
-                Mvx.Resolve<IMvxLog>().Warn(ex, "Failed to send media");
+                IziCastLog.Instance.Warn(ex, "Failed to send media");
                 return Try.Unsucceed();
             }
         }

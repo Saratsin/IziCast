@@ -2,12 +2,13 @@
 using System.Linq;
 using Android.Content;
 using Android.OS;
+using MvvmCross.Base;
 using MvvmCross.Binding.BindingContext;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Core.Views;
-using MvvmCross.Platform;
-using MvvmCross.Platform.Core;
-using MvvmCross.Platform.Logging;
+using MvvmCross.ViewModels;
+using MvvmCross.Views;
+using IziCast.Core;
+using MvvmCross.Logging;
+using MvvmCross;
 
 namespace IziCast.Droid.Base.Views
 {
@@ -40,7 +41,7 @@ namespace IziCast.Droid.Base.Views
             var viewModel = loader.LoadViewModel(request, null);
 
             if (viewModel == null)
-                Mvx.Resolve<IMvxLog>().Warn("ViewModel not loaded for {0}", request.ViewModelType.FullName);
+                IziCastLog.Instance.Warn("ViewModel not loaded for {0}", request.ViewModelType.FullName);
 
             return viewModel;
         }
@@ -87,20 +88,20 @@ namespace IziCast.Droid.Base.Views
             if (_disposed)
                 return;
 
-            if (disposing)
-            {
-                _view.ViewCreated -= OnViewCreated;
-                _view.ViewWillAttachToWindow -= OnViewWillAttachToWindow;
-                _view.ViewAttachedToWindow -= OnViewAttachedToWindow;
-                _view.ViewWillDetachFromWindow -= OnViewWillDetachFromWindow;
-                _view.ViewDetachedFromWindow -= OnViewDetachedFromWindow;
-                _view.ViewDisposed -= OnViewDisposed;
-            }
-
+            _view.ViewCreated -= OnViewCreated;
+            _view.ViewWillAttachToWindow -= OnViewWillAttachToWindow;
+            _view.ViewAttachedToWindow -= OnViewAttachedToWindow;
+            _view.ViewWillDetachFromWindow -= OnViewWillDetachFromWindow;
+            _view.ViewDetachedFromWindow -= OnViewDetachedFromWindow;
+            _view.ViewDisposed -= OnViewDisposed;
+            
             _disposed = true;
         }
 
-        public void Dispose() => Dispose(true);
+        public void Dispose()
+        {
+            Dispose(true);
+        }
         #endregion
     }
 }

@@ -1,14 +1,11 @@
 ﻿using System;
 using Android.Content;
 using Android.Views;
-using Android.Widget;
 using MvvmCross.Binding.BindingContext;
-using MvvmCross.Binding.Droid.BindingContext;
-using MvvmCross.Binding.Droid.Views;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Core.Views;
-using MvvmCross.Droid.Support.V7.AppCompat;
-using MvvmCross.Droid.Views;
+using MvvmCross.Platforms.Android.Binding.BindingContext;
+using MvvmCross.Platforms.Android.Binding.Views;
+using MvvmCross.ViewModels;
+using MvvmCross.Views;
 
 namespace IziCast.Droid.Base.Views
 {

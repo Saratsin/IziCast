@@ -1,34 +1,37 @@
-﻿using System;
-using Android.Content;
+﻿using Android.Content;
 using Android.Runtime;
-using Android.Views;
-using IziCast.Core;
 using IziCast.Core.Enums;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Droid.Platform;
-using MvvmCross.Platform;
+using MvvmCross;
+using MvvmCross.Platforms.Android.Core;
+using MvvmCross.ViewModels;
+using MvvmCross.Platforms.Android.Services;
 
 namespace IziCast.Droid.Base.Services
 {
     [Register("izicast.droid.services.MvxOverlayService")]
-    public abstract class MvxOverlayService : StickyIntentService, IMvxOverlayService
+    public abstract class MvxOverlayService : MvxIntentService, IMvxOverlayService
     {
-        private IziCastContext _context;
-        protected IziCastContext Context
+        public MvxOverlayService() : base(nameof(MvxOverlayService))
+        {
+        }
+
+        private Context _context;
+        public Context Context
         {
             get
             {
-                if(_context == null)
+                if (_context == null)
                     _context = IziCastContext.FromApplicationContext(Resource.Style.OverlayTheme, LaunchMode.Overlay);
-                
+
                 return _context;
             }
         }
 
+        public override Context ApplicationContext => Context;
+
         protected override void OnHandleIntent(Intent intent)
         {
-            var setup = MvxAndroidSetupSingleton.EnsureSingletonAvailable(Context);
-            setup.EnsureInitialized();
+            base.OnHandleIntent(intent);
 
             Mvx.RegisterSingleton<IMvxOverlayService>(this);
             Mvx.Resolve<IMvxAppStart>().Start(LaunchMode.Overlay);
