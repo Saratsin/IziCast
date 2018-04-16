@@ -1,19 +1,41 @@
 ﻿<Properties StartupConfiguration="{5D699596-4263-42A1-B264-507C2DB48AEB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Submodules/SharpCaster/Sharpcaster.Discovery/ChromecastLocator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Submodules/Tmds.MDns/src/Tmds.MDns/IziCastNetworkChange.cs">
     <Files>
-      <File FileName="IziCast.Droid/IziCastContext.cs" Line="20" Column="10" />
-      <File FileName="IziCast.Droid/Application.cs" Line="1" Column="1" />
-      <File FileName="IziCast.Droid/OverlayMvxAndroidViewPresenter.cs" Line="40" Column="1" />
-      <File FileName="IziCast.Droid/Setup.cs" Line="39" Column="1" />
-      <File FileName="IziCast.Core/IziCastLog.cs" Line="8" Column="1" />
-      <File FileName="IziCast.Core/App.cs" Line="27" Column="1" />
-      <File FileName="Submodules/SharpCaster/Sharpcaster.Discovery/ChromecastLocator.cs" Line="84" Column="1" />
+      <File FileName="Submodules/Tmds.MDns/src/Tmds.MDns/ServiceBrowser.cs" Line="299" Column="17" />
+      <File FileName="Submodules/SharpCaster/Sharpcaster.Discovery/ChromecastLocator.cs" Line="91" Column="1" />
+      <File FileName="Submodules/Tmds.MDns/src/Tmds.MDns/IziCastNetworkChange.cs" Line="214" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IziCast" expanded="True">
+            <Node name="Submodules" expanded="True">
+              <Node name="SharpCaster" expanded="True">
+                <Node name="Sharpcaster.Discovery" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="ProjectDependencies" expanded="True" />
+                    <Node name="SdkDependencies" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Tmds.MDns" expanded="True">
+                <Node name="Tmds.MDns" expanded="True">
+                  <Node name="IziCastNetworkChange.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="IziCast.Core" expanded="True" />
+            <Node name="IziCast.Droid" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ActiveRuntime="Mono 5.8.1.0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Catchpoint exceptionName="System.Exception" includeSubclasses="True" />
+      <Breakpoint file="/Users/taras/Repository/IziCast/Submodules/SharpCaster/Sharpcaster.Discovery/ChromecastLocator.cs" relfile="Submodules/SharpCaster/Sharpcaster.Discovery/ChromecastLocator.cs" line="91" column="14" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.IziCast.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
