@@ -1,20 +1,23 @@
 ﻿<Properties StartupConfiguration="{5D699596-4263-42A1-B264-507C2DB48AEB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Submodules/Tmds.MDns/src/Tmds.MDns/HashSet.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IziCast.Droid/Properties/AndroidManifest.xml">
     <Files>
-      <File FileName="Submodules/Tmds.MDns/src/Tmds.MDns/ServiceBrowser.cs" Line="230" Column="14" />
       <File FileName="IziCast.Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
       <File FileName="IziCast.Droid/Application.cs" Line="1" Column="1" />
       <File FileName="IziCast.Droid/Views/OverlayChromecastButtonServiceActivity.cs" Line="1" Column="1" />
-      <File FileName="IziCast.Droid/Views/OverlayChromecastButtonView.cs" Line="42" Column="13" />
-      <File FileName="IziCast.Droid/Services/OverlayChromecastButtonService.cs" Line="24" Column="1" />
-      <File FileName="Submodules/SharpCaster/Sharpcaster.Discovery/ChromecastLocator.cs" Line="86" Column="1" />
-      <File FileName="Submodules/Tmds.MDns/src/Tmds.MDns/HashSet.cs" Line="1" Column="1" />
+      <File FileName="IziCast.Droid/Views/OverlayChromecastButtonView.cs" Line="1" Column="1" />
+      <File FileName="IziCast.Droid/Services/OverlayChromecastButtonService.cs" Line="1" Column="1" />
+      <File FileName="Submodules/SharpCaster/Sharpcaster.Discovery/ChromecastLocator.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="IziCast" expanded="True">
-            <Node name="Submodules" expanded="True" />
+            <Node name="Submodules" expanded="True">
+              <Node name="Tmds.MDns" expanded="True" selected="True" />
+            </Node>
+            <Node name="IziCast.Droid" expanded="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
