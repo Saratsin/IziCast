@@ -10,7 +10,7 @@ using IziCast.Core;
 using MvvmCross.Logging;
 using MvvmCross;
 
-namespace IziCast.Droid.Base.Views
+namespace IziCast.Droid.Base
 {
     public class MvxOverlayAndroidViewAdapter : IDisposable
     {
@@ -48,7 +48,9 @@ namespace IziCast.Droid.Base.Views
 
         private void OnViewCreated(object sender, EventArgs e)
         {
-            _view.ViewModel = LoadViewModel(_view);
+            if(_view.ViewModel == null)
+                _view.ViewModel = LoadViewModel(_view);
+            
             _view.ViewModel.ViewCreated();
         }
 

@@ -10,8 +10,8 @@ namespace IziCast.Core.ViewModels
 {
     public class OverlayChromecastButtonViewModel : BaseViewModel
     {
-        const int AutoCloseDelayInMilliseconds = 10000;
-        const int CloseAfterConnectedDelayInMilliseconds = 3000;
+        private const int AutoCloseDelayInMilliseconds = 20000;
+        private const int CloseAfterConnectedDelayInMilliseconds = 3000;
 
         private readonly IChromecastClient _chromecastClient;
 
@@ -20,15 +20,11 @@ namespace IziCast.Core.ViewModels
         public OverlayChromecastButtonViewModel(IChromecastClient chromecastClient)
         {
             _chromecastClient = chromecastClient;
-
-            ConnectButtonClickedCommand = new MvxAsyncCommand(ConnectButtonClicked);
-            ConnectButtonLongClickedCommand = new MvxAsyncCommand(ConnectButtonLongClicked);
         }
 
-        public override async Task Initialize()
-        {
-            await base.Initialize().ConfigureAwait(false);
-            await AutoCloseIfNeedWithDelay().ConfigureAwait(false);
+		public override void Prepare()
+		{
+            Task.Run(AutoCloseIfNeedWithDelay);
         }
 
         private ConnectivityStatus _status = ConnectivityStatus.Disconnected;
@@ -38,9 +34,9 @@ namespace IziCast.Core.ViewModels
             set => SetProperty(ref _status, value);
         }
 
-        public MvxAsyncCommand ConnectButtonClickedCommand { get; }
+        public MvxAsyncCommand ConnectButtonClickedCommand => new MvxAsyncCommand(ConnectButtonClicked);
 
-        public MvxAsyncCommand ConnectButtonLongClickedCommand { get; }
+        public MvxAsyncCommand ConnectButtonLongClickedCommand => new MvxAsyncCommand(ConnectButtonLongClicked);
 
         private Task ConnectButtonClicked()
         {
@@ -80,11 +76,13 @@ namespace IziCast.Core.ViewModels
             {
                 await Task.Delay(AutoCloseDelayInMilliseconds / 10).ConfigureAwait(false);
 
+                Status = Status == ConnectivityStatus.Connecting ? ConnectivityStatus.Disconnected : ConnectivityStatus.Connecting;
+
                 if (!_autoClose)
                     return;
             }
 
-            Close();
+            //Close();
         }
 
         private void Close()

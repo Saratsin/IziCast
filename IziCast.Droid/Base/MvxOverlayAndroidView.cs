@@ -1,5 +1,4 @@
-﻿using System;
-using Android.Content;
+﻿using Android.Content;
 using Android.Views;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Platforms.Android.Binding.BindingContext;
@@ -7,7 +6,7 @@ using MvvmCross.Platforms.Android.Binding.Views;
 using MvvmCross.ViewModels;
 using MvvmCross.Views;
 
-namespace IziCast.Droid.Base.Views
+namespace IziCast.Droid.Base
 {
     public abstract class MvxOverlayAndroidView : MvxEventSourceOverlayAndroidView, IMvxView, IMvxBindingContextOwner, IMvxLayoutInflaterHolder
     {
@@ -73,8 +72,6 @@ namespace IziCast.Droid.Base.Views
 
         protected override void OnViewWillAttachToWindow()
         {
-            View = this.BindingInflate(Resource.Layout.overlay_chromecast_button_view, null);
-
             View = CreateAndSetViewBindings();
         }
 

@@ -17,7 +17,7 @@ namespace IziCast.Droid.Services
 
         internal Task ShowToastAsync(string text, ToastLength duration)
         {
-            Toast.MakeText(Application.Context, text, duration).Show();
+            Toast.MakeText(IziCastApplication.Context, text, duration).Show();
             return Task.Delay(duration.ToTimeSpan());
         }
     }

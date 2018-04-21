@@ -1,10 +1,11 @@
 using Android.OS;
 using Android.Support.V7.Widget;
 using MvvmCross.Droid.Support.V7.AppCompat;
+using MvvmCross.ViewModels;
 
-namespace IziCast.Droid.Base.Views
+namespace IziCast.Droid.Base
 {
-    public abstract class BaseActivity : MvxAppCompatActivity
+    public abstract class BaseActivity<TViewModel> : MvxAppCompatActivity<TViewModel> where TViewModel : class, IMvxViewModel
     {
         protected Toolbar Toolbar { get; set; }
 

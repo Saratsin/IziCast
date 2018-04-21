@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IziCast.Droid.Base.Views
+namespace IziCast.Droid.Base
 {
     public interface IMvxEventSourceOverlayAndroidView
     {

@@ -2,7 +2,7 @@
 using MvvmCross.ViewModels;
 using MvvmCross.Views;
 
-namespace IziCast.Droid.Base.Views
+namespace IziCast.Droid.Base
 {
     public abstract class MvxOverlayAndroidView<TViewModel> : MvxOverlayAndroidView, IMvxView<TViewModel> where TViewModel : class, IMvxViewModel
     {

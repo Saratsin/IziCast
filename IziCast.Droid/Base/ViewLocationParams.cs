@@ -1,6 +1,6 @@
 ﻿using Android.Views;
 
-namespace IziCast.Droid.Base.Views
+namespace IziCast.Droid.Base
 {
     public class ViewLocationParams
     {

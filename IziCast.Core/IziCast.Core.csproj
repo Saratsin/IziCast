@@ -17,6 +17,7 @@
     <Folder Include="ChromecastClients\" />
     <Folder Include="Models\" />
     <Folder Include="Models\IsBusyHandler\" />
+    <Folder Include="Sevices\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Submodules\SharpCaster\SharpCaster\Sharpcaster.csproj" />

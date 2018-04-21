@@ -11,17 +11,13 @@ namespace IziCast.Droid.Services
 {
     public class OverlayPermissionService
     {
-        private readonly Context _context;
-
-        public OverlayPermissionService()
+        private OverlayPermissionService()
         {
-            _context = Application.Context;
-            Instance = this;
         }
 
-        public static OverlayPermissionService Instance { get; private set; } = new OverlayPermissionService();
+        public static OverlayPermissionService Instance { get; } = new OverlayPermissionService();
 
-        public bool CanDrawOverlays => Settings.CanDrawOverlays(_context);
+        public bool CanDrawOverlays => Settings.CanDrawOverlays(Application.Context);
 
         public async Task<bool> TryEnablePermissionIfDisabled(TimeSpan timeout)
         {
@@ -47,9 +43,9 @@ namespace IziCast.Droid.Services
         {
             var noPermissionText = "Ooops, we don't have permission to show you our beuatiful app button. Please enable this permissions to enjoy our app features)";
             await UserInteractionService.Instance.ShowToastAsync(noPermissionText, ToastLength.Long).ConfigureAwait(false);
-            var intent = new Intent(Settings.ActionManageOverlayPermission, AUri.FromParts("package", _context.PackageName, null));
+            var intent = new Intent(Settings.ActionManageOverlayPermission, AUri.FromParts("package", Application.Context.PackageName, null));
             intent.AddFlags(ActivityFlags.NewTask);
-            _context.StartActivity(intent);
+            Application.Context.StartActivity(intent);
         }
     }
 }

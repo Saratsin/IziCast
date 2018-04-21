@@ -42,7 +42,7 @@ namespace IziCast.Droid.Listeners
         {
             if (_button == null) return;
 
-            Application.SynchronizationContext.Post(async state =>
+            IziCastApplication.SynchronizationContext.Post(async state =>
             {
                 //Func<AnimationDrawable> animation = () => (AnimationDrawable)_button.Drawable;
 

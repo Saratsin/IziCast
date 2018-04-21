@@ -19,7 +19,7 @@ namespace IziCast.Droid
         private string _mediaContentUrl;
         private string _mediaContentType;
 
-        private PackageManager PackageManager => Application.Context.PackageManager;
+        private PackageManager PackageManager => IziCastApplication.Context.PackageManager;
 
         private bool IsLocalCastInstalled()
         {
@@ -46,7 +46,7 @@ namespace IziCast.Droid
                 intent.SetDataAndType(AUri.Parse(_mediaContentUrl), _mediaContentType);
                 intent.SetPackage(LocalCastAppPackageName);
 
-                Application.Context.StartActivity(intent);
+                IziCastApplication.Context.StartActivity(intent);
 
                 return Task.FromResult(Try.Succeed());
             }

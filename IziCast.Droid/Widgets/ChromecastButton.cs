@@ -15,9 +15,19 @@ namespace IziCast.Droid.Widgets
     [Register("izicast.droid.widgets.ChromecastButton")]
     public class ChromecastButton : FloatingActionButton
     {
-        private readonly ChromecastButtonListener _listener;
-        private readonly AnimationDrawable _connectingDrawable;
-        private readonly AnimationDrawable _connectedDrawable;
+        private ChromecastButtonListener _listener;
+        private AnimationDrawable _connectingDrawable;
+        private AnimationDrawable _connectedDrawable;
+
+		public ChromecastButton(Context context) : base(context)
+		{
+			Init();
+		}
+  
+        public ChromecastButton(Context context, IAttributeSet attrs) : base(context, attrs)
+        {
+            Init();
+        }
 
         private bool _isVisible = true;
         public bool IsVisible
@@ -65,21 +75,11 @@ namespace IziCast.Droid.Widgets
             }
         }
 
-        public ChromecastButton(Context context) : base(context)
+        private void Init()
         {
-            _connectingDrawable = (AnimationDrawable)Resources.GetDrawable(Resource.Drawable.mr_button_connecting_dark, context.Theme);
-            _connectedDrawable = (AnimationDrawable)Resources.GetDrawable(Resource.Drawable.mr_button_connected_dark, context.Theme);
-
-            BackgroundTintList = new ColorStateList(new int[][] { new int[0] }, new int[] { BackgroundColor });
-            Visibility = ViewStates.Visible;
-            SetImageDrawable(_connectingDrawable);
-            SetOnTouchListener(_listener);
-        }
-
-        public ChromecastButton(Context context, IAttributeSet attrs) : base(context, attrs)
-        {
-            _connectingDrawable = (AnimationDrawable)Resources.GetDrawable(Resource.Drawable.mr_button_connecting_dark, context.Theme);
-            _connectedDrawable = (AnimationDrawable)Resources.GetDrawable(Resource.Drawable.mr_button_connected_dark, context.Theme);
+            _connectingDrawable = (AnimationDrawable)Resources.GetDrawable(Resource.Drawable.mr_button_connecting_dark, Context.Theme);
+            _connectedDrawable = (AnimationDrawable)Resources.GetDrawable(Resource.Drawable.mr_button_connected_dark, Context.Theme);
+            _listener = new ChromecastButtonListener(this);
 
             BackgroundTintList = new ColorStateList(new int[][] { new int[0] }, new int[] { BackgroundColor });
             Visibility = ViewStates.Visible;
