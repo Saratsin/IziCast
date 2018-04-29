@@ -12,7 +12,7 @@
     using MvvmCross.ViewModels;
 
     [Service(Exported = true)]
-    public class OverlayChromecastButtonService : MvxIntentService, IOverlayChromecastButtonService
+    public class OverlayChromecastButtonService : MvxIntentService
     {
 		protected OverlayChromecastButtonService(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
 		{
@@ -26,7 +26,7 @@
         {
             base.OnHandleIntent(intent);
 
-            Mvx.RegisterSingleton<IOverlayChromecastButtonService>(this);
+            Mvx.RegisterSingleton(this);
 
 			Mvx.Resolve<ILaunchModeService>().LaunchMode = LaunchMode.Overlay;
 

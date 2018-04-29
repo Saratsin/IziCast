@@ -8,14 +8,13 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using IziCast.Core.Enums;
-using IziCast.Droid.Listeners;
+using IziCast.Droid.Extensions;
 
-namespace IziCast.Droid.Widgets
+namespace IziCast.Droid.Controls
 {
-    [Register("izicast.droid.widgets.ChromecastButton")]
+    [Register("izicast.droid.controls.ChromecastButton")]
     public class ChromecastButton : FloatingActionButton
     {
-        private ChromecastButtonListener _listener;
         private AnimationDrawable _connectingDrawable;
         private AnimationDrawable _connectedDrawable;
 
@@ -39,9 +38,9 @@ namespace IziCast.Droid.Widgets
                     return;
                         
                 if (value)
-                    Show(_listener);
+                    Show();
                 else
-                    Hide(_listener);
+                    Hide();
                 
 				_isVisible = value;
             }
@@ -71,7 +70,7 @@ namespace IziCast.Droid.Widgets
                     return;
                 
                 _backgroundColor = value;
-                BackgroundTintList = new ColorStateList(new int[][] { new int[0] }, new int[] { value });
+                BackgroundTintList = value.ToColorStateList();
             }
         }
 
@@ -79,12 +78,10 @@ namespace IziCast.Droid.Widgets
         {
             _connectingDrawable = (AnimationDrawable)Resources.GetDrawable(Resource.Drawable.mr_button_connecting_dark, Context.Theme);
             _connectedDrawable = (AnimationDrawable)Resources.GetDrawable(Resource.Drawable.mr_button_connected_dark, Context.Theme);
-            _listener = new ChromecastButtonListener(this);
 
-            BackgroundTintList = new ColorStateList(new int[][] { new int[0] }, new int[] { BackgroundColor });
+            BackgroundTintList = BackgroundColor.ToColorStateList();
             Visibility = ViewStates.Visible;
             SetImageDrawable(_connectingDrawable);
-            SetOnTouchListener(_listener);
         }
 
 
@@ -97,30 +94,19 @@ namespace IziCast.Droid.Widgets
                     _connectingDrawable.SelectDrawable(0);
                     SetImageDrawable(_connectingDrawable);
                     _connectingDrawable.Start();
-                    Toast.MakeText(Context, "Connecting to chromecast", ToastLength.Short).Show();
                     break;
                 case ConnectivityStatus.Connected:
                     _connectedDrawable.Stop();
                     _connectedDrawable.SelectDrawable(0);
                     SetImageDrawable(_connectedDrawable);
                     _connectedDrawable.Start();
-                    Toast.MakeText(Context, "Connected", ToastLength.Short).Show();
                     break;
                 case ConnectivityStatus.Disconnected:
                     _connectingDrawable.Stop();
                     _connectingDrawable.SelectDrawable(0);
                     SetImageDrawable(_connectingDrawable);
-                    Toast.MakeText(Context, "Not connected", ToastLength.Short).Show();
                     break;
             }
-        }
-
-        protected override void Dispose(bool disposing)
-        {
-            if(disposing)
-                _listener.Dispose();
-
-            base.Dispose(disposing);
         }
     }
 }

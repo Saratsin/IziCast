@@ -23,6 +23,7 @@ using IziCast.Core.Enums;
 using MvvmCross.WeakSubscription;
 using MvvmCross.Platforms.Android.Binding.Views;
 using Android.Content.Res;
+using ContextThemeWrapper = Android.Support.V7.View.ContextThemeWrapper;
 
 namespace IziCast.Droid
 {
@@ -38,7 +39,8 @@ namespace IziCast.Droid
             Mvx.Resolve<ILaunchModeService>().WeakSubscribe(nameof(ILaunchModeService.LaunchModeWillChange), OnLaunchModeWillChange);
         }
 
-        private Context OverlayContext { get; } = new ContextThemeWrapper(Application.Context, Resource.Style.OverlayTheme);
+        private Context _overlayContext;
+        private Context OverlayContext => _overlayContext ?? (_overlayContext = new ContextThemeWrapper(Mvx.Resolve<OverlayChromecastButtonService>(), Resource.Style.OverlayTheme));
 
         private LaunchMode LaunchMode => Mvx.Resolve<ILaunchModeService>().LaunchMode;
 
@@ -96,7 +98,7 @@ namespace IziCast.Droid
 
                 if (!permissionIsEnabled)
                 {
-                    Mvx.Resolve<IOverlayChromecastButtonService>().StopSelf();
+                    Mvx.Resolve<OverlayChromecastButtonService>().StopSelf();
                     return;
                 }
             }
@@ -141,7 +143,7 @@ namespace IziCast.Droid
             viewToClose.Dispose();
 
             if (_currentViews.Count == 0)
-                Mvx.Resolve<IOverlayChromecastButtonService>().StopSelf();
+                Mvx.Resolve<OverlayChromecastButtonService>().StopSelf();
         }
 
         public override void ChangePresentation(MvxPresentationHint hint)

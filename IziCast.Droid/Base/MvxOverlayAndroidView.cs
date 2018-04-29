@@ -1,10 +1,14 @@
 ﻿using Android.Content;
 using Android.Views;
+using MvvmCross;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Platforms.Android.Binding.BindingContext;
 using MvvmCross.Platforms.Android.Binding.Views;
 using MvvmCross.ViewModels;
 using MvvmCross.Views;
+using IziCast.Droid.Services;
+using Android.Widget;
+using AView = Android.Views.View;
 
 namespace IziCast.Droid.Base
 {
@@ -21,15 +25,15 @@ namespace IziCast.Droid.Base
             _viewAdapter = new MvxOverlayAndroidViewAdapter(this);
         }
 
-		public View View { get; private set; }
-  
+        public AView View { get; private set; }
+
         public ViewLocationParams LocationParams { get; private set; }
-  
+
         public Context Context { get; }
 
         public IMvxBindingContext BindingContext { get; set; }
 
-		public object DataContext 
+        public object DataContext
         {
             get => BindingContext.DataContext;
             set => BindingContext.DataContext = value;
@@ -45,19 +49,19 @@ namespace IziCast.Droid.Base
             }
         }
 
-        private MvxLayoutInflater _layoutInflater;
+        private LayoutInflater _layoutInflater;
         public LayoutInflater LayoutInflater
         {
             get
             {
-                if(_layoutInflater == null)
-                    _layoutInflater = (MvxLayoutInflater)LayoutInflater.From(Context);
+                if (_layoutInflater == null)
+                    _layoutInflater = LayoutInflater.From(Context);
 
                 return _layoutInflater;
             }
         }
 
-        public abstract View CreateAndSetViewBindings();
+        public abstract AView CreateAndSetViewBindings();
 
         public abstract ViewLocationParams CreateLocationParams();
 
@@ -77,7 +81,7 @@ namespace IziCast.Droid.Base
 
         protected override void Dispose(bool disposing)
         {
-			_viewAdapter.Dispose();
+            _viewAdapter.Dispose();
             View.Dispose();
             base.Dispose(disposing);
         }

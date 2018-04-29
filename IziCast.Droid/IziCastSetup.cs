@@ -1,16 +1,11 @@
 using IziCast.Core;
-using IziCast.Core.Enums;
 using IziCast.Core.Services;
-using MvvmCross;
-using MvvmCross.Platforms.Android.Presenters;
-using MvvmCross.Droid.Support.V7.AppCompat;
-using IziCast.Droid.Services;
-using MvvmCross.Platforms.Android.Core;
 using IziCast.Core.Sevices;
-using MvvmCross.WeakSubscription;
+using IziCast.Droid.Services;
+using MvvmCross;
 using MvvmCross.Binding.Bindings.Target.Construction;
-using MvvmCross.Binding.Bindings.Target;
-using IziCast.Droid.Widgets;
+using MvvmCross.Droid.Support.V7.AppCompat;
+using MvvmCross.Platforms.Android.Presenters;
 
 namespace IziCast.Droid
 {

@@ -9,7 +9,9 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' " />
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " />
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="1.6.0" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="1.6.0" />
+    <PackageReference Include="MvvmCross" Version="6.0.1" />
   </ItemGroup>
     
   <ItemGroup>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Threading;
 using Android.App;
 using Android.Graphics.Drawables;
@@ -8,7 +9,7 @@ using Android.Views;
 using IziCast.Core.Enums;
 using IziCast.Droid.Widgets;
 
-namespace IziCast.Droid.Listeners
+namespace IziCast.Droid.Controls
 {
     public class ChromecastButtonListener : FloatingActionButton.OnVisibilityChangedListener, View.IOnTouchListener
     {
@@ -38,36 +39,6 @@ namespace IziCast.Droid.Listeners
             //OnHiddenAction?.Invoke();
         }
 
-        void OnConnectivityStatusChanged(object sender, ConnectivityStatus status)
-        {
-            if (_button == null) return;
-
-            IziCastApplication.SynchronizationContext.Post(async state =>
-            {
-                //Func<AnimationDrawable> animation = () => (AnimationDrawable)_button.Drawable;
-
-                switch (status)
-                {
-                    case ConnectivityStatus.Connecting:
-                        //_button.SetImageResource(Resource.Drawable.mr_button_connecting_dark);
-                        //animation.Invoke().Start();
-                        //Toast.MakeText(_service, "Connecting to chromecast", ToastLength.Short).Show();
-                        break;
-                    case ConnectivityStatus.Connected:
-                        //_button.SetImageResource(Resource.Drawable.mr_button_connected_dark);
-                        //animation.Invoke().Start();
-                        //Toast.MakeText(_service, "Connected", ToastLength.Short).Show();
-
-                        //await Task.Delay(CONNECTED_DELAY);
-                        //_service.StopSelf();
-                        break;
-                    case ConnectivityStatus.Disconnected:
-                        //_button.SetImageResource(Resource.Drawable.mr_button_connecting_dark);
-                        //Toast.MakeText(_service, "Not connected", ToastLength.Short).Show();
-                        break;
-                }
-            }, null);
-        }
 
         CancellationTokenSource _longPressTokenSource;
 

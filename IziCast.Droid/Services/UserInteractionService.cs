@@ -13,11 +13,11 @@ namespace IziCast.Droid.Services
             Instance = this;
         }
 
-		public static UserInteractionService Instance { get; private set; } = new UserInteractionService();
+        public static UserInteractionService Instance { get; private set; } = new UserInteractionService();
 
-        internal Task ShowToastAsync(string text, ToastLength duration)
+        public Task ShowToastAsync(string text, ToastLength duration)
         {
-            Toast.MakeText(IziCastApplication.Context, text, duration).Show();
+            Toast.MakeText(Application.Context, text, duration).Show();
             return Task.Delay(duration.ToTimeSpan());
         }
     }

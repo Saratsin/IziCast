@@ -22,12 +22,12 @@ namespace IziCast.Core.ViewModels
             _chromecastClient = chromecastClient;
         }
 
-		public override void Prepare()
-		{
-            Task.Run(AutoCloseIfNeedWithDelay);
-        }
+        public override void ViewAppeared()
+        {
+			Task.Run(AutoCloseIfNeedWithDelay);
+		}
 
-        private ConnectivityStatus _status = ConnectivityStatus.Disconnected;
+		private ConnectivityStatus _status = ConnectivityStatus.Disconnected;
         public ConnectivityStatus Status
         {
             get => _status;
@@ -82,7 +82,7 @@ namespace IziCast.Core.ViewModels
                     return;
             }
 
-            //Close();
+            Close();
         }
 
         private void Close()
@@ -90,79 +90,5 @@ namespace IziCast.Core.ViewModels
             _autoClose = false;
             NavigationService.Close(this);
         }
-
-        /*
-        public async Task ConnectToChromecast(Connectivity connectivity, string videoUri)
-        {
-            var client = new Sharpcaster.ChromecastClient();
-
-            try
-            {
-                connectivity.Status = ConnectivityStatus.Connecting;
-
-                var ipAddress = _ipAddress;
-                var chromecasts = await currentService.StartLocatingDevices(ipAddress);
-                var chromecast = chromecasts.FirstOrDefault();
-                if (chromecast != null)
-                {
-                    var _controller = default(SharpCasterDemoController);
-                    currentService.ChromeCastClient.ConnectedChanged += async (sender, e) =>
-                    {
-                        try
-                        {
-                            if (_controller == null)
-                                _controller = await currentService.ChromeCastClient.LaunchSharpCaster();
-                        }
-                        catch (Exception ex)
-                        {
-                            connectivity.Status = ConnectivityStatus.Disconnected;
-                            Debug.WriteLine(ex.Message + ex.StackTrace);
-                        }
-                    };
-                    currentService.ChromeCastClient.ApplicationStarted += async (sender, e) =>
-                    {
-                        try
-                        {
-                            while (_controller == null)
-                                await Task.Delay(500);
-
-                            var extension = System.IO.Path.GetExtension(videoUri);
-
-                            var contentType = default(string);
-
-                            switch (extension)
-                            {
-                                case ".mp4":
-                                    contentType = "video/mp4";
-                                    break;
-                                default:
-                                    contentType = "video/*";
-                                    break;
-
-                            }
-
-                            await _controller.LoadMedia(videoUri, contentType, null);
-                            connectivity.Status = ConnectivityStatus.Connected;
-                        }
-                        catch (Exception ex)
-                        {
-                            connectivity.Status = ConnectivityStatus.Disconnected;
-                            Debug.WriteLine(ex.Message + ex.StackTrace);
-                        }
-                    };
-
-                    await currentService.ConnectToChromecast(chromecast);
-                }
-                else
-                {
-                    connectivity.Status = ConnectivityStatus.Disconnected;
-                }
-            }
-            catch (Exception ex)
-            {
-                connectivity.Status = ConnectivityStatus.Disconnected;
-                Debug.WriteLine(ex.Message + ex.StackTrace);
-            }
-        }*/
     }
 }

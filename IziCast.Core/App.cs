@@ -5,8 +5,10 @@ using MvvmCross;
 using MvvmCross.IoC;
 using MvvmCross.ViewModels;
 using MvvmCross.Navigation;
-using System.ComponentModel;
 using IziCast.Core.Sevices;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Analytics;
 
 namespace IziCast.Core
 {
@@ -14,6 +16,12 @@ namespace IziCast.Core
     {
         public override void Initialize()
         {
+            #if DEBUG
+            AppCenter.LogLevel = LogLevel.Verbose;
+            #endif
+
+            AppCenter.Start("de4a737b-6ba2-4692-a3e7-bcaa691eafeb", typeof(Crashes), typeof(Analytics));
+
             CreatableTypes().EndingWith("Service")
                             .AsInterfaces()
                             .RegisterAsLazySingleton();
