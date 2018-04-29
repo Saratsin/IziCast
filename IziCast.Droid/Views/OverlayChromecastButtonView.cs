@@ -47,11 +47,8 @@ namespace IziCast.Droid.Views
 
 		public override ViewLocationParams CreateLocationParams()
         {
-            return new ViewLocationParams
-            {
-                Gravity = GravityFlags.CenterHorizontal | GravityFlags.Top,
-                Y = 50
-            };
+            return new ViewLocationParams(gravity: GravityFlags.CenterHorizontal | GravityFlags.Top, 
+                                          y: 50);
         }
     }
 }
