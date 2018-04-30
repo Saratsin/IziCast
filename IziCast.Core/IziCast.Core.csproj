@@ -22,9 +22,7 @@
     <Folder Include="Sevices\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Submodules\SharpCaster\SharpCaster\Sharpcaster.csproj" />
-    <ProjectReference Include="..\Submodules\SharpCaster\Sharpcaster.Core\Sharpcaster.Core.csproj" />
-    <ProjectReference Include="..\Submodules\SharpCaster\Sharpcaster.Discovery\Sharpcaster.Discovery.csproj" />
+    <ProjectReference Include="..\Submodules\GoogleCast\GoogleCast\GoogleCast.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Bindings\MvxEventNameTargetBinding.cs" />

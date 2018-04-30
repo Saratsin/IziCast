@@ -38,7 +38,7 @@ namespace IziCast.Droid
         {
             try
             {
-                if (IsLocalCastInstalled())
+                if (!IsLocalCastInstalled())
                     return Task.FromResult(Try.Unsucceed());
 
                 var intent = new Intent(Intent.ActionView);

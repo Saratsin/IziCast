@@ -6,3 +6,6 @@
 	path = Submodules/MvxOverlay
 	url = https://github.com/Saratsin/MvxOverlay
 	branch = master
+[submodule "Submodules/GoogleCast"]
+	path = Submodules/GoogleCast
+	url = https://github.com/kakone/GoogleCast

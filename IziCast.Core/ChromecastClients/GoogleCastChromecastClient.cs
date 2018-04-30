@@ -1,19 +1,18 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
+using GoogleCast;
+using GoogleCast.Channels;
+using GoogleCast.Models.Media;
 using IziCast.Core.Models;
 using MvvmCross.Logging;
-using Sharpcaster;
-using Sharpcaster.Core.Interfaces;
-using Sharpcaster.Core.Models.Media;
-using Sharpcaster.Discovery;
 
 namespace IziCast.Core.Services
 {
-    public class SharpcasterChromecastClient : IChromecastClient
+    public class GoogleCastChromecastClient : IChromecastClient
     {
-        private readonly IChromecastLocator _chromecastLocator = new MdnsChromecastLocator();
-        private readonly ChromecastClient _chromecastClient = new ChromecastClient();
+        private readonly DeviceLocator _chromecastLocator = new DeviceLocator();
+        private readonly Sender _chromecastSender = new Sender();
 
         private string _mediaContentUrl;
         private string _mediaContentType;
@@ -26,6 +25,7 @@ namespace IziCast.Core.Services
 
         public async Task<Try> SendMediaToChromecast()
         {
+            
             try
             {
                 var chromecasts = await _chromecastLocator.FindReceiversAsync().ConfigureAwait(false);
@@ -35,13 +35,15 @@ namespace IziCast.Core.Services
 
                 var chromecast = chromecasts.First();
 
-                await _chromecastClient.ConnectChromecast(chromecast).ConfigureAwait(false);
+                await _chromecastSender.ConnectAsync(chromecast).ConfigureAwait(false);
 
-                var mediaChannel = _chromecastClient.GetChannel<IMediaChannel>();
+                var mediaChannel = _chromecastSender.GetChannel<IMediaChannel>();
 
-                await mediaChannel.LoadAsync(new Media
+                await _chromecastSender.LaunchAsync(mediaChannel).ConfigureAwait(false);
+
+                await mediaChannel.LoadAsync(new MediaInformation
                 {
-                    ContentUrl = _mediaContentUrl,
+                    ContentId = _mediaContentUrl,
                     ContentType = _mediaContentType
                 }).ConfigureAwait(false);
 

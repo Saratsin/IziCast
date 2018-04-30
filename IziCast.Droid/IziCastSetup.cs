@@ -11,7 +11,7 @@ namespace IziCast.Droid
     {
 		protected override void InitializePlatformServices()
 		{
-			Mvx.LazyConstructAndRegisterSingleton<ILocalCastChromecastClient, LocalCastChromecastClient>();
+			Mvx.LazyConstructAndRegisterSingleton<IChromecastClient, LocalCastChromecastClient>();
 
             base.InitializePlatformServices();
 		}

@@ -17,15 +17,15 @@ namespace IziCast.Core
         {
             #if DEBUG
             AppCenter.LogLevel = LogLevel.Verbose;
+            Sharpcaster.Logging.LogProvider.SetCurrentLogProvider(SharpCasterLogProvider.Instance);
             #endif
-
             AppCenter.Start("de4a737b-6ba2-4692-a3e7-bcaa691eafeb", typeof(Crashes), typeof(Analytics));
 
             CreatableTypes().EndingWith("Service")
                             .AsInterfaces()
                             .RegisterAsLazySingleton();
 
-            Mvx.RegisterSingleton<IChromecastClient>(new SharpcasterChromecastClient());
+            //Mvx.RegisterSingleton<IChromecastClient>(new SharpcasterChromecastClient());
 
             RegisterCustomAppStart<AppStart>();
         }
