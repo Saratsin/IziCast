@@ -1,6 +1,7 @@
 ﻿using System;
 using MvvmCross.Logging;
 using MvvmCross;
+
 namespace IziCast.Core
 {
     public class IziCastLog

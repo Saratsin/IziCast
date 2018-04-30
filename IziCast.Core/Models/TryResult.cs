@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace IziCast.Core.Models
 {
     public class TryResult<TResult> : Try

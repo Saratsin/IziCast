@@ -1,14 +1,13 @@
 using IziCast.Core.Enums;
 using IziCast.Core.Services;
 using IziCast.Core.ViewModels;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using MvvmCross;
 using MvvmCross.IoC;
-using MvvmCross.ViewModels;
 using MvvmCross.Navigation;
-using IziCast.Core.Sevices;
-using Microsoft.AppCenter;
-using Microsoft.AppCenter.Crashes;
-using Microsoft.AppCenter.Analytics;
+using MvvmCross.ViewModels;
 
 namespace IziCast.Core
 {
@@ -33,12 +32,12 @@ namespace IziCast.Core
 
 		public override void Startup(object hint)
 		{
-            var appStartMode = Mvx.Resolve<ILaunchModeService>().LaunchMode;
+            var appStartMode = hint as LaunchMode? ?? LaunchMode.Default;
 
             var viewModelType = typeof(FirstViewModel);
 
             if (appStartMode == LaunchMode.Overlay)
-                viewModelType = typeof(OverlayChromecastButtonViewModel);
+                viewModelType = typeof(ChromecastButtonOverlayViewModel);
             
             Mvx.Resolve<IMvxNavigationService>().Navigate(viewModelType);
 		}

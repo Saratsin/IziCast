@@ -5,6 +5,7 @@ using IziCast.Core.Models;
 using MvvmCross.Logging;
 using Sharpcaster;
 using Sharpcaster.Core.Interfaces;
+using Sharpcaster.Core.Models.Media;
 using Sharpcaster.Discovery;
 
 namespace IziCast.Core.Services
@@ -38,7 +39,7 @@ namespace IziCast.Core.Services
 
                 var mediaChannel = _chromecastClient.GetChannel<IMediaChannel>();
 
-                await mediaChannel.LoadAsync(new Sharpcaster.Core.Models.Media.Media
+                await mediaChannel.LoadAsync(new Media
                 {
                     ContentUrl = _mediaContentUrl,
                     ContentType = _mediaContentType

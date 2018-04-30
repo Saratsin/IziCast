@@ -1,5 +1,6 @@
 ﻿using System;
 using MvvmCross.ViewModels;
+
 namespace IziCast.Core
 {
     public class AppStart : MvxAppStart

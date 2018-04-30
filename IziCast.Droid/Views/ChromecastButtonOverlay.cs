@@ -2,17 +2,17 @@
 using Android.Views;
 using Android.Widget;
 using IziCast.Core.ViewModels;
-using IziCast.Droid.Base;
 using IziCast.Droid.Controls;
 using IziCast.Droid.Extensions;
 using MvvmCross.Binding.BindingContext;
+using MvvmCross.Plugin.Overlay.Platforms.Android;
 using AView = Android.Views.View;
 
 namespace IziCast.Droid.Views
 {
-    public class OverlayChromecastButtonView : MvxOverlayAndroidView<OverlayChromecastButtonViewModel>
+    public class ChromecastButtonOverlay : MvxOverlay<ChromecastButtonOverlayViewModel>
     {
-        public OverlayChromecastButtonView(Context context) : base(context)
+        public ChromecastButtonOverlay(Context context) : base(context)
         { 
         }
 
@@ -34,7 +34,7 @@ namespace IziCast.Droid.Views
 		    };
 		    frame.AddView(button);
 
-		    var set = this.CreateBindingSet<OverlayChromecastButtonView, OverlayChromecastButtonViewModel>();
+		    var set = this.CreateBindingSet<ChromecastButtonOverlay, ChromecastButtonOverlayViewModel>();
 
 		    set.Bind(button).For(v => v.Status).To(vm => vm.Status);
             set.Bind(button).For(nameof(AView.Click)).To(vm => vm.ConnectButtonClickedCommand);
@@ -45,10 +45,12 @@ namespace IziCast.Droid.Views
 		    return frame;
 		}
 
-		public override ViewLocationParams CreateLocationParams()
+		public override OverlayLocationParams CreateLocationParams()
         {
-            return new ViewLocationParams(gravity: GravityFlags.CenterHorizontal | GravityFlags.Top, 
-                                          y: 50);
+            return new OverlayLocationParams(
+                gravity: GravityFlags.CenterHorizontal | GravityFlags.Top, 
+                y: 50
+            );
         }
     }
 }

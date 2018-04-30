@@ -1,12 +1,10 @@
-﻿
+﻿using Android.App;
+using Android.OS;
+using IziCast.Core.ViewModels;
+using IziCast.Droid.Base;
 
 namespace IziCast.Droid.Views
 {
-	using Android.App;
-	using Android.OS;
-	using Base;
-    using Core.ViewModels;
-
     [Activity(Label = "MainActivity")]
     public class MainActivity : BaseActivity<FirstViewModel>
     {

@@ -1,8 +1,5 @@
-﻿using System;
-using System.Threading.Tasks;
-using Android.App;
+﻿using Android.App;
 using Android.Widget;
-using IziCast.Droid.Extensions;
 
 namespace IziCast.Droid.Services
 {
@@ -15,10 +12,9 @@ namespace IziCast.Droid.Services
 
         public static UserInteractionService Instance { get; private set; } = new UserInteractionService();
 
-        public Task ShowToastAsync(string text, ToastLength duration)
+        public void ShowToast(string text, bool longDuration = false)
         {
-            Toast.MakeText(Application.Context, text, duration).Show();
-            return Task.Delay(duration.ToTimeSpan());
+            Toast.MakeText(Application.Context, text, longDuration ? ToastLength.Long : ToastLength.Short).Show();
         }
     }
 }

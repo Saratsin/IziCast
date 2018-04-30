@@ -2,7 +2,7 @@ namespace IziCast.Core.ViewModels
 {
     public class FirstViewModel : BaseViewModel
     {
-        string hello = "Hello MvvmCross";
+        private string hello = "Hello MvvmCross";
         public string Hello
         {
             get { return hello; }

@@ -15,17 +15,6 @@ namespace IziCast.Droid.Extensions
             return (int)TypedValue.ApplyDimension(ComplexUnitType.Dip, dp, context.Resources.DisplayMetrics);
         }
 
-        public static TimeSpan ToTimeSpan(this ToastLength duration)
-        {
-            switch(duration)
-            {
-                case ToastLength.Short:
-                    return TimeSpan.FromMilliseconds(2000);
-                default:
-                    return TimeSpan.FromMilliseconds(3500);
-            }
-        }
-
         public static ColorStateList ToColorStateList(this Color color)
         {
             var states = new int[][] {

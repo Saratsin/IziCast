@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmds.MDns", "Submodules\SharpCaster\Submodules\Tmds.MDns\src\Tmds.MDns\Tmds.MDns.csproj", "{4D361BD8-527B-48CA-B1CC-B094EA4F6F25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxOverlay.Android", "Submodules\MvxOverlay\MvxOverlay.Android.csproj", "{94FF14EC-EBBF-4C84-B792-8B9CA317D829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,22 @@ Global
 		{4D361BD8-527B-48CA-B1CC-B094EA4F6F25}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
 		{4D361BD8-527B-48CA-B1CC-B094EA4F6F25}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
 		{4D361BD8-527B-48CA-B1CC-B094EA4F6F25}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Release|iPhone.Build.0 = Release|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829}.AppStore|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F0FFC6B8-CA58-4BA6-B25C-8D1319D62041} = {8E1594DA-79EC-45A0-8474-1E1BB7F7107C}
@@ -135,5 +153,6 @@ Global
 		{08CA785F-2F03-4EA7-BFA0-1B439076A015} = {F0FFC6B8-CA58-4BA6-B25C-8D1319D62041}
 		{920BD907-1381-41C6-9117-037A75B1F6D7} = {F0FFC6B8-CA58-4BA6-B25C-8D1319D62041}
 		{4D361BD8-527B-48CA-B1CC-B094EA4F6F25} = {920BD907-1381-41C6-9117-037A75B1F6D7}
+		{94FF14EC-EBBF-4C84-B792-8B9CA317D829} = {8E1594DA-79EC-45A0-8474-1E1BB7F7107C}
 	EndGlobalSection
 EndGlobal

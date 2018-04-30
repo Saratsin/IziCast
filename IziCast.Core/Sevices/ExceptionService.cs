@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.AppCenter.Crashes;
 using System.Linq;
+
 namespace IziCast.Core.Sevices
 {
     public class ExceptionService : IExceptionService
