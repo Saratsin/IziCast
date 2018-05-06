@@ -1,4 +1,5 @@
-﻿namespace IziCast.Core.Enums
+﻿using System;
+namespace IziCast.Core.Enums
 {
     public enum LaunchMode
     {

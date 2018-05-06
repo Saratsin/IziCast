@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.ObjectModel;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+
 namespace IziCast.Core
 {
     public static class Extensions
@@ -17,6 +22,14 @@ namespace IziCast.Core
                 return;
 
             eventHandler.Invoke(sender, e);
+        }
+
+        public static ReadOnlyCollection<T> ToReadOnlyCollection<T>(this IEnumerable<T> collection)
+        {
+            if (!(collection is IList<T> list))
+                list = collection.ToList();
+
+            return new ReadOnlyCollection<T>(list);
         }
     }
 }

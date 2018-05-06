@@ -17,7 +17,7 @@ namespace IziCast.Core
         {
             #if DEBUG
             AppCenter.LogLevel = LogLevel.Verbose;
-            Sharpcaster.Logging.LogProvider.SetCurrentLogProvider(SharpCasterLogProvider.Instance);
+            //Sharpcaster.Logging.LogProvider.SetCurrentLogProvider(SharpCasterLogProvider.Instance);
             #endif
             AppCenter.Start("de4a737b-6ba2-4692-a3e7-bcaa691eafeb", typeof(Crashes), typeof(Analytics));
 
@@ -25,19 +25,19 @@ namespace IziCast.Core
                             .AsInterfaces()
                             .RegisterAsLazySingleton();
 
-            //Mvx.RegisterSingleton<IChromecastClient>(new SharpcasterChromecastClient());
-
+			Mvx.RegisterSingleton(new GoogleCastVideoSender());
+   
             RegisterCustomAppStart<AppStart>();
         }
 
 		public override void Startup(object hint)
 		{
-            var appStartMode = hint as LaunchMode? ?? LaunchMode.Default;
+            var launchData = hint as LaunchData;
 
-            var viewModelType = typeof(FirstViewModel);
+            var viewModelType = typeof(MainViewModel);
 
-            if (appStartMode == LaunchMode.Overlay)
-                viewModelType = typeof(ChromecastButtonOverlayViewModel);
+            if (launchData != null && launchData.Mode == LaunchMode.Overlay)
+                viewModelType = typeof(ChromecastButtonViewModel);
             
             Mvx.Resolve<IMvxNavigationService>().Navigate(viewModelType);
 		}

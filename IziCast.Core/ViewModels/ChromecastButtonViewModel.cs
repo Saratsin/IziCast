@@ -8,7 +8,7 @@ using MvvmCross.Commands;
 
 namespace IziCast.Core.ViewModels
 {
-    public class ChromecastButtonOverlayViewModel : BaseViewModel
+    public class ChromecastButtonViewModel : BaseViewModel<string>
     {
         private const int AutoCloseDelayInMilliseconds = 20000;
         private const int CloseAfterConnectedDelayInMilliseconds = 3000;
@@ -17,12 +17,17 @@ namespace IziCast.Core.ViewModels
 
         private bool _autoClose = true;
 
-        public ChromecastButtonOverlayViewModel(IChromecastClient chromecastClient)
+        public ChromecastButtonViewModel(IChromecastClient chromecastClient)
         {
             _chromecastClient = chromecastClient;
         }
 
-        public override void ViewAppeared()
+        public override void Prepare(string parameter)
+        {
+            
+        }
+
+		public override void ViewAppeared()
         {
 			Task.Run(AutoCloseIfNeedWithDelay);
 		}
@@ -45,8 +50,6 @@ namespace IziCast.Core.ViewModels
                 _autoClose = false;
 
                 Status = ConnectivityStatus.Connecting;
-
-                _chromecastClient.SetMediaData("https://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4", "video/*");
 
                 var connectingResult = await _chromecastClient.SendMediaToChromecast();
 

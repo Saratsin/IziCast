@@ -1,20 +1,21 @@
-﻿using Android.App;
+﻿using System.Threading.Tasks;
+using Android.App;
 using Android.Widget;
+using IziCast.Droid.Extensions;
+using MvvmCross.Plugin.Overlay.Platforms.Android;
+using IziCast.Core.Sevices;
 
 namespace IziCast.Droid.Services
 {
-    public class UserInteractionService
+    public class UserInteractionService : IUserInteractionService
     {
-        public UserInteractionService()
+        public Task ShowToastAsync(string text, bool longDuration = false)
         {
-            Instance = this;
-        }
+            var toastDuration = longDuration ? ToastLength.Long : ToastLength.Short;
 
-        public static UserInteractionService Instance { get; private set; } = new UserInteractionService();
+            Toast.MakeText(Application.Context, text, toastDuration).Show();
 
-        public void ShowToast(string text, bool longDuration = false)
-        {
-            Toast.MakeText(Application.Context, text, longDuration ? ToastLength.Long : ToastLength.Short).Show();
+            return Task.Delay(toastDuration.ToTimeSpan());
         }
     }
 }

@@ -25,15 +25,10 @@ namespace IziCast.Droid.Services
         {
             base.OnHandleIntent(intent);
 
-            var mediaContentUri = intent.DataString;
-            var mediaContentType = intent.Type;
-            
-            Mvx.Resolve<IChromecastClient>().SetMediaData(mediaContentUri, mediaContentType);
-
             if (Mvx.Resolve<IMvxAppStart>().IsStarted)
                 Mvx.Resolve<IMvxAppStart>().ResetStart();
 
-            Mvx.Resolve<IMvxAppStart>().Start(LaunchMode.Overlay);
+            Mvx.Resolve<IMvxAppStart>().Start(new LaunchData(LaunchMode.Overlay, intent.DataString));
 
         }
     }

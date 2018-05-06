@@ -28,5 +28,16 @@ namespace IziCast.Droid.Extensions
 
             return new ColorStateList(states, colors);
         }
+
+        public static TimeSpan ToTimeSpan(this ToastLength duration)
+        {
+            switch (duration)
+            {
+                case ToastLength.Short:
+                    return TimeSpan.FromMilliseconds(2000);
+                default:
+                    return TimeSpan.FromMilliseconds(3500);
+            }
+        }
     }
 }

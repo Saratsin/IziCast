@@ -1,16 +1,15 @@
-﻿using IziCast.Core.Models.IsBusyHandler;
-using MvvmCross.ViewModels;
+﻿using System;
+using IziCast.Core.Models.IsBusyHandler;
 using MvvmCross.Navigation;
-using MvvmCross;
-
+using MvvmCross.ViewModels;
 namespace IziCast.Core.ViewModels
 {
-    public abstract class BaseViewModel : MvxViewModel
+    public abstract class BaseViewModel<TParameter> : MvxViewModel<TParameter>
     {
         protected IMvxNavigationService NavigationService => Mvx.Resolve<IMvxNavigationService>();
 
         protected IsBusyHandler Handler { get; } = new IsBusyHandler();
 
-		public virtual string Title { get; set; }
+        public virtual string Title { get; set; }
     }
 }

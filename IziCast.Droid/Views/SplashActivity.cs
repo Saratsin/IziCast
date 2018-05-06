@@ -12,7 +12,7 @@ namespace IziCast.Droid
               Theme = "@style/Theme.Splash")]
     public class SplashActivity : MvxSplashScreenActivity
     {
-		public SplashActivity() : base(Resource.Layout.SplashScreen)
+		public SplashActivity() : base(Resource.Layout.splash_screen_activity)
         {
         }
 	}

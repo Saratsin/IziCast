@@ -10,7 +10,7 @@ using AView = Android.Views.View;
 
 namespace IziCast.Droid.Views
 {
-    public class ChromecastButtonOverlay : MvxOverlay<ChromecastButtonOverlayViewModel>
+    public class ChromecastButtonOverlay : MvxOverlay<ChromecastButtonViewModel>
     {
         public ChromecastButtonOverlay(Context context) : base(context)
         { 
@@ -34,7 +34,7 @@ namespace IziCast.Droid.Views
 		    };
 		    frame.AddView(button);
 
-		    var set = this.CreateBindingSet<ChromecastButtonOverlay, ChromecastButtonOverlayViewModel>();
+		    var set = this.CreateBindingSet<ChromecastButtonOverlay, ChromecastButtonViewModel>();
 
 		    set.Bind(button).For(v => v.Status).To(vm => vm.Status);
             set.Bind(button).For(nameof(AView.Click)).To(vm => vm.ConnectButtonClickedCommand);

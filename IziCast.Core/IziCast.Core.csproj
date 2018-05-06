@@ -12,6 +12,7 @@
     <PackageReference Include="Microsoft.AppCenter.Crashes" Version="1.6.0" />
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="1.6.0" />
     <PackageReference Include="MvvmCross" Version="6.0.1" />
+    <PackageReference Include="Xamarin.FFImageLoading" Version="2.3.6" />
   </ItemGroup>
     
   <ItemGroup>
@@ -28,5 +29,6 @@
     <Compile Remove="Bindings\MvxEventNameTargetBinding.cs" />
     <Compile Remove="IziCastAppStart.cs" />
     <Compile Remove="Services\IMainThreadDispatcherService.cs" />
+    <Compile Remove="ViewModels\FirstViewModel.cs" />
   </ItemGroup>
 </Project>

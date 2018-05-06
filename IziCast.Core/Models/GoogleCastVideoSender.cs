@@ -6,27 +6,36 @@ using GoogleCast.Channels;
 using GoogleCast.Models.Media;
 using IziCast.Core.Models;
 using MvvmCross.Logging;
+using MvvmCross;
+using IziCast.Core.Sevices;
 
-namespace IziCast.Core.Services
+namespace IziCast.Core
 {
-    public class GoogleCastChromecastClient : IChromecastClient
+	public class GoogleCastVideoSender : IVideoSender
     {
-        private readonly DeviceLocator _chromecastLocator = new DeviceLocator();
+        public const string AppId = "com.tsh.izicast.googlecast";
+
+		private readonly DeviceLocator _chromecastLocator = new DeviceLocator();
         private readonly Sender _chromecastSender = new Sender();
 
-        private string _mediaContentUrl;
-        private string _mediaContentType;
-
-        public void SetMediaData(string mediaContentUrl, string mediaContentType)
+        private string _videoSenderAppId;
+        public string VideoSenderAppId
         {
-            _mediaContentUrl = mediaContentUrl;
-            _mediaContentType = mediaContentType;
+            get
+            {
+                if(_videoSenderAppId == null)
+                    _videoSenderAppId = $"{Mvx.Resolve<IVideoSenderService>().IziCastAppId}.googlecast";
+
+                return _videoSenderAppId;
+            }
         }
 
-        public async Task<Try> SendMediaToChromecast()
-        {
-            try
-            {
+		public bool IsChromecastSender { get; } = true;
+
+        public async Task<Try> SendVideoAsync(string videoUrl)
+		{
+			try
+			{
                 var chromecasts = await _chromecastLocator.FindReceiversAsync().ConfigureAwait(false);
 
                 if (!chromecasts.Any())
@@ -42,17 +51,17 @@ namespace IziCast.Core.Services
 
                 var status = await mediaChannel.LoadAsync(new MediaInformation
                 {
-                    ContentId = _mediaContentUrl,
-                    ContentType = _mediaContentType
+					ContentId = videoUrl,
+					ContentType = "video/*"
                 }).ConfigureAwait(false);
 
                 return Try.Succeed();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 IziCastLog.Instance.Warn(ex, "Failed to send media");
                 return Try.Unsucceed();
             }
-        }
-    }
+		}
+	}
 }

@@ -1,29 +1,76 @@
 using Android.OS;
 using Android.Support.V7.Widget;
+using Android.Views;
 using MvvmCross.Droid.Support.V7.AppCompat;
-using MvvmCross.ViewModels;
+using MvvmCross.Binding.BindingContext;
+using IziCast.Core.ViewModels;
 
 namespace IziCast.Droid.Base
 {
-    public abstract class BaseActivity<TViewModel> : MvxAppCompatActivity<TViewModel> where TViewModel : class, IMvxViewModel
-    {
-        protected Toolbar Toolbar { get; set; }
+	public abstract class BaseActivity<TViewModel> : MvxAppCompatActivity<TViewModel> where TViewModel : BaseViewModel
+    {      
+        protected Toolbar _toolbar;
 
-        protected override void OnCreate(Bundle bundle)
+        protected abstract int LayoutId { get; }
+        
+		protected virtual int MenuId { get; } = -1;
+
+		protected virtual int HomeIconId { get; } = -1;
+      
+		public new string Title
         {
-            base.OnCreate(bundle);
-
-            SetContentView(LayoutResource);
-
-            Toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-            if (Toolbar != null)
+            get => SupportActionBar?.Title;
+            set
             {
-                SetSupportActionBar(Toolbar);
-                SupportActionBar.SetDisplayHomeAsUpEnabled(true);
-                SupportActionBar.SetHomeButtonEnabled(true);
+                if (SupportActionBar != null && SupportActionBar.Title != value)
+                    SupportActionBar.Title = value;
             }
         }
+  
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            if (MenuId != -1)
+                MenuInflater.Inflate(MenuId, menu);
+			
+            return base.OnCreateOptionsMenu(menu);
+        }
 
-        protected abstract int LayoutResource { get; }
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Android.Resource.Id.Home:
+                    OnBackPressed();
+                    return true;
+            }
+
+            return base.OnOptionsItemSelected(item);
+        }
+
+		protected override void OnCreate(Bundle bundle)
+		{
+			base.OnCreate(bundle);
+
+			SetContentView(LayoutId);
+
+			_toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+
+			if (_toolbar != null)
+			{
+				if (HomeIconId > -1)
+					SupportActionBar.SetHomeAsUpIndicator(HomeIconId);
+
+				SetSupportActionBar(_toolbar);
+
+				SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+				SupportActionBar.SetHomeButtonEnabled(true);
+
+				this.CreateBindingSet<BaseActivity<TViewModel>, BaseViewModel>()
+					.Bind(this)
+					.For(nameof(Title))
+					.To(vm => vm.Title)
+					.Apply();
+			}
+		}
     }
 }
