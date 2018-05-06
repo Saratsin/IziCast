@@ -7,7 +7,7 @@ using Android.Content;
 using Android.Content.PM;
 using IziCast.Core;
 using IziCast.Core.Models;
-using IziCast.Core.Sevices.Interfaces;
+using IziCast.Core.Services.Interfaces;
 using MvvmCross;
 
 namespace IziCast.Droid.Services

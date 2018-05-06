@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace IziCast.Core.Sevices.Interfaces
+namespace IziCast.Core.Services.Interfaces
 {
     public interface IExceptionService
     {

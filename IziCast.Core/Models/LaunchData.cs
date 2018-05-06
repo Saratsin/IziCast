@@ -1,4 +1,6 @@
-﻿namespace IziCast.Core.Enums
+﻿using IziCast.Core.Enums;
+
+namespace IziCast.Core.Models
 {
     public class LaunchData
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using Microsoft.AppCenter.Crashes;
 using System.Linq;
-using IziCast.Core.Sevices.Interfaces;
+using IziCast.Core.Services.Interfaces;
 
-namespace IziCast.Core.Sevices
+namespace IziCast.Core.Services
 {
     public class ExceptionService : IExceptionService
     {

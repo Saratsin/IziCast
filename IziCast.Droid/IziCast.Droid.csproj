@@ -179,7 +179,6 @@
     <Compile Include="Services\OverlayService.cs" />
     <Compile Include="Views\SplashActivity.cs" />
     <Compile Include="Services\UserInteractionService.cs" />
-    <Compile Include="LocalCastChromecastClient.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="IziCastApplication.cs" />
     <Compile Include="Base\BaseActivity.cs" />

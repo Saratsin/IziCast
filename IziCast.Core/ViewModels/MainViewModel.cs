@@ -1,5 +1,5 @@
 ﻿using IziCast.Core.Base;
-using IziCast.Core.Sevices.Interfaces;
+using IziCast.Core.Services.Interfaces;
 using System.Collections.ObjectModel;
 using IziCast.Core.Models;
 using MvvmCross.Commands;

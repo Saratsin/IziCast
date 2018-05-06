@@ -7,8 +7,8 @@ using GoogleCast.Models.Media;
 using IziCast.Core.Models;
 using MvvmCross.Logging;
 using MvvmCross;
-using IziCast.Core.Sevices;
-using IziCast.Core.Sevices.Interfaces;
+using IziCast.Core.Services;
+using IziCast.Core.Services.Interfaces;
 
 namespace IziCast.Core
 {

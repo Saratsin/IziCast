@@ -1,7 +1,6 @@
 using IziCast.Core.Enums;
-using IziCast.Core.Services;
-using IziCast.Core.Sevices;
-using IziCast.Core.Sevices.Interfaces;
+using IziCast.Core.Models;
+using IziCast.Core.Services.Interfaces;
 using IziCast.Core.ViewModels;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;

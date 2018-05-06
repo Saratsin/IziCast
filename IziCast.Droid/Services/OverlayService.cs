@@ -1,13 +1,11 @@
 ﻿using System;
-using Android.App;
 using Android.Content;
 using Android.Runtime;
 using IziCast.Core.Enums;
-using IziCast.Core.Services;
+using IziCast.Core.Models;
 using MvvmCross;
 using MvvmCross.Platforms.Android.Services;
 using MvvmCross.ViewModels;
-using IziCast.Core.Sevices;
 
 namespace IziCast.Droid.Services
 {
@@ -29,7 +27,6 @@ namespace IziCast.Droid.Services
                 Mvx.Resolve<IMvxAppStart>().ResetStart();
 
             Mvx.Resolve<IMvxAppStart>().Start(new LaunchData(LaunchMode.Overlay, intent.DataString));
-
         }
     }
 }

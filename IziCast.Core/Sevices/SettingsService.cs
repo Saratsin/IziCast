@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using IziCast.Core.Sevices;
-using IziCast.Core.Sevices.Interfaces;
+using IziCast.Core.Services;
+using IziCast.Core.Services.Interfaces;
 using Newtonsoft.Json;
 using Plugin.Settings;
 

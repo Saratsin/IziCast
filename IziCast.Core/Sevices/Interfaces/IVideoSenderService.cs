@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using IziCast.Core.Models;
 
-namespace IziCast.Core.Sevices.Interfaces
+namespace IziCast.Core.Services.Interfaces
 {
     public interface IVideoSenderService
     {

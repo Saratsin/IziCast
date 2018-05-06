@@ -3,8 +3,8 @@ using Android.App;
 using Android.Widget;
 using IziCast.Droid.Extensions;
 using MvvmCross.Plugin.Overlay.Platforms.Android;
-using IziCast.Core.Sevices;
-using IziCast.Core.Sevices.Interfaces;
+using IziCast.Core.Services;
+using IziCast.Core.Services.Interfaces;
 
 namespace IziCast.Droid.Services
 {

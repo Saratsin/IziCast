@@ -6,8 +6,8 @@ using IziCast.Core.Enums;
 using IziCast.Core.Models.IsBusyHandler;
 using IziCast.Core.Services;
 using MvvmCross.Commands;
-using IziCast.Core.Sevices;
-using IziCast.Core.Sevices.Interfaces;
+using IziCast.Core.Services;
+using IziCast.Core.Services.Interfaces;
 
 namespace IziCast.Core.ViewModels
 {
