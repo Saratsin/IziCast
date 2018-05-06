@@ -1,5 +1,5 @@
 ﻿using System;
-namespace IziCast.Core.Sevices
+namespace IziCast.Core.Sevices.Interfaces
 {
     public interface ISettingsService
     {

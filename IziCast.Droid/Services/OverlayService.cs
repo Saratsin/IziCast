@@ -7,17 +7,17 @@ using IziCast.Core.Services;
 using MvvmCross;
 using MvvmCross.Platforms.Android.Services;
 using MvvmCross.ViewModels;
+using IziCast.Core.Sevices;
 
 namespace IziCast.Droid.Services
 {
-    [Service(Exported = true)]
-    public class ChromecastButtonOverlayService : MvxIntentService
+    public class OverlayService : MvxIntentService
     {
-		protected ChromecastButtonOverlayService(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
+		protected OverlayService(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
 		{
 		}
 
-        public ChromecastButtonOverlayService() : base(nameof(ChromecastButtonOverlayService))
+        public OverlayService() : base(nameof(OverlayService))
         {
         }
 

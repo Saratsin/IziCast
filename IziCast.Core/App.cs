@@ -1,5 +1,7 @@
 using IziCast.Core.Enums;
 using IziCast.Core.Services;
+using IziCast.Core.Sevices;
+using IziCast.Core.Sevices.Interfaces;
 using IziCast.Core.ViewModels;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
@@ -17,8 +19,8 @@ namespace IziCast.Core
         {
             #if DEBUG
             AppCenter.LogLevel = LogLevel.Verbose;
-            //Sharpcaster.Logging.LogProvider.SetCurrentLogProvider(SharpCasterLogProvider.Instance);
             #endif
+
             AppCenter.Start("de4a737b-6ba2-4692-a3e7-bcaa691eafeb", typeof(Crashes), typeof(Analytics));
 
             CreatableTypes().EndingWith("Service")
@@ -30,16 +32,26 @@ namespace IziCast.Core
             RegisterCustomAppStart<AppStart>();
         }
 
-		public override void Startup(object hint)
+		public override async void Startup(object hint)
 		{
             var launchData = hint as LaunchData;
+			var videoSenderService = Mvx.Resolve<IVideoSenderService>();
+            var navigationService = Mvx.Resolve<IMvxNavigationService>();
 
-            var viewModelType = typeof(MainViewModel);
+            if (launchData == null || launchData.Mode == LaunchMode.Default)
+            {
+                await navigationService.Navigate<MainViewModel>().ConfigureAwait(false);
+                return;
+            }
 
-            if (launchData != null && launchData.Mode == LaunchMode.Overlay)
-                viewModelType = typeof(ChromecastButtonViewModel);
-            
-            Mvx.Resolve<IMvxNavigationService>().Navigate(viewModelType);
+
+            var phoneVideoSenderIsAvailable = await videoSenderService.EnsureAtLeastOneVideoSenderIsAvailable().ConfigureAwait(false);
+
+            if (!phoneVideoSenderIsAvailable)
+                return;
+
+            await videoSenderService.CurrentPhoneVideoSender.SendVideoAsync(launchData.ContentUrl).ConfigureAwait(false);
+            await navigationService.Navigate<ChromecastButtonViewModel, string>(launchData.ContentUrl).ConfigureAwait(false);
 		}
 	}
 }

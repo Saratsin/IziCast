@@ -4,10 +4,12 @@ using Android.Views;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Binding.BindingContext;
 using IziCast.Core.ViewModels;
+using MvvmCross.ViewModels;
+using IziCast.Core.Base;
 
 namespace IziCast.Droid.Base
 {
-	public abstract class BaseActivity<TViewModel> : MvxAppCompatActivity<TViewModel> where TViewModel : BaseViewModel
+    public abstract class BaseActivity<TViewModel> : MvxAppCompatActivity<TViewModel> where TViewModel : class, IBaseViewModel, IMvxViewModel
     {      
         protected Toolbar _toolbar;
 
@@ -65,7 +67,7 @@ namespace IziCast.Droid.Base
 				SupportActionBar.SetDisplayHomeAsUpEnabled(true);
 				SupportActionBar.SetHomeButtonEnabled(true);
 
-				this.CreateBindingSet<BaseActivity<TViewModel>, BaseViewModel>()
+                this.CreateBindingSet<BaseActivity<TViewModel>, IBaseViewModel>()
 					.Bind(this)
 					.For(nameof(Title))
 					.To(vm => vm.Title)

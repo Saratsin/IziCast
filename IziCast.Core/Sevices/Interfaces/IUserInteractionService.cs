@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace IziCast.Core.Sevices
+namespace IziCast.Core.Sevices.Interfaces
 {
     public interface IUserInteractionService
     {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using IziCast.Core.Sevices;
+using IziCast.Core.Sevices.Interfaces;
 using Newtonsoft.Json;
 using Plugin.Settings;
 
@@ -72,12 +73,12 @@ namespace IziCast.Droid.Services
             _cachedSettings[valueKey] = value;
         }
 
-        public T GetValue<T>(string valueKey, T defaultValue)
+        public virtual T GetValue<T>(string valueKey, T defaultValue)
         {
             return (T)GetCachedValue(valueKey, defaultValue, typeof(T));
         }
 
-        public void SetValue<T>(string valueKey, T value)
+        public virtual void SetValue<T>(string valueKey, T value)
         {
             SetCachedValue(valueKey, value, typeof(T));
         }

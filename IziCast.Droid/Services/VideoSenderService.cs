@@ -7,7 +7,7 @@ using Android.Content;
 using Android.Content.PM;
 using IziCast.Core;
 using IziCast.Core.Models;
-using IziCast.Core.Sevices;
+using IziCast.Core.Sevices.Interfaces;
 using MvvmCross;
 
 namespace IziCast.Droid.Services
@@ -64,7 +64,7 @@ namespace IziCast.Droid.Services
             get
             {
                 if(_currentPhoneVideoSender == null)
-                    _currentPhoneVideoSender = CreateCurrentVideoSender();
+                    _currentPhoneVideoSender = CreateCurrentPhoneVideoSender();
                 
                 return _currentPhoneVideoSender;
             }
@@ -132,7 +132,7 @@ namespace IziCast.Droid.Services
             return PhoneVideoSenders.First().VideoSenderAppId;
         }
 
-        private IVideoSender CreateCurrentVideoSender()
+        private IVideoSender CreateCurrentPhoneVideoSender()
         {
             var currentVideoSenderAppId = _settingsService.GetValue(nameof(CurrentPhoneVideoSender), string.Empty);
 
@@ -151,7 +151,11 @@ namespace IziCast.Droid.Services
 
             if(string.IsNullOrEmpty(currentChromecastVideoSenderAppId) || !ChromecastVideoSenders.Any(x => x.VideoSenderAppId == currentChromecastVideoSenderAppId))
             {
-                currentChromecastVideoSenderAppId = ChromecastVideoSenders.First().VideoSenderAppId;
+                currentChromecastVideoSenderAppId = ChromecastVideoSenders.First(x => x.VideoSenderAppId.StartsWith(
+                    IziCastAppId,
+                    StringComparison.InvariantCultureIgnoreCase
+                )).VideoSenderAppId;
+
                 _settingsService.SetValue(nameof(CurrentChromecastVideoSender), currentChromecastVideoSenderAppId);
             }
 
@@ -185,13 +189,13 @@ namespace IziCast.Droid.Services
 				                                   .ToReadOnlyCollection();
 		}
 
-        public async Task<Try> EnsureAtLeastOneVideoSenderIsAvailable()
+        public async Task<bool> EnsureAtLeastOneVideoSenderIsAvailable()
         {
             var videoSendersNotEmpty = PhoneVideoSenders.Any();
 
             await _userInteractionService.ShowToastAsync("No video players are installed. Install some (MX Player for example) to have ability to use this app", true);
 
-            return Try.Create(videoSendersNotEmpty);
+            return videoSendersNotEmpty;
         }
     }
 }

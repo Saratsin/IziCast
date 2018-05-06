@@ -4,7 +4,7 @@ using Android.App;
 using Android.Content;
 using IziCast.Core;
 using IziCast.Core.Models;
-using IziCast.Core.Sevices;
+using IziCast.Core.Sevices.Interfaces;
 using MvvmCross;
 using MvvmCross.Logging;
 using AUri = Android.Net.Uri;

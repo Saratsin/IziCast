@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.AppCenter.Crashes;
 using System.Linq;
+using IziCast.Core.Sevices.Interfaces;
 
 namespace IziCast.Core.Sevices
 {

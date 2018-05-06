@@ -4,6 +4,7 @@ using Android.Widget;
 using IziCast.Droid.Extensions;
 using MvvmCross.Plugin.Overlay.Platforms.Android;
 using IziCast.Core.Sevices;
+using IziCast.Core.Sevices.Interfaces;
 
 namespace IziCast.Droid.Services
 {

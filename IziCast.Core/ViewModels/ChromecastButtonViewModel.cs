@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
+using IziCast.Core.Base;
 using IziCast.Core.Enums;
 using IziCast.Core.Models.IsBusyHandler;
 using IziCast.Core.Services;
 using MvvmCross.Commands;
+using IziCast.Core.Sevices;
+using IziCast.Core.Sevices.Interfaces;
 
 namespace IziCast.Core.ViewModels
 {
@@ -13,18 +16,19 @@ namespace IziCast.Core.ViewModels
         private const int AutoCloseDelayInMilliseconds = 20000;
         private const int CloseAfterConnectedDelayInMilliseconds = 3000;
 
-        private readonly IChromecastClient _chromecastClient;
+        private readonly IVideoSenderService _videoSenderService;
 
         private bool _autoClose = true;
+        private string _videoUrl;
 
-        public ChromecastButtonViewModel(IChromecastClient chromecastClient)
+        public ChromecastButtonViewModel(IVideoSenderService videoSenderService)
         {
-            _chromecastClient = chromecastClient;
+            _videoSenderService = videoSenderService;
         }
 
         public override void Prepare(string parameter)
         {
-            
+            _videoUrl = parameter;
         }
 
 		public override void ViewAppeared()
@@ -51,7 +55,7 @@ namespace IziCast.Core.ViewModels
 
                 Status = ConnectivityStatus.Connecting;
 
-                var connectingResult = await _chromecastClient.SendMediaToChromecast();
+                var connectingResult = await _videoSenderService.CurrentChromecastVideoSender.SendVideoAsync(_videoUrl);
 
                 if (!connectingResult.OperationSucceeded)
                 {

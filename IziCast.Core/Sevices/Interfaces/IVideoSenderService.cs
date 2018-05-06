@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using IziCast.Core.Models;
 
-namespace IziCast.Core.Sevices
+namespace IziCast.Core.Sevices.Interfaces
 {
     public interface IVideoSenderService
     {
@@ -16,6 +16,6 @@ namespace IziCast.Core.Sevices
 		
 		IVideoSender CurrentChromecastVideoSender { get; set; }
 
-        Task<Try> EnsureAtLeastOneVideoSenderIsAvailable();
+        Task<bool> EnsureAtLeastOneVideoSenderIsAvailable();
     }
 }

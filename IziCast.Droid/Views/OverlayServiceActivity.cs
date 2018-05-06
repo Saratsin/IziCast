@@ -8,21 +8,21 @@ using IziCast.Droid.Services;
 namespace IziCast.Droid.Views
 {
 
-    [Activity(Label = "Izi cast", Theme = "@style/OverlayTheme", MainLauncher = true)]
+    [Activity(Theme = "@style/OverlayTheme")]
     [IntentFilter(new[] { Intent.ActionView }, Categories = new[] { Intent.CategoryDefault, Intent.CategoryBrowsable }, DataScheme = "rtsp")]
     [IntentFilter(new[] { Intent.ActionView }, Categories = new[] { Intent.CategoryDefault, Intent.CategoryBrowsable }, DataMimeTypes = new[] { "video/*", "application/sdp" })]
     [IntentFilter(new[] { Intent.ActionView }, Categories = new[] { Intent.CategoryDefault, Intent.CategoryBrowsable }, DataScheme = "http", DataMimeType = "video/*")]
-    public class ChromecastButtonOverlayServiceActivity : AppCompatActivity
+    public class OverlayServiceActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            var intent = new Intent(this, typeof(ChromecastButtonOverlayService));
+            var intent = new Intent(this, typeof(OverlayService));
 
             intent.SetDataAndType(Intent.Data, Intent.Type);
 
-            Task.Run( () => StartService(intent));
+            Task.Run(() => StartService(intent));
 
             Finish();
         }

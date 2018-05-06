@@ -8,6 +8,7 @@ using IziCast.Core.Models;
 using MvvmCross.Logging;
 using MvvmCross;
 using IziCast.Core.Sevices;
+using IziCast.Core.Sevices.Interfaces;
 
 namespace IziCast.Core
 {

@@ -13,6 +13,9 @@
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="1.6.0" />
     <PackageReference Include="MvvmCross" Version="6.0.1" />
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.3.6" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="4.0.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.4.1" />
   </ItemGroup>
     
   <ItemGroup>
@@ -21,6 +24,8 @@
     <Folder Include="Models\" />
     <Folder Include="Models\IsBusyHandler\" />
     <Folder Include="Sevices\" />
+    <Folder Include="Base\" />
+    <Folder Include="Sevices\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Submodules\GoogleCast\GoogleCast\GoogleCast.csproj" />
