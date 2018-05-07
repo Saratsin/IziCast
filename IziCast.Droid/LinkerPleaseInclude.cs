@@ -8,6 +8,7 @@ using Android.Widget;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
+using IziCast.Droid.Controls;
 
 namespace IziCast.Droid
 {
@@ -19,6 +20,12 @@ namespace IziCast.Droid
 		public void Include(Button button)
         {
             button.Click += (s, e) => button.Text = button.Text + "";
+        }
+
+        public void Include(FloatingChromecastButtonListener floatingChromecastButtonListener)
+        {
+            floatingChromecastButtonListener.Shown += (sender, e) => Console.WriteLine("Hello, shown");
+            floatingChromecastButtonListener.Hidden += (sender, e) => Console.WriteLine("Hello, hidden");
         }
 
         public void Include(CheckBox checkBox)

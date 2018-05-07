@@ -12,6 +12,8 @@ namespace IziCast.Droid.Views
 {
     public class ChromecastButtonOverlay : MvxOverlay<ChromecastButtonViewModel>
     {
+        private FloatingChromecastButton _button;
+
         public ChromecastButtonOverlay(Context context) : base(context)
         { 
         }
@@ -28,21 +30,31 @@ namespace IziCast.Droid.Views
 		    frame.SetClipChildren(false);
 		    frame.SetClipToPadding(false);
 
-		    var button = new ChromecastButton(Context)
+		    _button = new FloatingChromecastButton(Context)
 		    {
-		        LayoutParameters = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WrapContent, ViewGroup.LayoutParams.WrapContent)
+		        LayoutParameters = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WrapContent, ViewGroup.LayoutParams.WrapContent),
+                Visibility = ViewStates.Invisible
 		    };
-		    frame.AddView(button);
+		    frame.AddView(_button);
 
 		    var set = this.CreateBindingSet<ChromecastButtonOverlay, ChromecastButtonViewModel>();
 
-		    set.Bind(button).For(v => v.Status).To(vm => vm.Status);
-            set.Bind(button).For(nameof(AView.Click)).To(vm => vm.ConnectButtonClickedCommand);
-            set.Bind(button).For(nameof(AView.LongClick)).To(vm => vm.ConnectButtonLongClickedCommand);
+		    set.Bind(_button).For(v => v.Status).To(vm => vm.Status);
+			set.Bind(_button).For(v => v.ShowAsyncCommand).To(vm => vm.ShowChromecastButtonAsyncCommand).OneWayToSource();
+			set.Bind(_button).For(v => v.HideAsyncCommand).To(vm => vm.HideChromecastButtonAsyncCommand).OneWayToSource();
+            set.Bind(_button).For(nameof(AView.Click)).To(vm => vm.ConnectButtonClickedCommand);
+            set.Bind(_button).For(nameof(AView.LongClick)).To(vm => vm.ConnectButtonLongClickedCommand);
 
 		    set.Apply();
 
 		    return frame;
+		}
+
+		protected override void OnViewWillAttachToWindow()
+		{
+            base.OnViewWillAttachToWindow();
+
+            _button.InvalidateVisibilityCommandsBindings();
 		}
 
 		public override OverlayLocationParams CreateLocationParams()

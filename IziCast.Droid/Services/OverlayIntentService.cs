@@ -6,16 +6,18 @@ using IziCast.Core.Models;
 using MvvmCross;
 using MvvmCross.Platforms.Android.Services;
 using MvvmCross.ViewModels;
+using Android.App;
 
 namespace IziCast.Droid.Services
 {
-    public class OverlayService : MvxIntentService
+    [Service]
+    public class OverlayIntentService : MvxIntentService
     {
-		protected OverlayService(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
+		protected OverlayIntentService(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
 		{
 		}
 
-        public OverlayService() : base(nameof(OverlayService))
+        public OverlayIntentService() : base(nameof(OverlayIntentService))
         {
         }
 

@@ -9,6 +9,7 @@ using MvvmCross;
 using MvvmCross.IoC;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
+using IziCast.Core.Sevices.Interfaces;
 
 namespace IziCast.Core
 {
@@ -36,6 +37,7 @@ namespace IziCast.Core
             var launchData = hint as LaunchData;
 			var videoSenderService = Mvx.Resolve<IVideoSenderService>();
             var navigationService = Mvx.Resolve<IMvxNavigationService>();
+            var overlayPermissionSevice = Mvx.Resolve<IOverlayPermissionService>();
 
             if (launchData == null || launchData.Mode == LaunchMode.Default)
             {
@@ -43,12 +45,16 @@ namespace IziCast.Core
                 return;
             }
 
-
             var phoneVideoSenderIsAvailable = await videoSenderService.EnsureAtLeastOneVideoSenderIsAvailable().ConfigureAwait(false);
 
             if (!phoneVideoSenderIsAvailable)
                 return;
 
+            var overlayPermissionIsEnabled = await overlayPermissionSevice.TryEnablePermissionIfDisabledAsync().ConfigureAwait(false);
+
+            if (!overlayPermissionIsEnabled)
+                return;
+            
             await videoSenderService.CurrentPhoneVideoSender.SendVideoAsync(launchData.ContentUrl).ConfigureAwait(false);
             await navigationService.Navigate<ChromecastButtonViewModel, string>(launchData.ContentUrl).ConfigureAwait(false);
 		}

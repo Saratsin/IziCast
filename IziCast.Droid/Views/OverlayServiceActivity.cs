@@ -18,7 +18,7 @@ namespace IziCast.Droid.Views
         {
             base.OnCreate(savedInstanceState);
 
-            var intent = new Intent(this, typeof(OverlayService));
+            var intent = new Intent(this, typeof(OverlayIntentService));
 
             intent.SetDataAndType(Intent.Data, Intent.Type);
 

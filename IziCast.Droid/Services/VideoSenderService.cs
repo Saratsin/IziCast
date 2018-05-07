@@ -31,18 +31,18 @@ namespace IziCast.Droid.Services
 
 		private PackageManager PackageManager => Application.Context.PackageManager;
 
-        private Intent _sendVideoIntent;
-        private Intent SendVideoIntent
+        private Intent _viewVideoIntent;
+        private Intent ViewVideoIntent
 		{
 			get
 			{
-				if (_sendVideoIntent == null)
+				if (_viewVideoIntent == null)
 				{
-					_sendVideoIntent = new Intent(Intent.ActionSend);
-					_sendVideoIntent.SetType("video/*");
+                    _viewVideoIntent = new Intent(Intent.ActionView);
+					_viewVideoIntent.SetType("video/*");
 				}
 
-				return _sendVideoIntent;
+				return _viewVideoIntent;
 			}
 		}
 
@@ -164,7 +164,7 @@ namespace IziCast.Droid.Services
 
         private ReadOnlyCollection<IVideoSender> GetVideoSenders()
         {
-            var packageNames = PackageManager.QueryIntentActivities(SendVideoIntent, 0)
+            var packageNames = PackageManager.QueryIntentActivities(ViewVideoIntent, 0)
                                              .Select(x => x.ActivityInfo.ApplicationInfo)
                                              .Where(x => x.Enabled)
                                              .Select(x => x.PackageName)
@@ -177,7 +177,7 @@ namespace IziCast.Droid.Services
 
         private ReadOnlyCollection<IVideoSender> GetChromecastVideoSenders()
 		{
-			var thirdPartyChromecastVideoSenders = PackageManager.QueryIntentActivities(SendVideoIntent, 0)
+			var thirdPartyChromecastVideoSenders = PackageManager.QueryIntentActivities(ViewVideoIntent, 0)
 																 .Select(x => x.ActivityInfo.ApplicationInfo)
 																 .Where(x => x.Enabled && _chromecastSupportedAppNames.Contains(x.PackageName))
 																 .Select(x => new ThirdPartyAppVideoSender(x.PackageName, true));

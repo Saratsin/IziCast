@@ -6,7 +6,6 @@ using IziCast.Core.Enums;
 using IziCast.Core.Models.IsBusyHandler;
 using IziCast.Core.Services;
 using MvvmCross.Commands;
-using IziCast.Core.Services;
 using IziCast.Core.Services.Interfaces;
 
 namespace IziCast.Core.ViewModels
@@ -31,9 +30,14 @@ namespace IziCast.Core.ViewModels
             _videoUrl = parameter;
         }
 
-		public override void ViewAppeared()
+		public override async void ViewAppeared()
         {
-			Task.Run(AutoCloseIfNeedWithDelay);
+            //Delay to make Appearing animation visible
+            await Task.Delay(1000);
+
+            await ShowChromecastButtonAsyncCommand.ExecuteAsync();
+
+            await Task.Run(AutoCloseIfNeedWithDelay);
 		}
 
 		private ConnectivityStatus _status = ConnectivityStatus.Disconnected;
@@ -47,6 +51,10 @@ namespace IziCast.Core.ViewModels
 
         public MvxAsyncCommand ConnectButtonLongClickedCommand => new MvxAsyncCommand(ConnectButtonLongClicked);
 
+        public MvxAsyncCommand ShowChromecastButtonAsyncCommand { get; set; }
+
+        public MvxAsyncCommand HideChromecastButtonAsyncCommand { get; set; }
+
         private Task ConnectButtonClicked()
         {
             return Handler.HandleWithDelay(async () =>
@@ -55,7 +63,7 @@ namespace IziCast.Core.ViewModels
 
                 Status = ConnectivityStatus.Connecting;
 
-                var connectingResult = await _videoSenderService.CurrentChromecastVideoSender.SendVideoAsync(_videoUrl);
+                var connectingResult = await _videoSenderService.CurrentChromecastVideoSender.SendVideoAsync(_videoUrl).ConfigureAwait(false);
 
                 if (!connectingResult.OperationSucceeded)
                 {
@@ -66,14 +74,13 @@ namespace IziCast.Core.ViewModels
                 Status = ConnectivityStatus.Connected;
 
                 await Task.Delay(CloseAfterConnectedDelayInMilliseconds).ConfigureAwait(false);
-
-                Close();
+                await CloseAsync().ConfigureAwait(false);
             });
         }
 
         private Task ConnectButtonLongClicked()
         {
-            return Handler.HandleWithDelay(() => Close());
+            return Handler.HandleWithDelay(() => CloseAsync());
         }
 
         private async Task AutoCloseIfNeedWithDelay()
@@ -89,13 +96,15 @@ namespace IziCast.Core.ViewModels
                     return;
             }
 
-            Close();
+            await CloseAsync().ConfigureAwait(false);
         }
 
-        private void Close()
+        private async Task CloseAsync()
         {
             _autoClose = false;
-            NavigationService.Close(this);
+
+            await HideChromecastButtonAsyncCommand.ExecuteAsync().ConfigureAwait(false);
+            await NavigationService.Close(this).ConfigureAwait(false);
         }
     }
 }
