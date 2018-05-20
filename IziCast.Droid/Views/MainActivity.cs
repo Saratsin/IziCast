@@ -5,9 +5,16 @@ using IziCast.Droid.Base;
 
 namespace IziCast.Droid.Views
 {
-    [Activity(Label = "Izi cast", MainLauncher = true)]
+	[Activity]
 	public class MainActivity : BaseActivity<MainViewModel>
     {            
 		protected override int LayoutId { get; } = Resource.Layout.main_activity;
-    }
+
+		protected override void OnCreate(Bundle bundle)
+		{
+			base.OnCreate(bundle);
+
+			SupportActionBar.SetDisplayHomeAsUpEnabled(false);
+		}
+	}
 }

@@ -12,14 +12,14 @@ namespace IziCast.Droid.Controls
 		{
             base.OnShown(fab);
 
-            Shown.SafeInvoke(this, EventArgs.Empty);
+            Shown?.Invoke(this, EventArgs.Empty);
 		}
 
 		public override void OnHidden(FloatingActionButton fab)
 		{
             base.OnHidden(fab);
 
-            Hidden.SafeInvoke(this, EventArgs.Empty);
+            Hidden?.Invoke(this, EventArgs.Empty);
 		}
 	}
 }

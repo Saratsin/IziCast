@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="VideoSenderService.NoPlayersAvailable" xml:space="preserve">No video players are installed. Install some (MX Player for example) to have ability to use this app</data>
+    <data name="OverlayPermissionService.NeedToEnablePermission" xml:space="preserve">Ooops, we don\'t have permission to show you our beuatiful app button. Please enable this permissions to enjoy our app features)</data>
+    <data name="MainViewModel.Title" xml:space="preserve">Izi cast</data>
+    <data name="MainViewModel.DataHint" xml:space="preserve">Video Url</data>
+    <data name="DataHint" xml:space="preserve">Video Url bitch</data>
+    <data name="ViewModels.MainViewModel.DataHint" xml:space="preserve">Hint is a cake</data>
+    <data name="IziCast.Core.ViewModels.MainViewModel.DataHint" xml:space="preserve">Hint is a lie</data>
+</root>

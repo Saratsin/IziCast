@@ -2,15 +2,28 @@
 using MvvmCross;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
+using MvvmCross.Localization;
+using System;
 
 namespace IziCast.Core.Base
 {
     public abstract class BaseViewModel : MvxViewModel, IBaseViewModel
     {
-        public IMvxNavigationService NavigationService => Mvx.Resolve<IMvxNavigationService>();
+        private readonly string _defaultTitle;
+
+        protected BaseViewModel()
+        {
+            TextSource = new MvxLanguageBinder(string.Empty, GetType().Name);
+
+            _defaultTitle = TextSource.GetText(nameof(Title));
+        }
+
+		public MvxLanguageBinder TextSource { get; }
+
+		public IMvxNavigationService NavigationService { get; } = Mvx.Resolve<IMvxNavigationService>();
 
         public IsBusyHandler Handler { get; } = new IsBusyHandler();
 
-		public virtual string Title { get; set; }
+		public virtual string Title => _defaultTitle;
     }
 }

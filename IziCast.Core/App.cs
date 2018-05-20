@@ -10,6 +10,10 @@ using MvvmCross.IoC;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using IziCast.Core.Sevices.Interfaces;
+using MvvmCross.Views;
+using MvvmCross.Plugin.ResxLocalization;
+using IziCast.Core.Localization;
+using MvvmCross.Localization;
 
 namespace IziCast.Core
 {
@@ -26,11 +30,16 @@ namespace IziCast.Core
             CreatableTypes().EndingWith("Service")
                             .AsInterfaces()
                             .RegisterAsLazySingleton();
+            
+			Mvx.RegisterSingleton<IMvxTextProvider>(new MvxResxTextProvider(AppResources.ResourceManager));         
+            Mvx.RegisterSingleton(new GoogleCastVideoSender());
 
-			Mvx.RegisterSingleton(new GoogleCastVideoSender());
-   
             RegisterCustomAppStart<AppStart>();
         }
+
+		public override void Reset()
+		{
+		}
 
 		public override async void Startup(object hint)
 		{
@@ -54,7 +63,7 @@ namespace IziCast.Core
 
             if (!overlayPermissionIsEnabled)
                 return;
-            
+			
             await videoSenderService.CurrentPhoneVideoSender.SendVideoAsync(launchData.ContentUrl).ConfigureAwait(false);
             await navigationService.Navigate<ChromecastButtonViewModel, string>(launchData.ContentUrl).ConfigureAwait(false);
 		}

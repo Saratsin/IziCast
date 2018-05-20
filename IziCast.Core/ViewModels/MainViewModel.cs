@@ -18,10 +18,8 @@ namespace IziCast.Core.ViewModels
 		{
 			_videoSenderService = videoSenderService;         
 		}
-
-		public override string Title { get; set; } = "Izi Cast";
-
-        public bool SendDataButtonIsEnabled => !string.IsNullOrWhiteSpace(DataUrl) && Uri.IsWellFormedUriString(DataUrl, UriKind.Absolute);
+            
+        public bool SendDataButtonIsEnabled => !string.IsNullOrEmpty(DataUrl) && Uri.IsWellFormedUriString(DataUrl, UriKind.Absolute);
 
         public bool DataUrlEntryIsEnabled => SendDataButtonStatus != ConnectivityStatus.Connecting;
 

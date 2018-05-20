@@ -10,6 +10,6 @@ namespace IziCast.Core.Base
 
         IsBusyHandler Handler { get; }
 
-        string Title { get; set; }
+        string Title { get; }
     }
 }

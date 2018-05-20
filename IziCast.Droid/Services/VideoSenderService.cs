@@ -9,6 +9,7 @@ using IziCast.Core;
 using IziCast.Core.Models;
 using IziCast.Core.Services.Interfaces;
 using MvvmCross;
+using MvvmCross.Localization;
 
 namespace IziCast.Droid.Services
 {
@@ -170,9 +171,10 @@ namespace IziCast.Droid.Services
                                              .Select(x => x.PackageName)
                                              .Except(_chromecastSupportedAppNames);
 
-            return packageNames.Select(x => new ThirdPartyAppVideoSender(x, false))
-                               .Cast<IVideoSender>()
-                               .ToReadOnlyCollection();
+			return packageNames.Select(x => new ThirdPartyAppVideoSender(x, false))
+							   .Cast<IVideoSender>()
+							   .ToList()
+							   .AsReadOnly();
         }
 
         private ReadOnlyCollection<IVideoSender> GetChromecastVideoSenders()
@@ -185,15 +187,18 @@ namespace IziCast.Droid.Services
 			var googleCastVideoSender = Mvx.Resolve<GoogleCastVideoSender>();
 
 			return thirdPartyChromecastVideoSenders.Cast<IVideoSender>()
-				                                   .Prepend(googleCastVideoSender)
-				                                   .ToReadOnlyCollection();
+												   .Prepend(googleCastVideoSender)
+												   .ToList()
+												   .AsReadOnly();
 		}
 
         public async Task<bool> EnsureAtLeastOneVideoSenderIsAvailable()
         {
             var videoSendersNotEmpty = PhoneVideoSenders.Any();
 
-            await _userInteractionService.ShowToastAsync("No video players are installed. Install some (MX Player for example) to have ability to use this app", true);
+			var textBinder = new MvxLanguageBinder(string.Empty, nameof(VideoSenderService));
+
+			await _userInteractionService.ShowToastAsync(textBinder.GetText("NoPlayersAvailable"), true);
 
             return videoSendersNotEmpty;
         }

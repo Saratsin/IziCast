@@ -1,16 +1,32 @@
+using Android.Graphics;
 using Android.OS;
-using Android.Support.V7.Widget;
 using Android.Views;
-using MvvmCross.Droid.Support.V7.AppCompat;
-using MvvmCross.Binding.BindingContext;
-using IziCast.Core.ViewModels;
-using MvvmCross.ViewModels;
+using Android.Views.InputMethods;
+using Android.Widget;
 using IziCast.Core.Base;
+using MvvmCross.Binding.BindingContext;
+using MvvmCross.Droid.Support.V7.AppCompat;
+using MvvmCross.ViewModels;
+using Toolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace IziCast.Droid.Base
 {
-    public abstract class BaseActivity<TViewModel> : MvxAppCompatActivity<TViewModel> where TViewModel : class, IBaseViewModel, IMvxViewModel
-    {      
+	public abstract class BaseActivity<TViewModel> : MvxAppCompatActivity<TViewModel> where TViewModel : class, IBaseViewModel, IMvxViewModel
+    {
+		private InputMethodManager _inputMethodManager;
+		protected InputMethodManager InputMethodManager
+		{
+			get
+			{
+				if(_inputMethodManager == null)
+				{
+					_inputMethodManager = (InputMethodManager)GetSystemService(InputMethodService);
+				}
+
+				return _inputMethodManager;
+			}
+		}
+
         protected Toolbar _toolbar;
 
         protected abstract int LayoutId { get; }
@@ -18,7 +34,7 @@ namespace IziCast.Droid.Base
 		protected virtual int MenuId { get; } = -1;
 
 		protected virtual int HomeIconId { get; } = -1;
-      
+        
 		public new string Title
         {
             get => SupportActionBar?.Title;
@@ -74,5 +90,28 @@ namespace IziCast.Droid.Base
 					.Apply();
 			}
 		}
-    }
+
+		public override bool DispatchTouchEvent(MotionEvent ev)
+		{
+			if(ev.Action == MotionEventActions.Up || ev.Action == MotionEventActions.Cancel)
+			{
+				var currentFocusedView = CurrentFocus;
+
+				if(currentFocusedView is EditText)
+				{
+					var outRectangle = new Rect();
+					currentFocusedView.GetGlobalVisibleRect(outRectangle);
+
+					if(!outRectangle.Contains((int)ev.RawX, (int)ev.RawY))
+					{
+						currentFocusedView.ClearFocus();
+
+						InputMethodManager.HideSoftInputFromWindow(currentFocusedView.WindowToken, HideSoftInputFlags.None);
+					}
+				}
+			}
+
+			return base.DispatchTouchEvent(ev);
+		}
+	}
 }

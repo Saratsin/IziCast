@@ -5,7 +5,6 @@ using Android.Graphics.Drawables;
 using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Util;
-using Android.Views;
 using IziCast.Core.Enums;
 using IziCast.Droid.Extensions;
 using MvvmCross.Commands;
@@ -67,7 +66,7 @@ namespace IziCast.Droid.Controls
             }
         }
 
-        public MvxAsyncCommand ShowAsyncCommand { get; set; }
+		public MvxAsyncCommand ShowAsyncCommand { get; set; }
 
         public MvxAsyncCommand HideAsyncCommand { get; set; }
 
@@ -146,8 +145,8 @@ namespace IziCast.Droid.Controls
 
         public void InvalidateVisibilityCommandsBindings()
         {
-            ShowAsyncCommandChanged.SafeInvoke(this, EventArgs.Empty);
-            HideAsyncCommandChanged.SafeInvoke(this, EventArgs.Empty);
+            ShowAsyncCommandChanged?.Invoke(this, EventArgs.Empty);
+            HideAsyncCommandChanged?.Invoke(this, EventArgs.Empty);
         }
     }
 }
