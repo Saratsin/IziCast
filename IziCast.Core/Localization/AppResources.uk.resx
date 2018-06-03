@@ -12,6 +12,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-
-    <data name="MainViewModel.DataHint" xml:space="preserve">Посилання на відео</data>
+    <data name="VideoSenderService.NoPlayersAvailable" xml:space="preserve">Відсутній хоча б один встановлений відеопрогравач. Поставте хоч один (наприклад MX Player), аби мати змогу користуватись цією програмою.</data>
+    <data name="OverlayPermissionService.NeedToEnablePermission" xml:space="preserve">Вибачте, здається ви не проставили дозвіл, щоб показувати нашу прекрасну кнопку поверх усієї системи. Будь ласка, увімкніть це дозвіл)</data>
+    <data name="MainViewModel.Title" xml:space="preserve">Izi cast</data>
+    <data name="MainViewModel.DataHint" xml:space="preserve">Відео посилання</data>
+    <data name="MainViewModel.VideoPlayer" xml:space="preserve">Відеопрогравач</data>
+    <data name="MainViewModel.ChromecastSender" xml:space="preserve">Chromecast-відправник</data>
+    <data name="MainViewModel.About" xml:space="preserve">Про програму</data>
+    <data name="AboutViewModel.Title" xml:space="preserve">Про програму</data>
+    <data name="AboutViewModel.VersionFormat" xml:space="preserve">Версія {0}</data>
+    <data name="AboutViewModel.Description" xml:space="preserve">Проста і елегантна програма для легкого надсилання відео з вашого телефону на приставку Google Chromecast</data>
 </root>
