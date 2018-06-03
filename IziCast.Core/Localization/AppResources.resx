@@ -16,7 +16,10 @@
     <data name="OverlayPermissionService.NeedToEnablePermission" xml:space="preserve">Ooops, we don\'t have permission to show you our beuatiful app button. Please enable this permissions to enjoy our app features)</data>
     <data name="MainViewModel.Title" xml:space="preserve">Izi cast</data>
     <data name="MainViewModel.DataHint" xml:space="preserve">Video Url</data>
-    <data name="DataHint" xml:space="preserve">Video Url bitch</data>
-    <data name="ViewModels.MainViewModel.DataHint" xml:space="preserve">Hint is a cake</data>
-    <data name="IziCast.Core.ViewModels.MainViewModel.DataHint" xml:space="preserve">Hint is a lie</data>
+    <data name="MainViewModel.VideoPlayer" xml:space="preserve">Video player</data>
+    <data name="MainViewModel.ChromecastSender" xml:space="preserve">Chromecast sender</data>
+    <data name="MainViewModel.About" xml:space="preserve">About</data>
+    <data name="AboutViewModel.Title" xml:space="preserve">About</data>
+    <data name="AboutViewModel.VersionFormat" xml:space="preserve">Version {0}</data>
+    <data name="AboutViewModel.Description" xml:space="preserve">Simple application for easy sharing your favorite videos to Chromecast</data>
 </root>

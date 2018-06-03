@@ -1,13 +1,11 @@
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
-using MvvmCross;
 using MvvmCross.Platforms.Android.Views;
-using MvvmCross.ViewModels;
 
 namespace IziCast.Droid
 {
-    [Activity(Icon = "@mipmap/ic_launcher",
+	[Activity(Icon = "@mipmap/ic_launcher",
               Label = "Izi cast",
               MainLauncher = true, 
               NoHistory = true, 
@@ -16,7 +14,12 @@ namespace IziCast.Droid
     public class SplashActivity : MvxSplashScreenActivity
     {
 		public SplashActivity() : base(Resource.Layout.splash_screen_activity)
-        {
+        {         
         }
+
+		protected override void OnCreate(Bundle bundle)
+		{
+			base.OnCreate(bundle);
+		}
 	}
 }

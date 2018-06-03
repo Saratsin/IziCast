@@ -7,27 +7,26 @@ using GoogleCast.Models.Media;
 using IziCast.Core.Models;
 using MvvmCross.Logging;
 using MvvmCross;
-using IziCast.Core.Services;
 using IziCast.Core.Services.Interfaces;
+using MvvmCross.Converters;
+using System.Globalization;
 
 namespace IziCast.Core
-{
+{   
 	public class GoogleCastVideoSender : IVideoSender
-    {
-        public const string AppId = "com.tsh.izicast.googlecast";
-
+    {      
 		private readonly DeviceLocator _chromecastLocator = new DeviceLocator();
         private readonly Sender _chromecastSender = new Sender();
 
-        private string _videoSenderAppId;
-        public string VideoSenderAppId
+		private string _videoSenderId;
+        public string VideoSenderId
         {
             get
             {
-                if(_videoSenderAppId == null)
-                    _videoSenderAppId = $"{Mvx.Resolve<IVideoSenderService>().IziCastAppId}.googlecast";
+                if(_videoSenderId == null)
+                    _videoSenderId = $"{Mvx.Resolve<IVideoSenderService>().IziCastAppId}.googlecast";
 
-                return _videoSenderAppId;
+                return _videoSenderId;
             }
         }
 

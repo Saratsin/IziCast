@@ -40,6 +40,9 @@
     <Compile Remove="ReflectionHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Remove="Localization\AppResources.ru.resx" />
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Update="Localization\AppResources.uk.resx">
       <LastGenOutput>AppResources.uk.Designer.cs</LastGenOutput>
     </EmbeddedResource>

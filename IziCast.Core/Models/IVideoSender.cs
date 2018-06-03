@@ -6,7 +6,7 @@ namespace IziCast.Core.Models
 {
     public interface IVideoSender
     {   
-		string VideoSenderAppId { get; }
+		string VideoSenderId { get; }
 
 		bool IsChromecastSender { get; }
 

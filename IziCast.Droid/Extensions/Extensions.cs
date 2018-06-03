@@ -5,6 +5,8 @@ using Android.Content.Res;
 using Android.Graphics;
 using Android.Util;
 using Android.Widget;
+using Android.Graphics.Drawables;
+using System.IO;
 
 namespace IziCast.Droid.Extensions
 {
@@ -39,5 +41,28 @@ namespace IziCast.Droid.Extensions
                     return TimeSpan.FromMilliseconds(3500);
             }
         }
+
+		public static void ClearDirectory(this DirectoryInfo dirInfo)
+		{
+			foreach (var dir in dirInfo.EnumerateDirectories())
+				dir.Delete(true);
+
+			foreach (var file in dirInfo.EnumerateFiles())
+				file.Delete();
+		}
+
+		public static Bitmap ToBitmap(this Drawable drawable)
+		{
+			if(drawable is BitmapDrawable bitmapDrawable && bitmapDrawable.Bitmap != null)
+				return bitmapDrawable.Bitmap;
+
+			var bitmap = Bitmap.CreateBitmap(drawable.IntrinsicWidth, drawable.IntrinsicHeight, Bitmap.Config.Argb8888);
+
+			var canvas = new Canvas(bitmap);
+			drawable.SetBounds(0, 0, canvas.Width, canvas.Height);
+			drawable.Draw(canvas);
+
+			return bitmap;
+		}
     }
 }

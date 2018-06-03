@@ -3,7 +3,6 @@ using MvvmCross;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using MvvmCross.Localization;
-using System;
 
 namespace IziCast.Core.Base
 {

@@ -82,7 +82,7 @@ namespace IziCast.Core.ViewModels
 
         public MvxAsyncCommand SendDataUrlToChromecastAsyncCommand => new MvxAsyncCommand(SendDataUrlToChromecastAsync);
 
-        public Task SendDataUrlToChromecastAsync()
+        private Task SendDataUrlToChromecastAsync()
         {
             return Handler.SilentHandleWithDelay(async () =>
             {
@@ -96,5 +96,15 @@ namespace IziCast.Core.ViewModels
                 SendDataButtonStatus = sendingResult.OperationSucceeded ? ConnectivityStatus.Connected : ConnectivityStatus.Disconnected;
             });
         }
+
+		public MvxAsyncCommand AboutButtonClickedCommand => new MvxAsyncCommand(AboutButtonClicked);
+
+        private Task AboutButtonClicked()
+		{
+			return Handler.HandleWithDelay(() =>
+			{
+				return NavigationService.Navigate<AboutViewModel>();
+			});
+		}
 	}
 }

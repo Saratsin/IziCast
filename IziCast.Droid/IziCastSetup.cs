@@ -8,12 +8,16 @@ using Android.App;
 using MvvmCross.Converters;
 using MvvmCross.Localization;
 using System;
+using System.IO;
 using System.Globalization;
+using MvvmCross;
+using IziCast.Core.Services.Interfaces;
+using IziCast.Core.Models;
 
 namespace IziCast.Droid
 {
 	public class IziCastSetup : MvxAppCompatSetup<App>
-	{
+	{      
 		protected override void InitializePlatformServices()
 		{
 			base.InitializePlatformServices();
@@ -32,15 +36,7 @@ namespace IziCast.Droid
 		protected override void FillValueConverters(IMvxValueConverterRegistry registry)
 		{
 			base.FillValueConverters(registry);
-			registry.AddOrOverwrite("Language", new LConverter());
-		}
-	}
-
-	public class LConverter : MvxLanguageConverter
-	{
-		public override object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-		{
-			return base.Convert(value, targetType, parameter, culture);
-		}
+			registry.AddOrOverwrite("Language", new MvxLanguageConverter());         
+		}      
 	}
 }

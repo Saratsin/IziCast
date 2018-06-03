@@ -37,10 +37,6 @@ namespace IziCast.Core
             RegisterCustomAppStart<AppStart>();
         }
 
-		public override void Reset()
-		{
-		}
-
 		public override async void Startup(object hint)
 		{
             var launchData = hint as LaunchData;
@@ -50,6 +46,7 @@ namespace IziCast.Core
 
             if (launchData == null || launchData.Mode == LaunchMode.Default)
             {
+				videoSenderService.LoadSendersIcons();
                 await navigationService.Navigate<MainViewModel>().ConfigureAwait(false);
                 return;
             }
@@ -63,7 +60,7 @@ namespace IziCast.Core
 
             if (!overlayPermissionIsEnabled)
                 return;
-			
+   
             await videoSenderService.CurrentPhoneVideoSender.SendVideoAsync(launchData.ContentUrl).ConfigureAwait(false);
             await navigationService.Navigate<ChromecastButtonViewModel, string>(launchData.ContentUrl).ConfigureAwait(false);
 		}

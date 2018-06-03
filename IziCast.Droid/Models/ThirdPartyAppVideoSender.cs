@@ -15,11 +15,11 @@ namespace IziCast.Droid
     {
         public ThirdPartyAppVideoSender(string appId, bool isChromecastSender)
         {
-			VideoSenderAppId = appId;
+			VideoSenderId = appId;
             IsChromecastSender = isChromecastSender;
         }
 
-		public string VideoSenderAppId { get; }
+		public string VideoSenderId { get; }
 
 		public bool IsChromecastSender { get; }
 
@@ -30,7 +30,7 @@ namespace IziCast.Droid
                 var intent = new Intent(Intent.ActionView);
 
 				intent.SetDataAndType(AUri.Parse(videoUrl), "video/*");
-				intent.SetPackage(VideoSenderAppId);
+				intent.SetPackage(VideoSenderId);
 
                 Application.Context.StartActivity(intent);
 

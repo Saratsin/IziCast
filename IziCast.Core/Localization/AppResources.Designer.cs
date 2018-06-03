@@ -71,21 +71,39 @@ namespace IziCast.Core.Localization {
             }
         }
         
-        public static string DataHint {
+        public static string MainViewModel_VideoPlayer {
             get {
-                return ResourceManager.GetString("DataHint", resourceCulture);
+                return ResourceManager.GetString("MainViewModel.VideoPlayer", resourceCulture);
             }
         }
         
-        public static string ViewModels_MainViewModel_DataHint {
+        public static string MainViewModel_ChromecastSender {
             get {
-                return ResourceManager.GetString("ViewModels.MainViewModel.DataHint", resourceCulture);
+                return ResourceManager.GetString("MainViewModel.ChromecastSender", resourceCulture);
             }
         }
         
-        public static string IziCast_Core_ViewModels_MainViewModel_DataHint {
+        public static string MainViewModel_About {
             get {
-                return ResourceManager.GetString("IziCast.Core.ViewModels.MainViewModel.DataHint", resourceCulture);
+                return ResourceManager.GetString("MainViewModel.About", resourceCulture);
+            }
+        }
+        
+        public static string AboutViewModel_Title {
+            get {
+                return ResourceManager.GetString("AboutViewModel.Title", resourceCulture);
+            }
+        }
+        
+        public static string AboutViewModel_VersionFormat {
+            get {
+                return ResourceManager.GetString("AboutViewModel.VersionFormat", resourceCulture);
+            }
+        }
+        
+        public static string AboutViewModel_Description {
+            get {
+                return ResourceManager.GetString("AboutViewModel.Description", resourceCulture);
             }
         }
     }

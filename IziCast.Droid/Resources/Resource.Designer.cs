@@ -26,6 +26,1462 @@ namespace IziCast.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Mehdi.Sakout.AboutPageLib.Resource.Animation.abc_fade_in = global::IziCast.Droid.Resource.Animation.abc_fade_in;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Animation.abc_fade_out = global::IziCast.Droid.Resource.Animation.abc_fade_out;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Animation.abc_grow_fade_in_from_bottom = global::IziCast.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Animation.abc_popup_enter = global::IziCast.Droid.Resource.Animation.abc_popup_enter;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Animation.abc_popup_exit = global::IziCast.Droid.Resource.Animation.abc_popup_exit;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Animation.abc_shrink_fade_out_from_bottom = global::IziCast.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Animation.abc_slide_in_bottom = global::IziCast.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Animation.abc_slide_in_top = global::IziCast.Droid.Resource.Animation.abc_slide_in_top;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Animation.abc_slide_out_bottom = global::IziCast.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Animation.abc_slide_out_top = global::IziCast.Droid.Resource.Animation.abc_slide_out_top;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionBarDivider = global::IziCast.Droid.Resource.Attribute.actionBarDivider;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionBarItemBackground = global::IziCast.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionBarPopupTheme = global::IziCast.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionBarSize = global::IziCast.Droid.Resource.Attribute.actionBarSize;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionBarSplitStyle = global::IziCast.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionBarStyle = global::IziCast.Droid.Resource.Attribute.actionBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionBarTabBarStyle = global::IziCast.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionBarTabStyle = global::IziCast.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionBarTabTextStyle = global::IziCast.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionBarTheme = global::IziCast.Droid.Resource.Attribute.actionBarTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionBarWidgetTheme = global::IziCast.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionButtonStyle = global::IziCast.Droid.Resource.Attribute.actionButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionDropDownStyle = global::IziCast.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionLayout = global::IziCast.Droid.Resource.Attribute.actionLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionMenuTextAppearance = global::IziCast.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionMenuTextColor = global::IziCast.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModeBackground = global::IziCast.Droid.Resource.Attribute.actionModeBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModeCloseButtonStyle = global::IziCast.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModeCloseDrawable = global::IziCast.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModeCopyDrawable = global::IziCast.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModeCutDrawable = global::IziCast.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModeFindDrawable = global::IziCast.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModePasteDrawable = global::IziCast.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModePopupWindowStyle = global::IziCast.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModeSelectAllDrawable = global::IziCast.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModeShareDrawable = global::IziCast.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModeSplitBackground = global::IziCast.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModeStyle = global::IziCast.Droid.Resource.Attribute.actionModeStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionModeWebSearchDrawable = global::IziCast.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionOverflowButtonStyle = global::IziCast.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionOverflowMenuStyle = global::IziCast.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionProviderClass = global::IziCast.Droid.Resource.Attribute.actionProviderClass;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.actionViewClass = global::IziCast.Droid.Resource.Attribute.actionViewClass;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.activityChooserViewStyle = global::IziCast.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.alertDialogButtonGroupStyle = global::IziCast.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.alertDialogCenterButtons = global::IziCast.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.alertDialogStyle = global::IziCast.Droid.Resource.Attribute.alertDialogStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.alertDialogTheme = global::IziCast.Droid.Resource.Attribute.alertDialogTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.allowStacking = global::IziCast.Droid.Resource.Attribute.allowStacking;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.alpha = global::IziCast.Droid.Resource.Attribute.alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.arrowHeadLength = global::IziCast.Droid.Resource.Attribute.arrowHeadLength;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.arrowShaftLength = global::IziCast.Droid.Resource.Attribute.arrowShaftLength;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.autoCompleteTextViewStyle = global::IziCast.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.background = global::IziCast.Droid.Resource.Attribute.background;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.backgroundSplit = global::IziCast.Droid.Resource.Attribute.backgroundSplit;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.backgroundStacked = global::IziCast.Droid.Resource.Attribute.backgroundStacked;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.backgroundTint = global::IziCast.Droid.Resource.Attribute.backgroundTint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.backgroundTintMode = global::IziCast.Droid.Resource.Attribute.backgroundTintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.barLength = global::IziCast.Droid.Resource.Attribute.barLength;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.borderlessButtonStyle = global::IziCast.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.buttonBarButtonStyle = global::IziCast.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.buttonBarNegativeButtonStyle = global::IziCast.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.buttonBarNeutralButtonStyle = global::IziCast.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.buttonBarPositiveButtonStyle = global::IziCast.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.buttonBarStyle = global::IziCast.Droid.Resource.Attribute.buttonBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.buttonGravity = global::IziCast.Droid.Resource.Attribute.buttonGravity;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.buttonPanelSideLayout = global::IziCast.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.buttonStyle = global::IziCast.Droid.Resource.Attribute.buttonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.buttonStyleSmall = global::IziCast.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.buttonTint = global::IziCast.Droid.Resource.Attribute.buttonTint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.buttonTintMode = global::IziCast.Droid.Resource.Attribute.buttonTintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.checkboxStyle = global::IziCast.Droid.Resource.Attribute.checkboxStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.checkedTextViewStyle = global::IziCast.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.closeIcon = global::IziCast.Droid.Resource.Attribute.closeIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.closeItemLayout = global::IziCast.Droid.Resource.Attribute.closeItemLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.collapseContentDescription = global::IziCast.Droid.Resource.Attribute.collapseContentDescription;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.collapseIcon = global::IziCast.Droid.Resource.Attribute.collapseIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.color = global::IziCast.Droid.Resource.Attribute.color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.colorAccent = global::IziCast.Droid.Resource.Attribute.colorAccent;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.colorBackgroundFloating = global::IziCast.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.colorButtonNormal = global::IziCast.Droid.Resource.Attribute.colorButtonNormal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.colorControlActivated = global::IziCast.Droid.Resource.Attribute.colorControlActivated;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.colorControlHighlight = global::IziCast.Droid.Resource.Attribute.colorControlHighlight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.colorControlNormal = global::IziCast.Droid.Resource.Attribute.colorControlNormal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.colorPrimary = global::IziCast.Droid.Resource.Attribute.colorPrimary;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.colorPrimaryDark = global::IziCast.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.colorSwitchThumbNormal = global::IziCast.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.commitIcon = global::IziCast.Droid.Resource.Attribute.commitIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.contentInsetEnd = global::IziCast.Droid.Resource.Attribute.contentInsetEnd;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.contentInsetEndWithActions = global::IziCast.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.contentInsetLeft = global::IziCast.Droid.Resource.Attribute.contentInsetLeft;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.contentInsetRight = global::IziCast.Droid.Resource.Attribute.contentInsetRight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.contentInsetStart = global::IziCast.Droid.Resource.Attribute.contentInsetStart;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.contentInsetStartWithNavigation = global::IziCast.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.controlBackground = global::IziCast.Droid.Resource.Attribute.controlBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.customNavigationLayout = global::IziCast.Droid.Resource.Attribute.customNavigationLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.defaultQueryHint = global::IziCast.Droid.Resource.Attribute.defaultQueryHint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.dialogPreferredPadding = global::IziCast.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.dialogTheme = global::IziCast.Droid.Resource.Attribute.dialogTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.displayOptions = global::IziCast.Droid.Resource.Attribute.displayOptions;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.divider = global::IziCast.Droid.Resource.Attribute.divider;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.dividerHorizontal = global::IziCast.Droid.Resource.Attribute.dividerHorizontal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.dividerPadding = global::IziCast.Droid.Resource.Attribute.dividerPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.dividerVertical = global::IziCast.Droid.Resource.Attribute.dividerVertical;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.drawableSize = global::IziCast.Droid.Resource.Attribute.drawableSize;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.drawerArrowStyle = global::IziCast.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.dropDownListViewStyle = global::IziCast.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.dropdownListPreferredItemHeight = global::IziCast.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.editTextBackground = global::IziCast.Droid.Resource.Attribute.editTextBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.editTextColor = global::IziCast.Droid.Resource.Attribute.editTextColor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.editTextStyle = global::IziCast.Droid.Resource.Attribute.editTextStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.elevation = global::IziCast.Droid.Resource.Attribute.elevation;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.expandActivityOverflowButtonDrawable = global::IziCast.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.gapBetweenBars = global::IziCast.Droid.Resource.Attribute.gapBetweenBars;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.goIcon = global::IziCast.Droid.Resource.Attribute.goIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.height = global::IziCast.Droid.Resource.Attribute.height;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.hideOnContentScroll = global::IziCast.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.homeAsUpIndicator = global::IziCast.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.homeLayout = global::IziCast.Droid.Resource.Attribute.homeLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.icon = global::IziCast.Droid.Resource.Attribute.icon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.iconifiedByDefault = global::IziCast.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.imageButtonStyle = global::IziCast.Droid.Resource.Attribute.imageButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.indeterminateProgressStyle = global::IziCast.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.initialActivityCount = global::IziCast.Droid.Resource.Attribute.initialActivityCount;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.isLightTheme = global::IziCast.Droid.Resource.Attribute.isLightTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.itemPadding = global::IziCast.Droid.Resource.Attribute.itemPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.layout = global::IziCast.Droid.Resource.Attribute.layout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.listChoiceBackgroundIndicator = global::IziCast.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.listDividerAlertDialog = global::IziCast.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.listItemLayout = global::IziCast.Droid.Resource.Attribute.listItemLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.listLayout = global::IziCast.Droid.Resource.Attribute.listLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.listMenuViewStyle = global::IziCast.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.listPopupWindowStyle = global::IziCast.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.listPreferredItemHeight = global::IziCast.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.listPreferredItemHeightLarge = global::IziCast.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.listPreferredItemHeightSmall = global::IziCast.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.listPreferredItemPaddingLeft = global::IziCast.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.listPreferredItemPaddingRight = global::IziCast.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.logo = global::IziCast.Droid.Resource.Attribute.logo;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.logoDescription = global::IziCast.Droid.Resource.Attribute.logoDescription;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.maxButtonHeight = global::IziCast.Droid.Resource.Attribute.maxButtonHeight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.measureWithLargestChild = global::IziCast.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.multiChoiceItemLayout = global::IziCast.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.navigationContentDescription = global::IziCast.Droid.Resource.Attribute.navigationContentDescription;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.navigationIcon = global::IziCast.Droid.Resource.Attribute.navigationIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.navigationMode = global::IziCast.Droid.Resource.Attribute.navigationMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.overlapAnchor = global::IziCast.Droid.Resource.Attribute.overlapAnchor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.paddingBottomNoButtons = global::IziCast.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.paddingEnd = global::IziCast.Droid.Resource.Attribute.paddingEnd;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.paddingStart = global::IziCast.Droid.Resource.Attribute.paddingStart;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.paddingTopNoTitle = global::IziCast.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.panelBackground = global::IziCast.Droid.Resource.Attribute.panelBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.panelMenuListTheme = global::IziCast.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.panelMenuListWidth = global::IziCast.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.popupMenuStyle = global::IziCast.Droid.Resource.Attribute.popupMenuStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.popupTheme = global::IziCast.Droid.Resource.Attribute.popupTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.popupWindowStyle = global::IziCast.Droid.Resource.Attribute.popupWindowStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.preserveIconSpacing = global::IziCast.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.progressBarPadding = global::IziCast.Droid.Resource.Attribute.progressBarPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.progressBarStyle = global::IziCast.Droid.Resource.Attribute.progressBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.queryBackground = global::IziCast.Droid.Resource.Attribute.queryBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.queryHint = global::IziCast.Droid.Resource.Attribute.queryHint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.radioButtonStyle = global::IziCast.Droid.Resource.Attribute.radioButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.ratingBarStyle = global::IziCast.Droid.Resource.Attribute.ratingBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.ratingBarStyleIndicator = global::IziCast.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.ratingBarStyleSmall = global::IziCast.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.searchHintIcon = global::IziCast.Droid.Resource.Attribute.searchHintIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.searchIcon = global::IziCast.Droid.Resource.Attribute.searchIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.searchViewStyle = global::IziCast.Droid.Resource.Attribute.searchViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.seekBarStyle = global::IziCast.Droid.Resource.Attribute.seekBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.selectableItemBackground = global::IziCast.Droid.Resource.Attribute.selectableItemBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.selectableItemBackgroundBorderless = global::IziCast.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.showAsAction = global::IziCast.Droid.Resource.Attribute.showAsAction;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.showDividers = global::IziCast.Droid.Resource.Attribute.showDividers;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.showText = global::IziCast.Droid.Resource.Attribute.showText;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.showTitle = global::IziCast.Droid.Resource.Attribute.showTitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.singleChoiceItemLayout = global::IziCast.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.spinBars = global::IziCast.Droid.Resource.Attribute.spinBars;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.spinnerDropDownItemStyle = global::IziCast.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.spinnerStyle = global::IziCast.Droid.Resource.Attribute.spinnerStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.splitTrack = global::IziCast.Droid.Resource.Attribute.splitTrack;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.srcCompat = global::IziCast.Droid.Resource.Attribute.srcCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.state_above_anchor = global::IziCast.Droid.Resource.Attribute.state_above_anchor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.subMenuArrow = global::IziCast.Droid.Resource.Attribute.subMenuArrow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.submitBackground = global::IziCast.Droid.Resource.Attribute.submitBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.subtitle = global::IziCast.Droid.Resource.Attribute.subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.subtitleTextAppearance = global::IziCast.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.subtitleTextColor = global::IziCast.Droid.Resource.Attribute.subtitleTextColor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.subtitleTextStyle = global::IziCast.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.suggestionRowLayout = global::IziCast.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.switchMinWidth = global::IziCast.Droid.Resource.Attribute.switchMinWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.switchPadding = global::IziCast.Droid.Resource.Attribute.switchPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.switchStyle = global::IziCast.Droid.Resource.Attribute.switchStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.switchTextAppearance = global::IziCast.Droid.Resource.Attribute.switchTextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.textAllCaps = global::IziCast.Droid.Resource.Attribute.textAllCaps;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.textAppearanceLargePopupMenu = global::IziCast.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.textAppearanceListItem = global::IziCast.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.textAppearanceListItemSecondary = global::IziCast.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.textAppearanceListItemSmall = global::IziCast.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.textAppearancePopupMenuHeader = global::IziCast.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.textAppearanceSearchResultSubtitle = global::IziCast.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.textAppearanceSearchResultTitle = global::IziCast.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.textAppearanceSmallPopupMenu = global::IziCast.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.textColorAlertDialogListItem = global::IziCast.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.textColorSearchUrl = global::IziCast.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.theme = global::IziCast.Droid.Resource.Attribute.theme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.thickness = global::IziCast.Droid.Resource.Attribute.thickness;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.thumbTextPadding = global::IziCast.Droid.Resource.Attribute.thumbTextPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.thumbTint = global::IziCast.Droid.Resource.Attribute.thumbTint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.thumbTintMode = global::IziCast.Droid.Resource.Attribute.thumbTintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.tickMark = global::IziCast.Droid.Resource.Attribute.tickMark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.tickMarkTint = global::IziCast.Droid.Resource.Attribute.tickMarkTint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.tickMarkTintMode = global::IziCast.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.tint = global::IziCast.Droid.Resource.Attribute.tint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.tintMode = global::IziCast.Droid.Resource.Attribute.tintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.title = global::IziCast.Droid.Resource.Attribute.title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.titleMargin = global::IziCast.Droid.Resource.Attribute.titleMargin;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.titleMarginBottom = global::IziCast.Droid.Resource.Attribute.titleMarginBottom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.titleMarginEnd = global::IziCast.Droid.Resource.Attribute.titleMarginEnd;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.titleMarginStart = global::IziCast.Droid.Resource.Attribute.titleMarginStart;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.titleMarginTop = global::IziCast.Droid.Resource.Attribute.titleMarginTop;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.titleMargins = global::IziCast.Droid.Resource.Attribute.titleMargins;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.titleTextAppearance = global::IziCast.Droid.Resource.Attribute.titleTextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.titleTextColor = global::IziCast.Droid.Resource.Attribute.titleTextColor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.titleTextStyle = global::IziCast.Droid.Resource.Attribute.titleTextStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.toolbarNavigationButtonStyle = global::IziCast.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.toolbarStyle = global::IziCast.Droid.Resource.Attribute.toolbarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.track = global::IziCast.Droid.Resource.Attribute.track;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.trackTint = global::IziCast.Droid.Resource.Attribute.trackTint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.trackTintMode = global::IziCast.Droid.Resource.Attribute.trackTintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.voiceIcon = global::IziCast.Droid.Resource.Attribute.voiceIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.windowActionBar = global::IziCast.Droid.Resource.Attribute.windowActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.windowActionBarOverlay = global::IziCast.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.windowActionModeOverlay = global::IziCast.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.windowFixedHeightMajor = global::IziCast.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.windowFixedHeightMinor = global::IziCast.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.windowFixedWidthMajor = global::IziCast.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.windowFixedWidthMinor = global::IziCast.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.windowMinWidthMajor = global::IziCast.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.windowMinWidthMinor = global::IziCast.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Attribute.windowNoTitle = global::IziCast.Droid.Resource.Attribute.windowNoTitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Boolean.abc_action_bar_embed_tabs = global::IziCast.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Boolean.abc_allow_stacked_button_bar = global::IziCast.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::IziCast.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::IziCast.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::IziCast.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_background_cache_hint_selector_material_dark = global::IziCast.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_background_cache_hint_selector_material_light = global::IziCast.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_btn_colored_borderless_text_material = global::IziCast.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_btn_colored_text_material = global::IziCast.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_color_highlight_material = global::IziCast.Droid.Resource.Color.abc_color_highlight_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_hint_foreground_material_dark = global::IziCast.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_hint_foreground_material_light = global::IziCast.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_input_method_navigation_guard = global::IziCast.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_primary_text_disable_only_material_dark = global::IziCast.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_primary_text_disable_only_material_light = global::IziCast.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_primary_text_material_dark = global::IziCast.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_primary_text_material_light = global::IziCast.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_search_url_text = global::IziCast.Droid.Resource.Color.abc_search_url_text;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_search_url_text_normal = global::IziCast.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_search_url_text_pressed = global::IziCast.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_search_url_text_selected = global::IziCast.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_secondary_text_material_dark = global::IziCast.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_secondary_text_material_light = global::IziCast.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_tint_btn_checkable = global::IziCast.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_tint_default = global::IziCast.Droid.Resource.Color.abc_tint_default;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_tint_edittext = global::IziCast.Droid.Resource.Color.abc_tint_edittext;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_tint_seek_thumb = global::IziCast.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_tint_spinner = global::IziCast.Droid.Resource.Color.abc_tint_spinner;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.abc_tint_switch_track = global::IziCast.Droid.Resource.Color.abc_tint_switch_track;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_background_color = global::IziCast.Droid.Resource.Color.about_background_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_description_text_color = global::IziCast.Droid.Resource.Color.about_description_text_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_facebook_color = global::IziCast.Droid.Resource.Color.about_facebook_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_github_color = global::IziCast.Droid.Resource.Color.about_github_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_instagram_color = global::IziCast.Droid.Resource.Color.about_instagram_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_item_icon_color = global::IziCast.Droid.Resource.Color.about_item_icon_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_item_text_color = global::IziCast.Droid.Resource.Color.about_item_text_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_play_store_color = global::IziCast.Droid.Resource.Color.about_play_store_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_separator_color = global::IziCast.Droid.Resource.Color.about_separator_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_text_color = global::IziCast.Droid.Resource.Color.about_text_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_twitter_color = global::IziCast.Droid.Resource.Color.about_twitter_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.about_youtube_color = global::IziCast.Droid.Resource.Color.about_youtube_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.accent_material_dark = global::IziCast.Droid.Resource.Color.accent_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.accent_material_light = global::IziCast.Droid.Resource.Color.accent_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.background_floating_material_dark = global::IziCast.Droid.Resource.Color.background_floating_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.background_floating_material_light = global::IziCast.Droid.Resource.Color.background_floating_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.background_material_dark = global::IziCast.Droid.Resource.Color.background_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.background_material_light = global::IziCast.Droid.Resource.Color.background_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.bright_foreground_disabled_material_dark = global::IziCast.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.bright_foreground_disabled_material_light = global::IziCast.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.bright_foreground_inverse_material_dark = global::IziCast.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.bright_foreground_inverse_material_light = global::IziCast.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.bright_foreground_material_dark = global::IziCast.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.bright_foreground_material_light = global::IziCast.Droid.Resource.Color.bright_foreground_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.button_material_dark = global::IziCast.Droid.Resource.Color.button_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.button_material_light = global::IziCast.Droid.Resource.Color.button_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.dim_foreground_disabled_material_dark = global::IziCast.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.dim_foreground_disabled_material_light = global::IziCast.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.dim_foreground_material_dark = global::IziCast.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.dim_foreground_material_light = global::IziCast.Droid.Resource.Color.dim_foreground_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.foreground_material_dark = global::IziCast.Droid.Resource.Color.foreground_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.foreground_material_light = global::IziCast.Droid.Resource.Color.foreground_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.highlighted_text_material_dark = global::IziCast.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.highlighted_text_material_light = global::IziCast.Droid.Resource.Color.highlighted_text_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_blue_grey_800 = global::IziCast.Droid.Resource.Color.material_blue_grey_800;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_blue_grey_900 = global::IziCast.Droid.Resource.Color.material_blue_grey_900;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_blue_grey_950 = global::IziCast.Droid.Resource.Color.material_blue_grey_950;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_deep_teal_200 = global::IziCast.Droid.Resource.Color.material_deep_teal_200;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_deep_teal_500 = global::IziCast.Droid.Resource.Color.material_deep_teal_500;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_grey_100 = global::IziCast.Droid.Resource.Color.material_grey_100;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_grey_300 = global::IziCast.Droid.Resource.Color.material_grey_300;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_grey_50 = global::IziCast.Droid.Resource.Color.material_grey_50;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_grey_600 = global::IziCast.Droid.Resource.Color.material_grey_600;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_grey_800 = global::IziCast.Droid.Resource.Color.material_grey_800;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_grey_850 = global::IziCast.Droid.Resource.Color.material_grey_850;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.material_grey_900 = global::IziCast.Droid.Resource.Color.material_grey_900;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.notification_action_color_filter = global::IziCast.Droid.Resource.Color.notification_action_color_filter;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.notification_icon_bg_color = global::IziCast.Droid.Resource.Color.notification_icon_bg_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.notification_material_background_media_default_color = global::IziCast.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.primary_dark_material_dark = global::IziCast.Droid.Resource.Color.primary_dark_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.primary_dark_material_light = global::IziCast.Droid.Resource.Color.primary_dark_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.primary_material_dark = global::IziCast.Droid.Resource.Color.primary_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.primary_material_light = global::IziCast.Droid.Resource.Color.primary_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.primary_text_default_material_dark = global::IziCast.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.primary_text_default_material_light = global::IziCast.Droid.Resource.Color.primary_text_default_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.primary_text_disabled_material_dark = global::IziCast.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.primary_text_disabled_material_light = global::IziCast.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.ripple_material_dark = global::IziCast.Droid.Resource.Color.ripple_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.ripple_material_light = global::IziCast.Droid.Resource.Color.ripple_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.secondary_text_default_material_dark = global::IziCast.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.secondary_text_default_material_light = global::IziCast.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.secondary_text_disabled_material_dark = global::IziCast.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.secondary_text_disabled_material_light = global::IziCast.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.switch_thumb_disabled_material_dark = global::IziCast.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.switch_thumb_disabled_material_light = global::IziCast.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.switch_thumb_material_dark = global::IziCast.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.switch_thumb_material_light = global::IziCast.Droid.Resource.Color.switch_thumb_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.switch_thumb_normal_material_dark = global::IziCast.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Color.switch_thumb_normal_material_light = global::IziCast.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_content_inset_material = global::IziCast.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::IziCast.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_default_height_material = global::IziCast.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_default_padding_end_material = global::IziCast.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_default_padding_start_material = global::IziCast.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_elevation_material = global::IziCast.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::IziCast.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::IziCast.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::IziCast.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_progress_bar_size = global::IziCast.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_stacked_max_height = global::IziCast.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::IziCast.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::IziCast.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::IziCast.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_button_min_height_material = global::IziCast.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_button_min_width_material = global::IziCast.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_action_button_min_width_overflow_material = global::IziCast.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_alert_dialog_button_bar_height = global::IziCast.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_button_inset_horizontal_material = global::IziCast.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_button_inset_vertical_material = global::IziCast.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_button_padding_horizontal_material = global::IziCast.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_button_padding_vertical_material = global::IziCast.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::IziCast.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_config_prefDialogWidth = global::IziCast.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_control_corner_material = global::IziCast.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_control_inset_material = global::IziCast.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_control_padding_material = global::IziCast.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dialog_fixed_height_major = global::IziCast.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dialog_fixed_height_minor = global::IziCast.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dialog_fixed_width_major = global::IziCast.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dialog_fixed_width_minor = global::IziCast.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::IziCast.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::IziCast.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dialog_min_width_major = global::IziCast.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dialog_min_width_minor = global::IziCast.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dialog_padding_material = global::IziCast.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dialog_padding_top_material = global::IziCast.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dialog_title_divider_material = global::IziCast.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_disabled_alpha_material_dark = global::IziCast.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_disabled_alpha_material_light = global::IziCast.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dropdownitem_icon_width = global::IziCast.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dropdownitem_text_padding_left = global::IziCast.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_dropdownitem_text_padding_right = global::IziCast.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_edit_text_inset_bottom_material = global::IziCast.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::IziCast.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_edit_text_inset_top_material = global::IziCast.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_floating_window_z = global::IziCast.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_list_item_padding_horizontal_material = global::IziCast.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_panel_menu_list_width = global::IziCast.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_progress_bar_height_material = global::IziCast.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_search_view_preferred_height = global::IziCast.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_search_view_preferred_width = global::IziCast.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_seekbar_track_background_height_material = global::IziCast.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_seekbar_track_progress_height_material = global::IziCast.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_select_dialog_padding_start_material = global::IziCast.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_switch_padding = global::IziCast.Droid.Resource.Dimension.abc_switch_padding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_body_1_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_body_2_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_button_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_caption_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_display_1_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_display_2_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_display_3_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_display_4_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_headline_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_large_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_medium_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_menu_header_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_menu_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_small_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_subhead_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::IziCast.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_title_material = global::IziCast.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.abc_text_size_title_material_toolbar = global::IziCast.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.about_description_text_size = global::IziCast.Droid.Resource.Dimension.about_description_text_size;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.about_group_item_text_size = global::IziCast.Droid.Resource.Dimension.about_group_item_text_size;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.about_group_text_padding = global::IziCast.Droid.Resource.Dimension.about_group_text_padding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.about_icon_padding = global::IziCast.Droid.Resource.Dimension.about_icon_padding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.about_icon_size = global::IziCast.Droid.Resource.Dimension.about_icon_size;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.about_item_text_size = global::IziCast.Droid.Resource.Dimension.about_item_text_size;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.about_separator_height = global::IziCast.Droid.Resource.Dimension.about_separator_height;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.about_text_padding = global::IziCast.Droid.Resource.Dimension.about_text_padding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.disabled_alpha_material_dark = global::IziCast.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.disabled_alpha_material_light = global::IziCast.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.highlight_alpha_material_colored = global::IziCast.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.highlight_alpha_material_dark = global::IziCast.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.highlight_alpha_material_light = global::IziCast.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.hint_alpha_material_dark = global::IziCast.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.hint_alpha_material_light = global::IziCast.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.hint_pressed_alpha_material_dark = global::IziCast.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.hint_pressed_alpha_material_light = global::IziCast.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_action_icon_size = global::IziCast.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_action_text_size = global::IziCast.Droid.Resource.Dimension.notification_action_text_size;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_big_circle_margin = global::IziCast.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_content_margin_start = global::IziCast.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_large_icon_height = global::IziCast.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_large_icon_width = global::IziCast.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_main_column_padding_top = global::IziCast.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_media_narrow_margin = global::IziCast.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_right_icon_size = global::IziCast.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_right_side_padding_top = global::IziCast.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_small_icon_background_padding = global::IziCast.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_small_icon_size_as_large = global::IziCast.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_subtext_size = global::IziCast.Droid.Resource.Dimension.notification_subtext_size;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_top_pad = global::IziCast.Droid.Resource.Dimension.notification_top_pad;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Dimension.notification_top_pad_large_text = global::IziCast.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_action_bar_item_background_material = global::IziCast.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_btn_borderless_material = global::IziCast.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_btn_check_material = global::IziCast.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::IziCast.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::IziCast.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_btn_colored_material = global::IziCast.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_btn_default_mtrl_shape = global::IziCast.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_btn_radio_material = global::IziCast.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::IziCast.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::IziCast.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::IziCast.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::IziCast.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_cab_background_internal_bg = global::IziCast.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_cab_background_top_material = global::IziCast.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_control_background_material = global::IziCast.Droid.Resource.Drawable.abc_control_background_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_dialog_material_background = global::IziCast.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_edit_text_material = global::IziCast.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_ab_back_material = global::IziCast.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::IziCast.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_clear_material = global::IziCast.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_go_search_api_material = global::IziCast.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::IziCast.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_menu_overflow_material = global::IziCast.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::IziCast.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_search_api_material = global::IziCast.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_star_black_16dp = global::IziCast.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_star_black_36dp = global::IziCast.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_star_black_48dp = global::IziCast.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_star_half_black_16dp = global::IziCast.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_star_half_black_36dp = global::IziCast.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_star_half_black_48dp = global::IziCast.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ic_voice_search_api_material = global::IziCast.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_item_background_holo_dark = global::IziCast.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_item_background_holo_light = global::IziCast.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_list_divider_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_list_focused_holo = global::IziCast.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_list_longpressed_holo = global::IziCast.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_list_pressed_holo_dark = global::IziCast.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_list_pressed_holo_light = global::IziCast.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::IziCast.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::IziCast.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::IziCast.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_list_selector_disabled_holo_light = global::IziCast.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_list_selector_holo_dark = global::IziCast.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_list_selector_holo_light = global::IziCast.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::IziCast.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_popup_background_mtrl_mult = global::IziCast.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ratingbar_indicator_material = global::IziCast.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ratingbar_material = global::IziCast.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_ratingbar_small_material = global::IziCast.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::IziCast.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::IziCast.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_seekbar_thumb_material = global::IziCast.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_seekbar_tick_mark_material = global::IziCast.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_seekbar_track_material = global::IziCast.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::IziCast.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_spinner_textfield_background_material = global::IziCast.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_switch_thumb_material = global::IziCast.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_switch_track_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_tab_indicator_material = global::IziCast.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_text_cursor_material = global::IziCast.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::IziCast.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::IziCast.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::IziCast.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::IziCast.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::IziCast.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::IziCast.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::IziCast.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_textfield_search_material = global::IziCast.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.abc_vector_test = global::IziCast.Droid.Resource.Drawable.abc_vector_test;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.about_icon_email = global::IziCast.Droid.Resource.Drawable.about_icon_email;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.about_icon_facebook = global::IziCast.Droid.Resource.Drawable.about_icon_facebook;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.about_icon_github = global::IziCast.Droid.Resource.Drawable.about_icon_github;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.about_icon_google_play = global::IziCast.Droid.Resource.Drawable.about_icon_google_play;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.about_icon_instagram = global::IziCast.Droid.Resource.Drawable.about_icon_instagram;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.about_icon_link = global::IziCast.Droid.Resource.Drawable.about_icon_link;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.about_icon_twitter = global::IziCast.Droid.Resource.Drawable.about_icon_twitter;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.about_icon_youtube = global::IziCast.Droid.Resource.Drawable.about_icon_youtube;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notification_action_background = global::IziCast.Droid.Resource.Drawable.notification_action_background;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notification_bg = global::IziCast.Droid.Resource.Drawable.notification_bg;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notification_bg_low = global::IziCast.Droid.Resource.Drawable.notification_bg_low;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notification_bg_low_normal = global::IziCast.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notification_bg_low_pressed = global::IziCast.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notification_bg_normal = global::IziCast.Droid.Resource.Drawable.notification_bg_normal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notification_bg_normal_pressed = global::IziCast.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notification_icon_background = global::IziCast.Droid.Resource.Drawable.notification_icon_background;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notification_template_icon_bg = global::IziCast.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notification_template_icon_low_bg = global::IziCast.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notification_tile_bg = global::IziCast.Droid.Resource.Drawable.notification_tile_bg;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Drawable.notify_panel_notification_icon_bg = global::IziCast.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.about_providers = global::IziCast.Droid.Resource.Id.about_providers;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action0 = global::IziCast.Droid.Resource.Id.action0;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_bar = global::IziCast.Droid.Resource.Id.action_bar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_bar_activity_content = global::IziCast.Droid.Resource.Id.action_bar_activity_content;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_bar_container = global::IziCast.Droid.Resource.Id.action_bar_container;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_bar_root = global::IziCast.Droid.Resource.Id.action_bar_root;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_bar_spinner = global::IziCast.Droid.Resource.Id.action_bar_spinner;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_bar_subtitle = global::IziCast.Droid.Resource.Id.action_bar_subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_bar_title = global::IziCast.Droid.Resource.Id.action_bar_title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_container = global::IziCast.Droid.Resource.Id.action_container;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_context_bar = global::IziCast.Droid.Resource.Id.action_context_bar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_divider = global::IziCast.Droid.Resource.Id.action_divider;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_image = global::IziCast.Droid.Resource.Id.action_image;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_menu_divider = global::IziCast.Droid.Resource.Id.action_menu_divider;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_menu_presenter = global::IziCast.Droid.Resource.Id.action_menu_presenter;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_mode_bar = global::IziCast.Droid.Resource.Id.action_mode_bar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_mode_bar_stub = global::IziCast.Droid.Resource.Id.action_mode_bar_stub;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_mode_close_button = global::IziCast.Droid.Resource.Id.action_mode_close_button;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.action_text = global::IziCast.Droid.Resource.Id.action_text;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.actions = global::IziCast.Droid.Resource.Id.actions;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.activity_chooser_view_content = global::IziCast.Droid.Resource.Id.activity_chooser_view_content;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.add = global::IziCast.Droid.Resource.Id.add;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.alertTitle = global::IziCast.Droid.Resource.Id.alertTitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.always = global::IziCast.Droid.Resource.Id.always;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.beginning = global::IziCast.Droid.Resource.Id.beginning;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.bottom = global::IziCast.Droid.Resource.Id.bottom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.buttonPanel = global::IziCast.Droid.Resource.Id.buttonPanel;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.cancel_action = global::IziCast.Droid.Resource.Id.cancel_action;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.checkbox = global::IziCast.Droid.Resource.Id.checkbox;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.chronometer = global::IziCast.Droid.Resource.Id.chronometer;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.collapseActionView = global::IziCast.Droid.Resource.Id.collapseActionView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.contentPanel = global::IziCast.Droid.Resource.Id.contentPanel;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.custom = global::IziCast.Droid.Resource.Id.custom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.customPanel = global::IziCast.Droid.Resource.Id.customPanel;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.decor_content_parent = global::IziCast.Droid.Resource.Id.decor_content_parent;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.default_activity_button = global::IziCast.Droid.Resource.Id.default_activity_button;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.description = global::IziCast.Droid.Resource.Id.description;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.disableHome = global::IziCast.Droid.Resource.Id.disableHome;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.edit_query = global::IziCast.Droid.Resource.Id.edit_query;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.end = global::IziCast.Droid.Resource.Id.end;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.end_padder = global::IziCast.Droid.Resource.Id.end_padder;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.expand_activities_button = global::IziCast.Droid.Resource.Id.expand_activities_button;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.expanded_menu = global::IziCast.Droid.Resource.Id.expanded_menu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.home = global::IziCast.Droid.Resource.Id.home;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.homeAsUp = global::IziCast.Droid.Resource.Id.homeAsUp;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.icon = global::IziCast.Droid.Resource.Id.icon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.icon_group = global::IziCast.Droid.Resource.Id.icon_group;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.ifRoom = global::IziCast.Droid.Resource.Id.ifRoom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.image = global::IziCast.Droid.Resource.Id.image;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.info = global::IziCast.Droid.Resource.Id.info;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.line1 = global::IziCast.Droid.Resource.Id.line1;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.line3 = global::IziCast.Droid.Resource.Id.line3;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.listMode = global::IziCast.Droid.Resource.Id.listMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.list_item = global::IziCast.Droid.Resource.Id.list_item;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.media_actions = global::IziCast.Droid.Resource.Id.media_actions;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.middle = global::IziCast.Droid.Resource.Id.middle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.multiply = global::IziCast.Droid.Resource.Id.multiply;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.never = global::IziCast.Droid.Resource.Id.never;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.none = global::IziCast.Droid.Resource.Id.none;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.normal = global::IziCast.Droid.Resource.Id.normal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.notification_background = global::IziCast.Droid.Resource.Id.notification_background;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.notification_main_column = global::IziCast.Droid.Resource.Id.notification_main_column;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.notification_main_column_container = global::IziCast.Droid.Resource.Id.notification_main_column_container;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.parentPanel = global::IziCast.Droid.Resource.Id.parentPanel;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.progress_circular = global::IziCast.Droid.Resource.Id.progress_circular;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.progress_horizontal = global::IziCast.Droid.Resource.Id.progress_horizontal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.radio = global::IziCast.Droid.Resource.Id.radio;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.right_icon = global::IziCast.Droid.Resource.Id.right_icon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.right_side = global::IziCast.Droid.Resource.Id.right_side;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.screen = global::IziCast.Droid.Resource.Id.screen;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.scrollIndicatorDown = global::IziCast.Droid.Resource.Id.scrollIndicatorDown;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.scrollIndicatorUp = global::IziCast.Droid.Resource.Id.scrollIndicatorUp;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.scrollView = global::IziCast.Droid.Resource.Id.scrollView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.search_badge = global::IziCast.Droid.Resource.Id.search_badge;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.search_bar = global::IziCast.Droid.Resource.Id.search_bar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.search_button = global::IziCast.Droid.Resource.Id.search_button;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.search_close_btn = global::IziCast.Droid.Resource.Id.search_close_btn;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.search_edit_frame = global::IziCast.Droid.Resource.Id.search_edit_frame;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.search_go_btn = global::IziCast.Droid.Resource.Id.search_go_btn;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.search_mag_icon = global::IziCast.Droid.Resource.Id.search_mag_icon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.search_plate = global::IziCast.Droid.Resource.Id.search_plate;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.search_src_text = global::IziCast.Droid.Resource.Id.search_src_text;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.search_voice_btn = global::IziCast.Droid.Resource.Id.search_voice_btn;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.select_dialog_listview = global::IziCast.Droid.Resource.Id.select_dialog_listview;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.shortcut = global::IziCast.Droid.Resource.Id.shortcut;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.showCustom = global::IziCast.Droid.Resource.Id.showCustom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.showHome = global::IziCast.Droid.Resource.Id.showHome;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.showTitle = global::IziCast.Droid.Resource.Id.showTitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.spacer = global::IziCast.Droid.Resource.Id.spacer;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.split_action_bar = global::IziCast.Droid.Resource.Id.split_action_bar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.src_atop = global::IziCast.Droid.Resource.Id.src_atop;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.src_in = global::IziCast.Droid.Resource.Id.src_in;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.src_over = global::IziCast.Droid.Resource.Id.src_over;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.status_bar_latest_event_content = global::IziCast.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.submenuarrow = global::IziCast.Droid.Resource.Id.submenuarrow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.submit_area = global::IziCast.Droid.Resource.Id.submit_area;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.tabMode = global::IziCast.Droid.Resource.Id.tabMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.text = global::IziCast.Droid.Resource.Id.text;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.text2 = global::IziCast.Droid.Resource.Id.text2;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.textSpacerNoButtons = global::IziCast.Droid.Resource.Id.textSpacerNoButtons;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.textSpacerNoTitle = global::IziCast.Droid.Resource.Id.textSpacerNoTitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.time = global::IziCast.Droid.Resource.Id.time;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.title = global::IziCast.Droid.Resource.Id.title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.titleDividerNoCustom = global::IziCast.Droid.Resource.Id.titleDividerNoCustom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.title_template = global::IziCast.Droid.Resource.Id.title_template;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.top = global::IziCast.Droid.Resource.Id.top;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.topPanel = global::IziCast.Droid.Resource.Id.topPanel;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.up = global::IziCast.Droid.Resource.Id.up;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.useLogo = global::IziCast.Droid.Resource.Id.useLogo;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.withText = global::IziCast.Droid.Resource.Id.withText;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Id.wrap_content = global::IziCast.Droid.Resource.Id.wrap_content;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Integer.abc_config_activityDefaultDur = global::IziCast.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Integer.abc_config_activityShortDur = global::IziCast.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Integer.cancel_button_image_alpha = global::IziCast.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Integer.status_bar_notification_info_maxnum = global::IziCast.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_action_bar_title_item = global::IziCast.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_action_bar_up_container = global::IziCast.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_action_menu_item_layout = global::IziCast.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_action_menu_layout = global::IziCast.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_action_mode_bar = global::IziCast.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_action_mode_close_item_material = global::IziCast.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_activity_chooser_view = global::IziCast.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_activity_chooser_view_list_item = global::IziCast.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_alert_dialog_button_bar_material = global::IziCast.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_alert_dialog_material = global::IziCast.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_alert_dialog_title_material = global::IziCast.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_dialog_title_material = global::IziCast.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_expanded_menu_layout = global::IziCast.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_list_menu_item_checkbox = global::IziCast.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_list_menu_item_icon = global::IziCast.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_list_menu_item_layout = global::IziCast.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_list_menu_item_radio = global::IziCast.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_popup_menu_header_item_layout = global::IziCast.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_popup_menu_item_layout = global::IziCast.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_screen_content_include = global::IziCast.Droid.Resource.Layout.abc_screen_content_include;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_screen_simple = global::IziCast.Droid.Resource.Layout.abc_screen_simple;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_screen_simple_overlay_action_mode = global::IziCast.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_screen_toolbar = global::IziCast.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_search_dropdown_item_icons_2line = global::IziCast.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_search_view = global::IziCast.Droid.Resource.Layout.abc_search_view;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.abc_select_dialog_material = global::IziCast.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.about_page = global::IziCast.Droid.Resource.Layout.about_page;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.about_page_separator = global::IziCast.Droid.Resource.Layout.about_page_separator;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_action = global::IziCast.Droid.Resource.Layout.notification_action;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_action_tombstone = global::IziCast.Droid.Resource.Layout.notification_action_tombstone;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_media_action = global::IziCast.Droid.Resource.Layout.notification_media_action;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_media_cancel_action = global::IziCast.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_template_big_media = global::IziCast.Droid.Resource.Layout.notification_template_big_media;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_template_big_media_custom = global::IziCast.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_template_big_media_narrow = global::IziCast.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_template_big_media_narrow_custom = global::IziCast.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_template_custom_big = global::IziCast.Droid.Resource.Layout.notification_template_custom_big;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_template_icon_group = global::IziCast.Droid.Resource.Layout.notification_template_icon_group;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_template_lines_media = global::IziCast.Droid.Resource.Layout.notification_template_lines_media;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_template_media = global::IziCast.Droid.Resource.Layout.notification_template_media;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_template_media_custom = global::IziCast.Droid.Resource.Layout.notification_template_media_custom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_template_part_chronometer = global::IziCast.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.notification_template_part_time = global::IziCast.Droid.Resource.Layout.notification_template_part_time;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.select_dialog_item_material = global::IziCast.Droid.Resource.Layout.select_dialog_item_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.select_dialog_multichoice_material = global::IziCast.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.select_dialog_singlechoice_material = global::IziCast.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Layout.support_simple_spinner_dropdown_item = global::IziCast.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_action_bar_home_description = global::IziCast.Droid.Resource.String.abc_action_bar_home_description;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_action_bar_up_description = global::IziCast.Droid.Resource.String.abc_action_bar_up_description;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_action_menu_overflow_description = global::IziCast.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_action_mode_done = global::IziCast.Droid.Resource.String.abc_action_mode_done;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_activity_chooser_view_see_all = global::IziCast.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_activitychooserview_choose_application = global::IziCast.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_capital_off = global::IziCast.Droid.Resource.String.abc_capital_off;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_capital_on = global::IziCast.Droid.Resource.String.abc_capital_on;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_body_1_material = global::IziCast.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_body_2_material = global::IziCast.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_button_material = global::IziCast.Droid.Resource.String.abc_font_family_button_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_caption_material = global::IziCast.Droid.Resource.String.abc_font_family_caption_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_display_1_material = global::IziCast.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_display_2_material = global::IziCast.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_display_3_material = global::IziCast.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_display_4_material = global::IziCast.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_headline_material = global::IziCast.Droid.Resource.String.abc_font_family_headline_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_menu_material = global::IziCast.Droid.Resource.String.abc_font_family_menu_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_subhead_material = global::IziCast.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_font_family_title_material = global::IziCast.Droid.Resource.String.abc_font_family_title_material;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_search_hint = global::IziCast.Droid.Resource.String.abc_search_hint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_searchview_description_clear = global::IziCast.Droid.Resource.String.abc_searchview_description_clear;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_searchview_description_query = global::IziCast.Droid.Resource.String.abc_searchview_description_query;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_searchview_description_search = global::IziCast.Droid.Resource.String.abc_searchview_description_search;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_searchview_description_submit = global::IziCast.Droid.Resource.String.abc_searchview_description_submit;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_searchview_description_voice = global::IziCast.Droid.Resource.String.abc_searchview_description_voice;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_shareactionprovider_share_with = global::IziCast.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_shareactionprovider_share_with_application = global::IziCast.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.abc_toolbar_collapse_description = global::IziCast.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.about_contact_us = global::IziCast.Droid.Resource.String.about_contact_us;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.about_facebook = global::IziCast.Droid.Resource.String.about_facebook;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.about_github = global::IziCast.Droid.Resource.String.about_github;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.about_instagram = global::IziCast.Droid.Resource.String.about_instagram;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.about_page_description = global::IziCast.Droid.Resource.String.about_page_description;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.about_play_store = global::IziCast.Droid.Resource.String.about_play_store;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.about_twitter = global::IziCast.Droid.Resource.String.about_twitter;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.about_website = global::IziCast.Droid.Resource.String.about_website;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.about_youtube = global::IziCast.Droid.Resource.String.about_youtube;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.search_menu_title = global::IziCast.Droid.Resource.String.search_menu_title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.String.status_bar_notification_info_overflow = global::IziCast.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.AlertDialog_AppCompat = global::IziCast.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.AlertDialog_AppCompat_Light = global::IziCast.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Animation_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Animation_AppCompat_DropDownUp = global::IziCast.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_AlertDialog_AppCompat = global::IziCast.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_AlertDialog_AppCompat_Light = global::IziCast.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Animation_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::IziCast.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_DialogWindowTitle_AppCompat = global::IziCast.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::IziCast.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Button = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Large = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Small = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Title = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::IziCast.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::IziCast.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::IziCast.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::IziCast.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_Light = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::IziCast.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_ThemeOverlay_AppCompat = global::IziCast.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::IziCast.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::IziCast.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::IziCast.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::IziCast.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::IziCast.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::IziCast.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::IziCast.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::IziCast.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V21_Theme_AppCompat = global::IziCast.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V21_Theme_AppCompat_Light = global::IziCast.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::IziCast.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V22_Theme_AppCompat = global::IziCast.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V22_Theme_AppCompat_Light = global::IziCast.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V23_Theme_AppCompat = global::IziCast.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V23_Theme_AppCompat_Light = global::IziCast.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V7_Theme_AppCompat = global::IziCast.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V7_Theme_AppCompat_Light = global::IziCast.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::IziCast.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::IziCast.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::IziCast.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ActionBar = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ActionButton = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ActionMode = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Button = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Button_Small = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_EditText = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ImageButton = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ListView = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_RatingBar = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_SearchView = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_SeekBar = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Spinner = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Toolbar = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::IziCast.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_AppCompat = global::IziCast.Droid.Resource.Style.Platform_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_AppCompat_Light = global::IziCast.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_ThemeOverlay_AppCompat = global::IziCast.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::IziCast.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::IziCast.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_V11_AppCompat = global::IziCast.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_V11_AppCompat_Light = global::IziCast.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_V14_AppCompat = global::IziCast.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_V14_AppCompat_Light = global::IziCast.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_V21_AppCompat = global::IziCast.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_V21_AppCompat_Light = global::IziCast.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Platform_Widget_AppCompat_Spinner = global::IziCast.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::IziCast.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::IziCast.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::IziCast.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::IziCast.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::IziCast.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::IziCast.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::IziCast.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::IziCast.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::IziCast.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::IziCast.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::IziCast.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::IziCast.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::IziCast.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::IziCast.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Body1 = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Body2 = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Button = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Caption = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Display1 = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Display2 = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Display3 = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Display4 = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Headline = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Inverse = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Large = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Medium = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Menu = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Small = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Subhead = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Title = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::IziCast.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::IziCast.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::IziCast.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::IziCast.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat = global::IziCast.Droid.Resource.Style.Theme_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_CompactMenu = global::IziCast.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_DayNight = global::IziCast.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::IziCast.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::IziCast.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::IziCast.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::IziCast.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::IziCast.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::IziCast.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_Dialog_Alert = global::IziCast.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::IziCast.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::IziCast.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_Light = global::IziCast.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::IziCast.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_Light_Dialog = global::IziCast.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::IziCast.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::IziCast.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::IziCast.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::IziCast.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Theme_AppCompat_NoActionBar = global::IziCast.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.ThemeOverlay_AppCompat = global::IziCast.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::IziCast.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.ThemeOverlay_AppCompat_Dark = global::IziCast.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::IziCast.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::IziCast.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::IziCast.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.ThemeOverlay_AppCompat_Light = global::IziCast.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ActionBar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ActionButton = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ActionMode = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ActivityChooserView = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::IziCast.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Button = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Button_Borderless = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Button_Colored = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Button_Small = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ButtonBar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::IziCast.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::IziCast.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::IziCast.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::IziCast.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::IziCast.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_EditText = global::IziCast.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ImageButton = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionBar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionButton = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_SearchView = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ListMenuView = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ListPopupWindow = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ListView = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ListView_DropDown = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ListView_Menu = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_PopupMenu = global::IziCast.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::IziCast.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_PopupWindow = global::IziCast.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ProgressBar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::IziCast.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_RatingBar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::IziCast.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_RatingBar_Small = global::IziCast.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_SearchView = global::IziCast.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_SeekBar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::IziCast.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Spinner = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::IziCast.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Toolbar = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::IziCast.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.about_About = global::IziCast.Droid.Resource.Style.about_About;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.about_About_wrapper = global::IziCast.Droid.Resource.Style.about_About_wrapper;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.about_description = global::IziCast.Droid.Resource.Style.about_description;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.about_elementTextAppearance = global::IziCast.Droid.Resource.Style.about_elementTextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.about_groupTextAppearance = global::IziCast.Droid.Resource.Style.about_groupTextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.about_image = global::IziCast.Droid.Resource.Style.about_image;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.about_separator = global::IziCast.Droid.Resource.Style.about_separator;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Style.about_sub_wrapper = global::IziCast.Droid.Resource.Style.about_sub_wrapper;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar = global::IziCast.Droid.Resource.Styleable.ActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_background = global::IziCast.Droid.Resource.Styleable.ActionBar_background;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_backgroundSplit = global::IziCast.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_backgroundStacked = global::IziCast.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_contentInsetEnd = global::IziCast.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::IziCast.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_contentInsetLeft = global::IziCast.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_contentInsetRight = global::IziCast.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_contentInsetStart = global::IziCast.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::IziCast.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_customNavigationLayout = global::IziCast.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_displayOptions = global::IziCast.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_divider = global::IziCast.Droid.Resource.Styleable.ActionBar_divider;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_elevation = global::IziCast.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_height = global::IziCast.Droid.Resource.Styleable.ActionBar_height;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_hideOnContentScroll = global::IziCast.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_homeAsUpIndicator = global::IziCast.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_homeLayout = global::IziCast.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_icon = global::IziCast.Droid.Resource.Styleable.ActionBar_icon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::IziCast.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_itemPadding = global::IziCast.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_logo = global::IziCast.Droid.Resource.Styleable.ActionBar_logo;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_navigationMode = global::IziCast.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_popupTheme = global::IziCast.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_progressBarPadding = global::IziCast.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_progressBarStyle = global::IziCast.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_subtitle = global::IziCast.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_subtitleTextStyle = global::IziCast.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_title = global::IziCast.Droid.Resource.Styleable.ActionBar_title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBar_titleTextStyle = global::IziCast.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBarLayout = global::IziCast.Droid.Resource.Styleable.ActionBarLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::IziCast.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionMenuItemView = global::IziCast.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionMenuItemView_android_minWidth = global::IziCast.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionMenuView = global::IziCast.Droid.Resource.Styleable.ActionMenuView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionMode = global::IziCast.Droid.Resource.Styleable.ActionMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionMode_background = global::IziCast.Droid.Resource.Styleable.ActionMode_background;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionMode_backgroundSplit = global::IziCast.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionMode_closeItemLayout = global::IziCast.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionMode_height = global::IziCast.Droid.Resource.Styleable.ActionMode_height;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionMode_subtitleTextStyle = global::IziCast.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActionMode_titleTextStyle = global::IziCast.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActivityChooserView = global::IziCast.Droid.Resource.Styleable.ActivityChooserView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::IziCast.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ActivityChooserView_initialActivityCount = global::IziCast.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AlertDialog = global::IziCast.Droid.Resource.Styleable.AlertDialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AlertDialog_android_layout = global::IziCast.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::IziCast.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AlertDialog_listItemLayout = global::IziCast.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AlertDialog_listLayout = global::IziCast.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::IziCast.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AlertDialog_showTitle = global::IziCast.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::IziCast.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatImageView = global::IziCast.Droid.Resource.Styleable.AppCompatImageView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatImageView_android_src = global::IziCast.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatImageView_srcCompat = global::IziCast.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatImageView_tint = global::IziCast.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatImageView_tintMode = global::IziCast.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatSeekBar = global::IziCast.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatSeekBar_android_thumb = global::IziCast.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatSeekBar_tickMark = global::IziCast.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::IziCast.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::IziCast.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTextHelper = global::IziCast.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::IziCast.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::IziCast.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::IziCast.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::IziCast.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::IziCast.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::IziCast.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::IziCast.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTextView = global::IziCast.Droid.Resource.Styleable.AppCompatTextView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTextView_android_textAppearance = global::IziCast.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTextView_textAllCaps = global::IziCast.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme = global::IziCast.Droid.Resource.Styleable.AppCompatTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionBarDivider = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionBarSize = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionBarStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionBarTheme = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModeBackground = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModeStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_buttonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_checkboxStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_colorAccent = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_colorControlActivated = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_colorControlNormal = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_colorPrimary = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_controlBackground = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_dialogTheme = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_dividerVertical = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_editTextBackground = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_editTextColor = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_editTextStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_panelBackground = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_searchViewStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_seekBarStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_spinnerStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_switchStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_toolbarStyle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_windowActionBar = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.AppCompatTheme_windowNoTitle = global::IziCast.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ButtonBarLayout = global::IziCast.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ButtonBarLayout_allowStacking = global::IziCast.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ColorStateListItem = global::IziCast.Droid.Resource.Styleable.ColorStateListItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ColorStateListItem_alpha = global::IziCast.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ColorStateListItem_android_alpha = global::IziCast.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ColorStateListItem_android_color = global::IziCast.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.CompoundButton = global::IziCast.Droid.Resource.Styleable.CompoundButton;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.CompoundButton_android_button = global::IziCast.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.CompoundButton_buttonTint = global::IziCast.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.CompoundButton_buttonTintMode = global::IziCast.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.DrawerArrowToggle = global::IziCast.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::IziCast.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::IziCast.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.DrawerArrowToggle_barLength = global::IziCast.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.DrawerArrowToggle_color = global::IziCast.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.DrawerArrowToggle_drawableSize = global::IziCast.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::IziCast.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.DrawerArrowToggle_spinBars = global::IziCast.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.DrawerArrowToggle_thickness = global::IziCast.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_android_gravity = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_android_orientation = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_divider = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_showDividers = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_Layout = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::IziCast.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ListPopupWindow = global::IziCast.Droid.Resource.Styleable.ListPopupWindow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::IziCast.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::IziCast.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuGroup = global::IziCast.Droid.Resource.Styleable.MenuGroup;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuGroup_android_checkableBehavior = global::IziCast.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuGroup_android_enabled = global::IziCast.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuGroup_android_id = global::IziCast.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuGroup_android_menuCategory = global::IziCast.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuGroup_android_orderInCategory = global::IziCast.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuGroup_android_visible = global::IziCast.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem = global::IziCast.Droid.Resource.Styleable.MenuItem;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_actionLayout = global::IziCast.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_actionProviderClass = global::IziCast.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_actionViewClass = global::IziCast.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::IziCast.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_checkable = global::IziCast.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_checked = global::IziCast.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_enabled = global::IziCast.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_icon = global::IziCast.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_id = global::IziCast.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_menuCategory = global::IziCast.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_numericShortcut = global::IziCast.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_onClick = global::IziCast.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_orderInCategory = global::IziCast.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_title = global::IziCast.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_titleCondensed = global::IziCast.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_android_visible = global::IziCast.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuItem_showAsAction = global::IziCast.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuView = global::IziCast.Droid.Resource.Styleable.MenuView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuView_android_headerBackground = global::IziCast.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuView_android_horizontalDivider = global::IziCast.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuView_android_itemBackground = global::IziCast.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::IziCast.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuView_android_itemTextAppearance = global::IziCast.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuView_android_verticalDivider = global::IziCast.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuView_android_windowAnimationStyle = global::IziCast.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuView_preserveIconSpacing = global::IziCast.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.MenuView_subMenuArrow = global::IziCast.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.PopupWindow = global::IziCast.Droid.Resource.Styleable.PopupWindow;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::IziCast.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.PopupWindow_android_popupBackground = global::IziCast.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.PopupWindow_overlapAnchor = global::IziCast.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.PopupWindowBackgroundState = global::IziCast.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::IziCast.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.RecycleListView = global::IziCast.Droid.Resource.Styleable.RecycleListView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::IziCast.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::IziCast.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView = global::IziCast.Droid.Resource.Styleable.SearchView;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_android_focusable = global::IziCast.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_android_imeOptions = global::IziCast.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_android_inputType = global::IziCast.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_android_maxWidth = global::IziCast.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_closeIcon = global::IziCast.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_commitIcon = global::IziCast.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_defaultQueryHint = global::IziCast.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_goIcon = global::IziCast.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_iconifiedByDefault = global::IziCast.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_layout = global::IziCast.Droid.Resource.Styleable.SearchView_layout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_queryBackground = global::IziCast.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_queryHint = global::IziCast.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_searchHintIcon = global::IziCast.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_searchIcon = global::IziCast.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_submitBackground = global::IziCast.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_suggestionRowLayout = global::IziCast.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SearchView_voiceIcon = global::IziCast.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Spinner = global::IziCast.Droid.Resource.Styleable.Spinner;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Spinner_android_dropDownWidth = global::IziCast.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Spinner_android_entries = global::IziCast.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Spinner_android_popupBackground = global::IziCast.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Spinner_android_prompt = global::IziCast.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Spinner_popupTheme = global::IziCast.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat = global::IziCast.Droid.Resource.Styleable.SwitchCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_android_textOff = global::IziCast.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_android_textOn = global::IziCast.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_android_thumb = global::IziCast.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_showText = global::IziCast.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_splitTrack = global::IziCast.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_switchMinWidth = global::IziCast.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_switchPadding = global::IziCast.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_switchTextAppearance = global::IziCast.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_thumbTextPadding = global::IziCast.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_thumbTint = global::IziCast.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_thumbTintMode = global::IziCast.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_track = global::IziCast.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_trackTint = global::IziCast.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.SwitchCompat_trackTintMode = global::IziCast.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.TextAppearance = global::IziCast.Droid.Resource.Styleable.TextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.TextAppearance_android_shadowColor = global::IziCast.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.TextAppearance_android_shadowDx = global::IziCast.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.TextAppearance_android_shadowDy = global::IziCast.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.TextAppearance_android_shadowRadius = global::IziCast.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.TextAppearance_android_textColor = global::IziCast.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.TextAppearance_android_textColorHint = global::IziCast.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.TextAppearance_android_textSize = global::IziCast.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.TextAppearance_android_textStyle = global::IziCast.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.TextAppearance_android_typeface = global::IziCast.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.TextAppearance_textAllCaps = global::IziCast.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar = global::IziCast.Droid.Resource.Styleable.Toolbar;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_android_gravity = global::IziCast.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_android_minHeight = global::IziCast.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_buttonGravity = global::IziCast.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_collapseContentDescription = global::IziCast.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_collapseIcon = global::IziCast.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_contentInsetEnd = global::IziCast.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::IziCast.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_contentInsetLeft = global::IziCast.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_contentInsetRight = global::IziCast.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_contentInsetStart = global::IziCast.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::IziCast.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_logo = global::IziCast.Droid.Resource.Styleable.Toolbar_logo;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_logoDescription = global::IziCast.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_maxButtonHeight = global::IziCast.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_navigationContentDescription = global::IziCast.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_navigationIcon = global::IziCast.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_popupTheme = global::IziCast.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_subtitle = global::IziCast.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_subtitleTextAppearance = global::IziCast.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_subtitleTextColor = global::IziCast.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_title = global::IziCast.Droid.Resource.Styleable.Toolbar_title;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_titleMargin = global::IziCast.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_titleMarginBottom = global::IziCast.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_titleMarginEnd = global::IziCast.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_titleMarginStart = global::IziCast.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_titleMarginTop = global::IziCast.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_titleMargins = global::IziCast.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_titleTextAppearance = global::IziCast.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.Toolbar_titleTextColor = global::IziCast.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.View = global::IziCast.Droid.Resource.Styleable.View;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.View_android_focusable = global::IziCast.Droid.Resource.Styleable.View_android_focusable;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.View_android_theme = global::IziCast.Droid.Resource.Styleable.View_android_theme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.View_paddingEnd = global::IziCast.Droid.Resource.Styleable.View_paddingEnd;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.View_paddingStart = global::IziCast.Droid.Resource.Styleable.View_paddingStart;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.View_theme = global::IziCast.Droid.Resource.Styleable.View_theme;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ViewBackgroundHelper = global::IziCast.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ViewBackgroundHelper_android_background = global::IziCast.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::IziCast.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::IziCast.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ViewStubCompat = global::IziCast.Droid.Resource.Styleable.ViewStubCompat;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ViewStubCompat_android_id = global::IziCast.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ViewStubCompat_android_inflatedId = global::IziCast.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Mehdi.Sakout.AboutPageLib.Resource.Styleable.ViewStubCompat_android_layout = global::IziCast.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::MvvmCross.Resource.Attribute.MvxBind = global::IziCast.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Resource.Attribute.MvxDropDownItemTemplate = global::IziCast.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Resource.Attribute.MvxGroupItemTemplate = global::IziCast.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -7724,44 +9180,44 @@ namespace IziCast.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0f0050
-			public const int abc_background_cache_hint_selector_material_dark = 2131689552;
+			// aapt resource value: 0x7f0f005c
+			public const int abc_background_cache_hint_selector_material_dark = 2131689564;
 			
-			// aapt resource value: 0x7f0f0051
-			public const int abc_background_cache_hint_selector_material_light = 2131689553;
+			// aapt resource value: 0x7f0f005d
+			public const int abc_background_cache_hint_selector_material_light = 2131689565;
 			
-			// aapt resource value: 0x7f0f0052
-			public const int abc_btn_colored_borderless_text_material = 2131689554;
+			// aapt resource value: 0x7f0f005e
+			public const int abc_btn_colored_borderless_text_material = 2131689566;
 			
-			// aapt resource value: 0x7f0f0053
-			public const int abc_btn_colored_text_material = 2131689555;
+			// aapt resource value: 0x7f0f005f
+			public const int abc_btn_colored_text_material = 2131689567;
 			
-			// aapt resource value: 0x7f0f0054
-			public const int abc_color_highlight_material = 2131689556;
+			// aapt resource value: 0x7f0f0060
+			public const int abc_color_highlight_material = 2131689568;
 			
-			// aapt resource value: 0x7f0f0055
-			public const int abc_hint_foreground_material_dark = 2131689557;
+			// aapt resource value: 0x7f0f0061
+			public const int abc_hint_foreground_material_dark = 2131689569;
 			
-			// aapt resource value: 0x7f0f0056
-			public const int abc_hint_foreground_material_light = 2131689558;
+			// aapt resource value: 0x7f0f0062
+			public const int abc_hint_foreground_material_light = 2131689570;
 			
 			// aapt resource value: 0x7f0f0000
 			public const int abc_input_method_navigation_guard = 2131689472;
 			
-			// aapt resource value: 0x7f0f0057
-			public const int abc_primary_text_disable_only_material_dark = 2131689559;
+			// aapt resource value: 0x7f0f0063
+			public const int abc_primary_text_disable_only_material_dark = 2131689571;
 			
-			// aapt resource value: 0x7f0f0058
-			public const int abc_primary_text_disable_only_material_light = 2131689560;
+			// aapt resource value: 0x7f0f0064
+			public const int abc_primary_text_disable_only_material_light = 2131689572;
 			
-			// aapt resource value: 0x7f0f0059
-			public const int abc_primary_text_material_dark = 2131689561;
+			// aapt resource value: 0x7f0f0065
+			public const int abc_primary_text_material_dark = 2131689573;
 			
-			// aapt resource value: 0x7f0f005a
-			public const int abc_primary_text_material_light = 2131689562;
+			// aapt resource value: 0x7f0f0066
+			public const int abc_primary_text_material_light = 2131689574;
 			
-			// aapt resource value: 0x7f0f005b
-			public const int abc_search_url_text = 2131689563;
+			// aapt resource value: 0x7f0f0067
+			public const int abc_search_url_text = 2131689575;
 			
 			// aapt resource value: 0x7f0f0001
 			public const int abc_search_url_text_normal = 2131689473;
@@ -7772,32 +9228,68 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0f0003
 			public const int abc_search_url_text_selected = 2131689475;
 			
-			// aapt resource value: 0x7f0f005c
-			public const int abc_secondary_text_material_dark = 2131689564;
+			// aapt resource value: 0x7f0f0068
+			public const int abc_secondary_text_material_dark = 2131689576;
 			
-			// aapt resource value: 0x7f0f005d
-			public const int abc_secondary_text_material_light = 2131689565;
+			// aapt resource value: 0x7f0f0069
+			public const int abc_secondary_text_material_light = 2131689577;
 			
-			// aapt resource value: 0x7f0f005e
-			public const int abc_tint_btn_checkable = 2131689566;
+			// aapt resource value: 0x7f0f006a
+			public const int abc_tint_btn_checkable = 2131689578;
 			
-			// aapt resource value: 0x7f0f005f
-			public const int abc_tint_default = 2131689567;
+			// aapt resource value: 0x7f0f006b
+			public const int abc_tint_default = 2131689579;
 			
-			// aapt resource value: 0x7f0f0060
-			public const int abc_tint_edittext = 2131689568;
+			// aapt resource value: 0x7f0f006c
+			public const int abc_tint_edittext = 2131689580;
 			
-			// aapt resource value: 0x7f0f0061
-			public const int abc_tint_seek_thumb = 2131689569;
+			// aapt resource value: 0x7f0f006d
+			public const int abc_tint_seek_thumb = 2131689581;
 			
-			// aapt resource value: 0x7f0f0062
-			public const int abc_tint_spinner = 2131689570;
+			// aapt resource value: 0x7f0f006e
+			public const int abc_tint_spinner = 2131689582;
 			
-			// aapt resource value: 0x7f0f0063
-			public const int abc_tint_switch_track = 2131689571;
+			// aapt resource value: 0x7f0f006f
+			public const int abc_tint_switch_track = 2131689583;
+			
+			// aapt resource value: 0x7f0f004e
+			public const int about_background_color = 2131689550;
+			
+			// aapt resource value: 0x7f0f0050
+			public const int about_description_text_color = 2131689552;
+			
+			// aapt resource value: 0x7f0f0048
+			public const int about_facebook_color = 2131689544;
+			
+			// aapt resource value: 0x7f0f004d
+			public const int about_github_color = 2131689549;
+			
+			// aapt resource value: 0x7f0f004a
+			public const int about_instagram_color = 2131689546;
+			
+			// aapt resource value: 0x7f0f0047
+			public const int about_item_icon_color = 2131689543;
+			
+			// aapt resource value: 0x7f0f0051
+			public const int about_item_text_color = 2131689553;
+			
+			// aapt resource value: 0x7f0f004b
+			public const int about_play_store_color = 2131689547;
+			
+			// aapt resource value: 0x7f0f004f
+			public const int about_separator_color = 2131689551;
+			
+			// aapt resource value: 0x7f0f0052
+			public const int about_text_color = 2131689554;
 			
 			// aapt resource value: 0x7f0f0049
-			public const int accent = 2131689545;
+			public const int about_twitter_color = 2131689545;
+			
+			// aapt resource value: 0x7f0f004c
+			public const int about_youtube_color = 2131689548;
+			
+			// aapt resource value: 0x7f0f0055
+			public const int accent = 2131689557;
 			
 			// aapt resource value: 0x7f0f0004
 			public const int accent_material_dark = 2131689476;
@@ -7805,8 +9297,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0f0005
 			public const int accent_material_light = 2131689477;
 			
-			// aapt resource value: 0x7f0f004f
-			public const int activated_color = 2131689551;
+			// aapt resource value: 0x7f0f005b
+			public const int activated_color = 2131689563;
 			
 			// aapt resource value: 0x7f0f0006
 			public const int background_floating_material_dark = 2131689478;
@@ -7847,8 +9339,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0f003c
 			public const int design_bottom_navigation_shadow_color = 2131689532;
 			
-			// aapt resource value: 0x7f0f0064
-			public const int design_error = 2131689572;
+			// aapt resource value: 0x7f0f0070
+			public const int design_error = 2131689584;
 			
 			// aapt resource value: 0x7f0f003d
 			public const int design_fab_shadow_end_color = 2131689533;
@@ -7874,8 +9366,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0f0044
 			public const int design_snackbar_background_color = 2131689540;
 			
-			// aapt resource value: 0x7f0f0065
-			public const int design_tint_password_toggle = 2131689573;
+			// aapt resource value: 0x7f0f0071
+			public const int design_tint_password_toggle = 2131689585;
 			
 			// aapt resource value: 0x7f0f0012
 			public const int dim_foreground_disabled_material_dark = 2131689490;
@@ -7889,8 +9381,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0f0015
 			public const int dim_foreground_material_light = 2131689493;
 			
-			// aapt resource value: 0x7f0f004e
-			public const int divider = 2131689550;
+			// aapt resource value: 0x7f0f005a
+			public const int divider = 2131689562;
 			
 			// aapt resource value: 0x7f0f0016
 			public const int error_color_material = 2131689494;
@@ -7907,8 +9399,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0f001a
 			public const int highlighted_text_material_light = 2131689498;
 			
-			// aapt resource value: 0x7f0f004a
-			public const int lightPrimary = 2131689546;
+			// aapt resource value: 0x7f0f0056
+			public const int lightPrimary = 2131689558;
 			
 			// aapt resource value: 0x7f0f001b
 			public const int material_blue_grey_800 = 2131689499;
@@ -7955,14 +9447,14 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0f003b
 			public const int notification_material_background_media_default_color = 2131689531;
 			
-			// aapt resource value: 0x7f0f0047
-			public const int primary = 2131689543;
+			// aapt resource value: 0x7f0f0053
+			public const int primary = 2131689555;
 			
-			// aapt resource value: 0x7f0f0048
-			public const int primaryDark = 2131689544;
+			// aapt resource value: 0x7f0f0054
+			public const int primaryDark = 2131689556;
 			
-			// aapt resource value: 0x7f0f004c
-			public const int primaryText = 2131689548;
+			// aapt resource value: 0x7f0f0058
+			public const int primaryText = 2131689560;
 			
 			// aapt resource value: 0x7f0f0027
 			public const int primary_dark_material_dark = 2131689511;
@@ -7994,8 +9486,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0f0030
 			public const int ripple_material_light = 2131689520;
 			
-			// aapt resource value: 0x7f0f004d
-			public const int secondaryText = 2131689549;
+			// aapt resource value: 0x7f0f0059
+			public const int secondaryText = 2131689561;
 			
 			// aapt resource value: 0x7f0f0031
 			public const int secondary_text_default_material_dark = 2131689521;
@@ -8015,11 +9507,11 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0f0036
 			public const int switch_thumb_disabled_material_light = 2131689526;
 			
-			// aapt resource value: 0x7f0f0066
-			public const int switch_thumb_material_dark = 2131689574;
+			// aapt resource value: 0x7f0f0072
+			public const int switch_thumb_material_dark = 2131689586;
 			
-			// aapt resource value: 0x7f0f0067
-			public const int switch_thumb_material_light = 2131689575;
+			// aapt resource value: 0x7f0f0073
+			public const int switch_thumb_material_light = 2131689587;
 			
 			// aapt resource value: 0x7f0f0037
 			public const int switch_thumb_normal_material_dark = 2131689527;
@@ -8027,8 +9519,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0f0038
 			public const int switch_thumb_normal_material_light = 2131689528;
 			
-			// aapt resource value: 0x7f0f004b
-			public const int textIcon = 2131689547;
+			// aapt resource value: 0x7f0f0057
+			public const int textIcon = 2131689559;
 			
 			// aapt resource value: 0x7f0f0039
 			public const int tooltip_background_dark = 2131689529;
@@ -8271,6 +9763,30 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f090010
 			public const int abc_text_size_title_material_toolbar = 2131296272;
 			
+			// aapt resource value: 0x7f0900a6
+			public const int about_description_text_size = 2131296422;
+			
+			// aapt resource value: 0x7f0900a8
+			public const int about_group_item_text_size = 2131296424;
+			
+			// aapt resource value: 0x7f0900a4
+			public const int about_group_text_padding = 2131296420;
+			
+			// aapt resource value: 0x7f0900a2
+			public const int about_icon_padding = 2131296418;
+			
+			// aapt resource value: 0x7f0900a1
+			public const int about_icon_size = 2131296417;
+			
+			// aapt resource value: 0x7f0900a7
+			public const int about_item_text_size = 2131296423;
+			
+			// aapt resource value: 0x7f0900a5
+			public const int about_separator_height = 2131296421;
+			
+			// aapt resource value: 0x7f0900a3
+			public const int about_text_padding = 2131296419;
+			
 			// aapt resource value: 0x7f090091
 			public const int compat_button_inset_horizontal_material = 2131296401;
 			
@@ -8406,8 +9922,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f090057
 			public const int disabled_alpha_material_light = 2131296343;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int drawer_width = 2131296417;
+			// aapt resource value: 0x7f0900a9
+			public const int drawer_width = 2131296425;
 			
 			// aapt resource value: 0x7f090000
 			public const int fastscroll_default_thickness = 2131296256;
@@ -8798,577 +10314,601 @@ namespace IziCast.Droid
 			public const int abc_vector_test = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int avd_hide_password = 2130837587;
-			
-			// aapt resource value: 0x7f02010c
-			public const int avd_hide_password_1 = 2130837772;
-			
-			// aapt resource value: 0x7f02010d
-			public const int avd_hide_password_2 = 2130837773;
-			
-			// aapt resource value: 0x7f02010e
-			public const int avd_hide_password_3 = 2130837774;
+			public const int about_icon_email = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int avd_show_password = 2130837588;
-			
-			// aapt resource value: 0x7f02010f
-			public const int avd_show_password_1 = 2130837775;
-			
-			// aapt resource value: 0x7f020110
-			public const int avd_show_password_2 = 2130837776;
-			
-			// aapt resource value: 0x7f020111
-			public const int avd_show_password_3 = 2130837777;
+			public const int about_icon_facebook = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int design_bottom_navigation_item_background = 2130837589;
+			public const int about_icon_github = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int design_fab_background = 2130837590;
+			public const int about_icon_google_play = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int design_ic_visibility = 2130837591;
+			public const int about_icon_instagram = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int design_ic_visibility_off = 2130837592;
+			public const int about_icon_link = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int design_password_eye = 2130837593;
+			public const int about_icon_twitter = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_snackbar_background = 2130837594;
+			public const int about_icon_youtube = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_audiotrack_dark = 2130837595;
+			public const int avd_hide_password = 2130837595;
+			
+			// aapt resource value: 0x7f020114
+			public const int avd_hide_password_1 = 2130837780;
+			
+			// aapt resource value: 0x7f020115
+			public const int avd_hide_password_2 = 2130837781;
+			
+			// aapt resource value: 0x7f020116
+			public const int avd_hide_password_3 = 2130837782;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_audiotrack_light = 2130837596;
+			public const int avd_show_password = 2130837596;
+			
+			// aapt resource value: 0x7f020117
+			public const int avd_show_password_1 = 2130837783;
+			
+			// aapt resource value: 0x7f020118
+			public const int avd_show_password_2 = 2130837784;
+			
+			// aapt resource value: 0x7f020119
+			public const int avd_show_password_3 = 2130837785;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_dialog_close_dark = 2130837597;
+			public const int design_bottom_navigation_item_background = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_dialog_close_light = 2130837598;
+			public const int design_fab_background = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_group_collapse_00 = 2130837599;
+			public const int design_ic_visibility = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_group_collapse_01 = 2130837600;
+			public const int design_ic_visibility_off = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_group_collapse_02 = 2130837601;
+			public const int design_password_eye = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_03 = 2130837602;
+			public const int design_snackbar_background = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_04 = 2130837603;
+			public const int ic_audiotrack_dark = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_05 = 2130837604;
+			public const int ic_audiotrack_light = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_06 = 2130837605;
+			public const int ic_dialog_close_dark = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_07 = 2130837606;
+			public const int ic_dialog_close_light = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_08 = 2130837607;
+			public const int ic_group_collapse_00 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_09 = 2130837608;
+			public const int ic_group_collapse_01 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_10 = 2130837609;
+			public const int ic_group_collapse_02 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_11 = 2130837610;
+			public const int ic_group_collapse_03 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_12 = 2130837611;
+			public const int ic_group_collapse_04 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_13 = 2130837612;
+			public const int ic_group_collapse_05 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_14 = 2130837613;
+			public const int ic_group_collapse_06 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_15 = 2130837614;
+			public const int ic_group_collapse_07 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_expand_00 = 2130837615;
+			public const int ic_group_collapse_08 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_expand_01 = 2130837616;
+			public const int ic_group_collapse_09 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_expand_02 = 2130837617;
+			public const int ic_group_collapse_10 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_03 = 2130837618;
+			public const int ic_group_collapse_11 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_04 = 2130837619;
+			public const int ic_group_collapse_12 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_05 = 2130837620;
+			public const int ic_group_collapse_13 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_06 = 2130837621;
+			public const int ic_group_collapse_14 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_07 = 2130837622;
+			public const int ic_group_collapse_15 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_08 = 2130837623;
+			public const int ic_group_expand_00 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_09 = 2130837624;
+			public const int ic_group_expand_01 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_10 = 2130837625;
+			public const int ic_group_expand_02 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_11 = 2130837626;
+			public const int ic_group_expand_03 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_12 = 2130837627;
+			public const int ic_group_expand_04 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_13 = 2130837628;
+			public const int ic_group_expand_05 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_14 = 2130837629;
+			public const int ic_group_expand_06 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_15 = 2130837630;
+			public const int ic_group_expand_07 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_media_pause_dark = 2130837631;
+			public const int ic_group_expand_08 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_pause_light = 2130837632;
+			public const int ic_group_expand_09 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_play_dark = 2130837633;
+			public const int ic_group_expand_10 = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_play_light = 2130837634;
+			public const int ic_group_expand_11 = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_mr_button_connected_00_dark = 2130837635;
+			public const int ic_group_expand_12 = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_mr_button_connected_00_light = 2130837636;
+			public const int ic_group_expand_13 = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_mr_button_connected_01_dark = 2130837637;
+			public const int ic_group_expand_14 = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_01_light = 2130837638;
+			public const int ic_group_expand_15 = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_02_dark = 2130837639;
+			public const int ic_media_pause_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_02_light = 2130837640;
+			public const int ic_media_pause_light = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_03_dark = 2130837641;
+			public const int ic_media_play_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_03_light = 2130837642;
+			public const int ic_media_play_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_04_dark = 2130837643;
+			public const int ic_mr_button_connected_00_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_04_light = 2130837644;
+			public const int ic_mr_button_connected_00_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_05_dark = 2130837645;
+			public const int ic_mr_button_connected_01_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_05_light = 2130837646;
+			public const int ic_mr_button_connected_01_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_06_dark = 2130837647;
+			public const int ic_mr_button_connected_02_dark = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_06_light = 2130837648;
+			public const int ic_mr_button_connected_02_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_07_dark = 2130837649;
+			public const int ic_mr_button_connected_03_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_07_light = 2130837650;
+			public const int ic_mr_button_connected_03_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_08_dark = 2130837651;
+			public const int ic_mr_button_connected_04_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_08_light = 2130837652;
+			public const int ic_mr_button_connected_04_light = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_09_dark = 2130837653;
+			public const int ic_mr_button_connected_05_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_09_light = 2130837654;
+			public const int ic_mr_button_connected_05_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_10_dark = 2130837655;
+			public const int ic_mr_button_connected_06_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_10_light = 2130837656;
+			public const int ic_mr_button_connected_06_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_11_dark = 2130837657;
+			public const int ic_mr_button_connected_07_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_11_light = 2130837658;
+			public const int ic_mr_button_connected_07_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_12_dark = 2130837659;
+			public const int ic_mr_button_connected_08_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_12_light = 2130837660;
+			public const int ic_mr_button_connected_08_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_13_dark = 2130837661;
+			public const int ic_mr_button_connected_09_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_13_light = 2130837662;
+			public const int ic_mr_button_connected_09_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_14_dark = 2130837663;
+			public const int ic_mr_button_connected_10_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_14_light = 2130837664;
+			public const int ic_mr_button_connected_10_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_15_dark = 2130837665;
+			public const int ic_mr_button_connected_11_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_15_light = 2130837666;
+			public const int ic_mr_button_connected_11_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_16_dark = 2130837667;
+			public const int ic_mr_button_connected_12_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_16_light = 2130837668;
+			public const int ic_mr_button_connected_12_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_17_dark = 2130837669;
+			public const int ic_mr_button_connected_13_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_17_light = 2130837670;
+			public const int ic_mr_button_connected_13_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_18_dark = 2130837671;
+			public const int ic_mr_button_connected_14_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_18_light = 2130837672;
+			public const int ic_mr_button_connected_14_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_19_dark = 2130837673;
+			public const int ic_mr_button_connected_15_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_19_light = 2130837674;
+			public const int ic_mr_button_connected_15_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_20_dark = 2130837675;
+			public const int ic_mr_button_connected_16_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_20_light = 2130837676;
+			public const int ic_mr_button_connected_16_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_21_dark = 2130837677;
+			public const int ic_mr_button_connected_17_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_21_light = 2130837678;
+			public const int ic_mr_button_connected_17_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_22_dark = 2130837679;
+			public const int ic_mr_button_connected_18_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_22_light = 2130837680;
+			public const int ic_mr_button_connected_18_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connecting_00_dark = 2130837681;
+			public const int ic_mr_button_connected_19_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connecting_00_light = 2130837682;
+			public const int ic_mr_button_connected_19_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connecting_01_dark = 2130837683;
+			public const int ic_mr_button_connected_20_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connecting_01_light = 2130837684;
+			public const int ic_mr_button_connected_20_light = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connecting_02_dark = 2130837685;
+			public const int ic_mr_button_connected_21_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connecting_02_light = 2130837686;
+			public const int ic_mr_button_connected_21_light = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connecting_03_dark = 2130837687;
+			public const int ic_mr_button_connected_22_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connecting_03_light = 2130837688;
+			public const int ic_mr_button_connected_22_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connecting_04_dark = 2130837689;
+			public const int ic_mr_button_connecting_00_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connecting_04_light = 2130837690;
+			public const int ic_mr_button_connecting_00_light = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connecting_05_dark = 2130837691;
+			public const int ic_mr_button_connecting_01_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connecting_05_light = 2130837692;
+			public const int ic_mr_button_connecting_01_light = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connecting_06_dark = 2130837693;
+			public const int ic_mr_button_connecting_02_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connecting_06_light = 2130837694;
+			public const int ic_mr_button_connecting_02_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connecting_07_dark = 2130837695;
+			public const int ic_mr_button_connecting_03_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connecting_07_light = 2130837696;
+			public const int ic_mr_button_connecting_03_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connecting_08_dark = 2130837697;
+			public const int ic_mr_button_connecting_04_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connecting_08_light = 2130837698;
+			public const int ic_mr_button_connecting_04_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connecting_09_dark = 2130837699;
+			public const int ic_mr_button_connecting_05_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_09_light = 2130837700;
+			public const int ic_mr_button_connecting_05_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_10_dark = 2130837701;
+			public const int ic_mr_button_connecting_06_dark = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_10_light = 2130837702;
+			public const int ic_mr_button_connecting_06_light = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_11_dark = 2130837703;
+			public const int ic_mr_button_connecting_07_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_11_light = 2130837704;
+			public const int ic_mr_button_connecting_07_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_12_dark = 2130837705;
+			public const int ic_mr_button_connecting_08_dark = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_12_light = 2130837706;
+			public const int ic_mr_button_connecting_08_light = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_13_dark = 2130837707;
+			public const int ic_mr_button_connecting_09_dark = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_13_light = 2130837708;
+			public const int ic_mr_button_connecting_09_light = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_14_dark = 2130837709;
+			public const int ic_mr_button_connecting_10_dark = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_14_light = 2130837710;
+			public const int ic_mr_button_connecting_10_light = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_15_dark = 2130837711;
+			public const int ic_mr_button_connecting_11_dark = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_15_light = 2130837712;
+			public const int ic_mr_button_connecting_11_light = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_16_dark = 2130837713;
+			public const int ic_mr_button_connecting_12_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_16_light = 2130837714;
+			public const int ic_mr_button_connecting_12_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_17_dark = 2130837715;
+			public const int ic_mr_button_connecting_13_dark = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_17_light = 2130837716;
+			public const int ic_mr_button_connecting_13_light = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_18_dark = 2130837717;
+			public const int ic_mr_button_connecting_14_dark = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_18_light = 2130837718;
+			public const int ic_mr_button_connecting_14_light = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_19_dark = 2130837719;
+			public const int ic_mr_button_connecting_15_dark = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_19_light = 2130837720;
+			public const int ic_mr_button_connecting_15_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_20_dark = 2130837721;
+			public const int ic_mr_button_connecting_16_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_20_light = 2130837722;
+			public const int ic_mr_button_connecting_16_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_21_dark = 2130837723;
+			public const int ic_mr_button_connecting_17_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_21_light = 2130837724;
+			public const int ic_mr_button_connecting_17_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_22_dark = 2130837725;
+			public const int ic_mr_button_connecting_18_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_22_light = 2130837726;
+			public const int ic_mr_button_connecting_18_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_disabled_dark = 2130837727;
+			public const int ic_mr_button_connecting_19_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_disabled_light = 2130837728;
+			public const int ic_mr_button_connecting_19_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_disconnected_dark = 2130837729;
+			public const int ic_mr_button_connecting_20_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_disconnected_light = 2130837730;
+			public const int ic_mr_button_connecting_20_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_grey = 2130837731;
+			public const int ic_mr_button_connecting_21_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_vol_type_speaker_dark = 2130837732;
+			public const int ic_mr_button_connecting_21_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_vol_type_speaker_group_dark = 2130837733;
+			public const int ic_mr_button_connecting_22_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_vol_type_speaker_group_light = 2130837734;
+			public const int ic_mr_button_connecting_22_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_vol_type_speaker_light = 2130837735;
+			public const int ic_mr_button_disabled_dark = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_vol_type_tv_dark = 2130837736;
+			public const int ic_mr_button_disabled_light = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_vol_type_tv_light = 2130837737;
+			public const int ic_mr_button_disconnected_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int mr_button_connected_dark = 2130837738;
+			public const int ic_mr_button_disconnected_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int mr_button_connected_light = 2130837739;
+			public const int ic_mr_button_grey = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int mr_button_connecting_dark = 2130837740;
+			public const int ic_vol_type_speaker_dark = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int mr_button_connecting_light = 2130837741;
+			public const int ic_vol_type_speaker_group_dark = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int mr_button_dark = 2130837742;
+			public const int ic_vol_type_speaker_group_light = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int mr_button_light = 2130837743;
+			public const int ic_vol_type_speaker_light = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int mr_dialog_close_dark = 2130837744;
+			public const int ic_vol_type_tv_dark = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int mr_dialog_close_light = 2130837745;
+			public const int ic_vol_type_tv_light = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int mr_dialog_material_background_dark = 2130837746;
+			public const int mr_button_connected_dark = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int mr_dialog_material_background_light = 2130837747;
+			public const int mr_button_connected_light = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int mr_group_collapse = 2130837748;
+			public const int mr_button_connecting_dark = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int mr_group_expand = 2130837749;
+			public const int mr_button_connecting_light = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int mr_media_pause_dark = 2130837750;
+			public const int mr_button_dark = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int mr_media_pause_light = 2130837751;
+			public const int mr_button_light = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int mr_media_play_dark = 2130837752;
+			public const int mr_dialog_close_dark = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int mr_media_play_light = 2130837753;
+			public const int mr_dialog_close_light = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int mr_vol_type_audiotrack_dark = 2130837754;
+			public const int mr_dialog_material_background_dark = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int mr_vol_type_audiotrack_light = 2130837755;
+			public const int mr_dialog_material_background_light = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int navigation_empty_icon = 2130837756;
+			public const int mr_group_collapse = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int notification_action_background = 2130837757;
+			public const int mr_group_expand = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int notification_bg = 2130837758;
+			public const int mr_media_pause_dark = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int notification_bg_low = 2130837759;
+			public const int mr_media_pause_light = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int notification_bg_low_normal = 2130837760;
+			public const int mr_media_play_dark = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int notification_bg_low_pressed = 2130837761;
+			public const int mr_media_play_light = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int notification_bg_normal = 2130837762;
+			public const int mr_vol_type_audiotrack_dark = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int notification_bg_normal_pressed = 2130837763;
+			public const int mr_vol_type_audiotrack_light = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int notification_icon_background = 2130837764;
-			
-			// aapt resource value: 0x7f02010a
-			public const int notification_template_icon_bg = 2130837770;
-			
-			// aapt resource value: 0x7f02010b
-			public const int notification_template_icon_low_bg = 2130837771;
+			public const int navigation_empty_icon = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int notification_tile_bg = 2130837765;
+			public const int notification_action_background = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int notify_panel_notification_icon_bg = 2130837766;
+			public const int notification_bg = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int splash = 2130837767;
+			public const int notification_bg_low = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int tooltip_frame_dark = 2130837768;
+			public const int notification_bg_low_normal = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int tooltip_frame_light = 2130837769;
+			public const int notification_bg_low_pressed = 2130837769;
+			
+			// aapt resource value: 0x7f02010a
+			public const int notification_bg_normal = 2130837770;
+			
+			// aapt resource value: 0x7f02010b
+			public const int notification_bg_normal_pressed = 2130837771;
+			
+			// aapt resource value: 0x7f02010c
+			public const int notification_icon_background = 2130837772;
+			
+			// aapt resource value: 0x7f020112
+			public const int notification_template_icon_bg = 2130837778;
+			
+			// aapt resource value: 0x7f020113
+			public const int notification_template_icon_low_bg = 2130837779;
+			
+			// aapt resource value: 0x7f02010d
+			public const int notification_tile_bg = 2130837773;
+			
+			// aapt resource value: 0x7f02010e
+			public const int notify_panel_notification_icon_bg = 2130837774;
+			
+			// aapt resource value: 0x7f02010f
+			public const int splash_background = 2130837775;
+			
+			// aapt resource value: 0x7f020110
+			public const int tooltip_frame_dark = 2130837776;
+			
+			// aapt resource value: 0x7f020111
+			public const int tooltip_frame_light = 2130837777;
 			
 			static Drawable()
 			{
@@ -9407,8 +10947,14 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0039
 			public const int SYM = 2131361849;
 			
-			// aapt resource value: 0x7f0a00c9
-			public const int action0 = 2131361993;
+			// aapt resource value: 0x7f0a009a
+			public const int about_container = 2131361946;
+			
+			// aapt resource value: 0x7f0a009c
+			public const int about_providers = 2131361948;
+			
+			// aapt resource value: 0x7f0a00ce
+			public const int action0 = 2131361998;
 			
 			// aapt resource value: 0x7f0a008b
 			public const int action_bar = 2131361931;
@@ -9431,17 +10977,17 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0069
 			public const int action_bar_title = 2131361897;
 			
-			// aapt resource value: 0x7f0a00c6
-			public const int action_container = 2131361990;
+			// aapt resource value: 0x7f0a00cb
+			public const int action_container = 2131361995;
 			
 			// aapt resource value: 0x7f0a008c
 			public const int action_context_bar = 2131361932;
 			
-			// aapt resource value: 0x7f0a00cd
-			public const int action_divider = 2131361997;
+			// aapt resource value: 0x7f0a00d2
+			public const int action_divider = 2131362002;
 			
-			// aapt resource value: 0x7f0a00c7
-			public const int action_image = 2131361991;
+			// aapt resource value: 0x7f0a00cc
+			public const int action_image = 2131361996;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -9458,11 +11004,11 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a006b
 			public const int action_mode_close_button = 2131361899;
 			
-			// aapt resource value: 0x7f0a00c8
-			public const int action_text = 2131361992;
+			// aapt resource value: 0x7f0a00cd
+			public const int action_text = 2131361997;
 			
-			// aapt resource value: 0x7f0a00d6
-			public const int actions = 2131362006;
+			// aapt resource value: 0x7f0a00db
+			public const int actions = 2131362011;
 			
 			// aapt resource value: 0x7f0a006c
 			public const int activity_chooser_view_content = 2131361900;
@@ -9500,8 +11046,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0072
 			public const int buttonPanel = 2131361906;
 			
-			// aapt resource value: 0x7f0a00ca
-			public const int cancel_action = 2131361994;
+			// aapt resource value: 0x7f0a00cf
+			public const int cancel_action = 2131361999;
 			
 			// aapt resource value: 0x7f0a0047
 			public const int center = 2131361863;
@@ -9518,11 +11064,11 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0082
 			public const int checkbox = 2131361922;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int chromecastButton = 2131361961;
+			// aapt resource value: 0x7f0a00ac
+			public const int chromecastButton = 2131361964;
 			
-			// aapt resource value: 0x7f0a00d2
-			public const int chronometer = 2131362002;
+			// aapt resource value: 0x7f0a00d7
+			public const int chronometer = 2131362007;
 			
 			// aapt resource value: 0x7f0a0050
 			public const int clip_horizontal = 2131361872;
@@ -9533,14 +11079,14 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a003b
 			public const int collapseActionView = 2131361851;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int container = 2131361948;
+			// aapt resource value: 0x7f0a009f
+			public const int container = 2131361951;
 			
 			// aapt resource value: 0x7f0a0075
 			public const int contentPanel = 2131361909;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int coordinator = 2131361949;
+			// aapt resource value: 0x7f0a00a0
+			public const int coordinator = 2131361952;
 			
 			// aapt resource value: 0x7f0a007c
 			public const int custom = 2131361916;
@@ -9554,20 +11100,23 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a006f
 			public const int default_activity_button = 2131361903;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int design_bottom_sheet = 2131361951;
+			// aapt resource value: 0x7f0a009b
+			public const int description = 2131361947;
+			
+			// aapt resource value: 0x7f0a00a2
+			public const int design_bottom_sheet = 2131361954;
+			
+			// aapt resource value: 0x7f0a00a9
+			public const int design_menu_item_action_area = 2131361961;
+			
+			// aapt resource value: 0x7f0a00a8
+			public const int design_menu_item_action_area_stub = 2131361960;
+			
+			// aapt resource value: 0x7f0a00a7
+			public const int design_menu_item_text = 2131361959;
 			
 			// aapt resource value: 0x7f0a00a6
-			public const int design_menu_item_action_area = 2131361958;
-			
-			// aapt resource value: 0x7f0a00a5
-			public const int design_menu_item_action_area_stub = 2131361957;
-			
-			// aapt resource value: 0x7f0a00a4
-			public const int design_menu_item_text = 2131361956;
-			
-			// aapt resource value: 0x7f0a00a3
-			public const int design_navigation_view = 2131361955;
+			public const int design_navigation_view = 2131361958;
 			
 			// aapt resource value: 0x7f0a0062
 			public const int dimensions = 2131361890;
@@ -9584,8 +11133,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0032
 			public const int end = 2131361842;
 			
-			// aapt resource value: 0x7f0a00d8
-			public const int end_padder = 2131362008;
+			// aapt resource value: 0x7f0a00dd
+			public const int end_padder = 2131362013;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int enterAlways = 2131361857;
@@ -9632,8 +11181,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0071
 			public const int icon = 2131361905;
 			
-			// aapt resource value: 0x7f0a00d7
-			public const int icon_group = 2131362007;
+			// aapt resource value: 0x7f0a00dc
+			public const int icon_group = 2131362012;
 			
 			// aapt resource value: 0x7f0a003c
 			public const int ifRoom = 2131361852;
@@ -9641,8 +11190,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a006e
 			public const int image = 2131361902;
 			
-			// aapt resource value: 0x7f0a00d3
-			public const int info = 2131362003;
+			// aapt resource value: 0x7f0a00d8
+			public const int info = 2131362008;
 			
 			// aapt resource value: 0x7f0a0059
 			public const int invisible = 2131361881;
@@ -9653,8 +11202,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0000
 			public const int item_touch_helper_previous_elevation = 2131361792;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int largeLabel = 2131361947;
+			// aapt resource value: 0x7f0a009e
+			public const int largeLabel = 2131361950;
 			
 			// aapt resource value: 0x7f0a004b
 			public const int left = 2131361867;
@@ -9671,14 +11220,14 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0070
 			public const int list_item = 2131361904;
 			
-			// aapt resource value: 0x7f0a00dc
-			public const int masked = 2131362012;
+			// aapt resource value: 0x7f0a00e1
+			public const int masked = 2131362017;
 			
-			// aapt resource value: 0x7f0a00cc
-			public const int media_actions = 2131361996;
+			// aapt resource value: 0x7f0a00d1
+			public const int media_actions = 2131362001;
 			
-			// aapt resource value: 0x7f0a00da
-			public const int message = 2131362010;
+			// aapt resource value: 0x7f0a00df
+			public const int message = 2131362015;
 			
 			// aapt resource value: 0x7f0a0033
 			public const int middle = 2131361843;
@@ -9686,92 +11235,92 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0055
 			public const int mini = 2131361877;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int mr_art = 2131361976;
-			
-			// aapt resource value: 0x7f0a00ad
-			public const int mr_chooser_list = 2131361965;
-			
-			// aapt resource value: 0x7f0a00b0
-			public const int mr_chooser_route_desc = 2131361968;
-			
-			// aapt resource value: 0x7f0a00ae
-			public const int mr_chooser_route_icon = 2131361966;
-			
-			// aapt resource value: 0x7f0a00af
-			public const int mr_chooser_route_name = 2131361967;
-			
-			// aapt resource value: 0x7f0a00ac
-			public const int mr_chooser_title = 2131361964;
-			
-			// aapt resource value: 0x7f0a00b5
-			public const int mr_close = 2131361973;
-			
-			// aapt resource value: 0x7f0a00bb
-			public const int mr_control_divider = 2131361979;
-			
-			// aapt resource value: 0x7f0a00c1
-			public const int mr_control_play_pause = 2131361985;
-			
-			// aapt resource value: 0x7f0a00c4
-			public const int mr_control_subtitle = 2131361988;
-			
-			// aapt resource value: 0x7f0a00c3
-			public const int mr_control_title = 2131361987;
-			
-			// aapt resource value: 0x7f0a00c2
-			public const int mr_control_title_container = 2131361986;
-			
-			// aapt resource value: 0x7f0a00b6
-			public const int mr_custom_control = 2131361974;
-			
-			// aapt resource value: 0x7f0a00b7
-			public const int mr_default_control = 2131361975;
+			// aapt resource value: 0x7f0a00bd
+			public const int mr_art = 2131361981;
 			
 			// aapt resource value: 0x7f0a00b2
-			public const int mr_dialog_area = 2131361970;
+			public const int mr_chooser_list = 2131361970;
 			
-			// aapt resource value: 0x7f0a00b1
-			public const int mr_expandable_area = 2131361969;
-			
-			// aapt resource value: 0x7f0a00c5
-			public const int mr_group_expand_collapse = 2131361989;
-			
-			// aapt resource value: 0x7f0a00b9
-			public const int mr_media_main_control = 2131361977;
-			
-			// aapt resource value: 0x7f0a00b4
-			public const int mr_name = 2131361972;
-			
-			// aapt resource value: 0x7f0a00ba
-			public const int mr_playback_control = 2131361978;
+			// aapt resource value: 0x7f0a00b5
+			public const int mr_chooser_route_desc = 2131361973;
 			
 			// aapt resource value: 0x7f0a00b3
-			public const int mr_title_bar = 2131361971;
+			public const int mr_chooser_route_icon = 2131361971;
 			
-			// aapt resource value: 0x7f0a00bc
-			public const int mr_volume_control = 2131361980;
+			// aapt resource value: 0x7f0a00b4
+			public const int mr_chooser_route_name = 2131361972;
 			
-			// aapt resource value: 0x7f0a00bd
-			public const int mr_volume_group_list = 2131361981;
+			// aapt resource value: 0x7f0a00b1
+			public const int mr_chooser_title = 2131361969;
 			
-			// aapt resource value: 0x7f0a00bf
-			public const int mr_volume_item_icon = 2131361983;
+			// aapt resource value: 0x7f0a00ba
+			public const int mr_close = 2131361978;
 			
 			// aapt resource value: 0x7f0a00c0
-			public const int mr_volume_slider = 2131361984;
+			public const int mr_control_divider = 2131361984;
+			
+			// aapt resource value: 0x7f0a00c6
+			public const int mr_control_play_pause = 2131361990;
+			
+			// aapt resource value: 0x7f0a00c9
+			public const int mr_control_subtitle = 2131361993;
+			
+			// aapt resource value: 0x7f0a00c8
+			public const int mr_control_title = 2131361992;
+			
+			// aapt resource value: 0x7f0a00c7
+			public const int mr_control_title_container = 2131361991;
+			
+			// aapt resource value: 0x7f0a00bb
+			public const int mr_custom_control = 2131361979;
+			
+			// aapt resource value: 0x7f0a00bc
+			public const int mr_default_control = 2131361980;
+			
+			// aapt resource value: 0x7f0a00b7
+			public const int mr_dialog_area = 2131361975;
+			
+			// aapt resource value: 0x7f0a00b6
+			public const int mr_expandable_area = 2131361974;
+			
+			// aapt resource value: 0x7f0a00ca
+			public const int mr_group_expand_collapse = 2131361994;
+			
+			// aapt resource value: 0x7f0a00be
+			public const int mr_media_main_control = 2131361982;
+			
+			// aapt resource value: 0x7f0a00b9
+			public const int mr_name = 2131361977;
+			
+			// aapt resource value: 0x7f0a00bf
+			public const int mr_playback_control = 2131361983;
+			
+			// aapt resource value: 0x7f0a00b8
+			public const int mr_title_bar = 2131361976;
+			
+			// aapt resource value: 0x7f0a00c1
+			public const int mr_volume_control = 2131361985;
+			
+			// aapt resource value: 0x7f0a00c2
+			public const int mr_volume_group_list = 2131361986;
+			
+			// aapt resource value: 0x7f0a00c4
+			public const int mr_volume_item_icon = 2131361988;
+			
+			// aapt resource value: 0x7f0a00c5
+			public const int mr_volume_slider = 2131361989;
 			
 			// aapt resource value: 0x7f0a002a
 			public const int multiply = 2131361834;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int mvxAppCompatSpinner = 2131361963;
+			// aapt resource value: 0x7f0a00b0
+			public const int mvxAppCompatSpinner = 2131361968;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int mvxAppCompatSpinner2 = 2131361962;
+			// aapt resource value: 0x7f0a00ae
+			public const int mvxAppCompatSpinner2 = 2131361966;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int navigation_header_container = 2131361954;
+			// aapt resource value: 0x7f0a00a5
+			public const int navigation_header_container = 2131361957;
 			
 			// aapt resource value: 0x7f0a003d
 			public const int never = 2131361853;
@@ -9782,14 +11331,14 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0020
 			public const int normal = 2131361824;
 			
-			// aapt resource value: 0x7f0a00d5
-			public const int notification_background = 2131362005;
+			// aapt resource value: 0x7f0a00da
+			public const int notification_background = 2131362010;
 			
-			// aapt resource value: 0x7f0a00cf
-			public const int notification_main_column = 2131361999;
+			// aapt resource value: 0x7f0a00d4
+			public const int notification_main_column = 2131362004;
 			
-			// aapt resource value: 0x7f0a00ce
-			public const int notification_main_column_container = 2131361998;
+			// aapt resource value: 0x7f0a00d3
+			public const int notification_main_column_container = 2131362003;
 			
 			// aapt resource value: 0x7f0a005e
 			public const int packed = 2131361886;
@@ -9824,11 +11373,11 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a004c
 			public const int right = 2131361868;
 			
-			// aapt resource value: 0x7f0a00d4
-			public const int right_icon = 2131362004;
+			// aapt resource value: 0x7f0a00d9
+			public const int right_icon = 2131362009;
 			
-			// aapt resource value: 0x7f0a00d0
-			public const int right_side = 2131362000;
+			// aapt resource value: 0x7f0a00d5
+			public const int right_side = 2131362005;
 			
 			// aapt resource value: 0x7f0a000c
 			public const int save_image_matrix = 2131361804;
@@ -9902,14 +11451,14 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0027
 			public const int showTitle = 2131361831;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int smallLabel = 2131361946;
+			// aapt resource value: 0x7f0a009d
+			public const int smallLabel = 2131361949;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int snackbar_action = 2131361953;
+			// aapt resource value: 0x7f0a00a4
+			public const int snackbar_action = 2131361956;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int snackbar_text = 2131361952;
+			// aapt resource value: 0x7f0a00a3
+			public const int snackbar_text = 2131361955;
 			
 			// aapt resource value: 0x7f0a0045
 			public const int snap = 2131361861;
@@ -9941,8 +11490,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a004d
 			public const int start = 2131361869;
 			
-			// aapt resource value: 0x7f0a00cb
-			public const int status_bar_latest_event_content = 2131361995;
+			// aapt resource value: 0x7f0a00d0
+			public const int status_bar_latest_event_content = 2131362000;
 			
 			// aapt resource value: 0x7f0a0085
 			public const int submenuarrow = 2131361925;
@@ -9962,8 +11511,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a001b
 			public const int text2 = 2131361819;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int textInputLayout = 2131361960;
+			// aapt resource value: 0x7f0a00ab
+			public const int textInputLayout = 2131361963;
 			
 			// aapt resource value: 0x7f0a0079
 			public const int textSpacerNoButtons = 2131361913;
@@ -9971,8 +11520,14 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0078
 			public const int textSpacerNoTitle = 2131361912;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int text_input_password_toggle = 2131361959;
+			// aapt resource value: 0x7f0a00ad
+			public const int textView = 2131361965;
+			
+			// aapt resource value: 0x7f0a00af
+			public const int textView2 = 2131361967;
+			
+			// aapt resource value: 0x7f0a00aa
+			public const int text_input_password_toggle = 2131361962;
 			
 			// aapt resource value: 0x7f0a0014
 			public const int textinput_counter = 2131361812;
@@ -9980,8 +11535,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0015
 			public const int textinput_error = 2131361813;
 			
-			// aapt resource value: 0x7f0a00d1
-			public const int time = 2131362001;
+			// aapt resource value: 0x7f0a00d6
+			public const int time = 2131362006;
 			
 			// aapt resource value: 0x7f0a001c
 			public const int title = 2131361820;
@@ -9992,8 +11547,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a007e
 			public const int title_template = 2131361918;
 			
-			// aapt resource value: 0x7f0a00d9
-			public const int toolbar = 2131362009;
+			// aapt resource value: 0x7f0a00de
+			public const int toolbar = 2131362014;
 			
 			// aapt resource value: 0x7f0a0040
 			public const int top = 2131361856;
@@ -10001,8 +11556,8 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a007d
 			public const int topPanel = 2131361917;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int touch_outside = 2131361950;
+			// aapt resource value: 0x7f0a00a1
+			public const int touch_outside = 2131361953;
 			
 			// aapt resource value: 0x7f0a000f
 			public const int transition_current_scene = 2131361807;
@@ -10031,11 +11586,11 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0a0016
 			public const int view_offset_helper = 2131361814;
 			
-			// aapt resource value: 0x7f0a00db
-			public const int visible = 2131362011;
+			// aapt resource value: 0x7f0a00e0
+			public const int visible = 2131362016;
 			
-			// aapt resource value: 0x7f0a00be
-			public const int volume_item_container = 2131361982;
+			// aapt resource value: 0x7f0a00c3
+			public const int volume_item_container = 2131361987;
 			
 			// aapt resource value: 0x7f0a003e
 			public const int withText = 2131361854;
@@ -10215,133 +11770,142 @@ namespace IziCast.Droid
 			public const int about_activity = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int design_bottom_navigation_item = 2130968603;
+			public const int about_page = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_bottom_sheet_dialog = 2130968604;
+			public const int about_page_separator = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_layout_snackbar = 2130968605;
+			public const int design_bottom_navigation_item = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_layout_snackbar_include = 2130968606;
+			public const int design_bottom_sheet_dialog = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_layout_tab_icon = 2130968607;
+			public const int design_layout_snackbar = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_layout_tab_text = 2130968608;
+			public const int design_layout_snackbar_include = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_menu_item_action_area = 2130968609;
+			public const int design_layout_tab_icon = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_navigation_item = 2130968610;
+			public const int design_layout_tab_text = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_navigation_item_header = 2130968611;
+			public const int design_menu_item_action_area = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_navigation_item_separator = 2130968612;
+			public const int design_navigation_item = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_navigation_item_subheader = 2130968613;
+			public const int design_navigation_item_header = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_navigation_menu = 2130968614;
+			public const int design_navigation_item_separator = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_navigation_menu_item = 2130968615;
+			public const int design_navigation_item_subheader = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int design_text_input_password_icon = 2130968616;
+			public const int design_navigation_menu = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int main_activity = 2130968617;
+			public const int design_navigation_menu_item = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int mr_chooser_dialog = 2130968618;
+			public const int design_text_input_password_icon = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int mr_chooser_list_item = 2130968619;
+			public const int main_activity = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int mr_controller_material_dialog_b = 2130968620;
+			public const int mr_chooser_dialog = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int mr_controller_volume_item = 2130968621;
+			public const int mr_chooser_list_item = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int mr_playback_control = 2130968622;
+			public const int mr_controller_material_dialog_b = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int mr_volume_control = 2130968623;
+			public const int mr_controller_volume_item = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_action = 2130968624;
+			public const int mr_playback_control = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_action_tombstone = 2130968625;
+			public const int mr_volume_control = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_media_action = 2130968626;
+			public const int notification_action = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_media_cancel_action = 2130968627;
+			public const int notification_action_tombstone = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_big_media = 2130968628;
+			public const int notification_media_action = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_big_media_custom = 2130968629;
+			public const int notification_media_cancel_action = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_big_media_narrow = 2130968630;
+			public const int notification_template_big_media = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_big_media_narrow_custom = 2130968631;
+			public const int notification_template_big_media_custom = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_custom_big = 2130968632;
+			public const int notification_template_big_media_narrow = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_icon_group = 2130968633;
+			public const int notification_template_big_media_narrow_custom = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_lines_media = 2130968634;
+			public const int notification_template_custom_big = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int notification_template_media = 2130968635;
+			public const int notification_template_icon_group = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int notification_template_media_custom = 2130968636;
+			public const int notification_template_lines_media = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int notification_template_part_chronometer = 2130968637;
+			public const int notification_template_media = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int notification_template_part_time = 2130968638;
+			public const int notification_template_media_custom = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int select_dialog_item_material = 2130968639;
+			public const int notification_template_part_chronometer = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int select_dialog_multichoice_material = 2130968640;
+			public const int notification_template_part_time = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int select_dialog_singlechoice_material = 2130968641;
+			public const int select_dialog_item_material = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int splash_screen_activity = 2130968642;
+			public const int select_dialog_multichoice_material = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int support_simple_spinner_dropdown_item = 2130968643;
+			public const int select_dialog_singlechoice_material = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int toolbar = 2130968644;
+			public const int splash_screen_activity = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int tooltip = 2130968645;
+			public const int support_simple_spinner_dropdown_item = 2130968645;
+			
+			// aapt resource value: 0x7f040046
+			public const int toolbar = 2130968646;
+			
+			// aapt resource value: 0x7f040047
+			public const int tooltip = 2130968647;
+			
+			// aapt resource value: 0x7f040048
+			public const int video_sender_item_template = 2130968648;
 			
 			static Layout()
 			{
@@ -10372,11 +11936,11 @@ namespace IziCast.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0b003f
-			public const int ApplicationName = 2131427391;
+			// aapt resource value: 0x7f0b0048
+			public const int ApplicationName = 2131427400;
 			
-			// aapt resource value: 0x7f0b003e
-			public const int VersionName = 2131427390;
+			// aapt resource value: 0x7f0b0047
+			public const int VersionName = 2131427399;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int abc_action_bar_home_description = 2131427348;
@@ -10464,6 +12028,33 @@ namespace IziCast.Droid
 			
 			// aapt resource value: 0x7f0b0024
 			public const int abc_toolbar_collapse_description = 2131427364;
+			
+			// aapt resource value: 0x7f0b003f
+			public const int about_contact_us = 2131427391;
+			
+			// aapt resource value: 0x7f0b0041
+			public const int about_facebook = 2131427393;
+			
+			// aapt resource value: 0x7f0b0045
+			public const int about_github = 2131427397;
+			
+			// aapt resource value: 0x7f0b0040
+			public const int about_instagram = 2131427392;
+			
+			// aapt resource value: 0x7f0b003e
+			public const int about_page_description = 2131427390;
+			
+			// aapt resource value: 0x7f0b0042
+			public const int about_play_store = 2131427394;
+			
+			// aapt resource value: 0x7f0b0044
+			public const int about_twitter = 2131427396;
+			
+			// aapt resource value: 0x7f0b0046
+			public const int about_website = 2131427398;
+			
+			// aapt resource value: 0x7f0b0043
+			public const int about_youtube = 2131427395;
 			
 			// aapt resource value: 0x7f0b0032
 			public const int appbar_scrolling_view_behavior = 2131427378;
@@ -11084,14 +12675,14 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0d016c
 			public const int Base_Widget_Design_TabLayout = 2131558764;
 			
-			// aapt resource value: 0x7f0d018d
-			public const int MyTheme = 2131558797;
+			// aapt resource value: 0x7f0d0195
+			public const int MyTheme = 2131558805;
 			
-			// aapt resource value: 0x7f0d0190
-			public const int MyTheme_ActionBar = 2131558800;
+			// aapt resource value: 0x7f0d0198
+			public const int MyTheme_ActionBar = 2131558808;
 			
-			// aapt resource value: 0x7f0d018f
-			public const int MyTheme_Base = 2131558799;
+			// aapt resource value: 0x7f0d0197
+			public const int MyTheme_Base = 2131558807;
 			
 			// aapt resource value: 0x7f0d018b
 			public const int OverlayTheme = 2131558795;
@@ -11486,11 +13077,11 @@ namespace IziCast.Droid
 			// aapt resource value: 0x7f0d0006
 			public const int Theme_MediaRouter_LightControlPanel = 2131558406;
 			
-			// aapt resource value: 0x7f0d018e
-			public const int Theme_Splash = 2131558798;
+			// aapt resource value: 0x7f0d0196
+			public const int Theme_Splash = 2131558806;
 			
-			// aapt resource value: 0x7f0d018c
-			public const int Theme_Transparent = 2131558796;
+			// aapt resource value: 0x7f0d0194
+			public const int Theme_Transparent = 2131558804;
 			
 			// aapt resource value: 0x7f0d0112
 			public const int ThemeOverlay_AppCompat = 2131558674;
@@ -11779,6 +13370,30 @@ namespace IziCast.Droid
 			
 			// aapt resource value: 0x7f0d000a
 			public const int Widget_MediaRouter_MediaRouteButton = 2131558410;
+			
+			// aapt resource value: 0x7f0d018c
+			public const int about_About = 2131558796;
+			
+			// aapt resource value: 0x7f0d018d
+			public const int about_About_wrapper = 2131558797;
+			
+			// aapt resource value: 0x7f0d0190
+			public const int about_description = 2131558800;
+			
+			// aapt resource value: 0x7f0d0192
+			public const int about_elementTextAppearance = 2131558802;
+			
+			// aapt resource value: 0x7f0d0193
+			public const int about_groupTextAppearance = 2131558803;
+			
+			// aapt resource value: 0x7f0d018f
+			public const int about_image = 2131558799;
+			
+			// aapt resource value: 0x7f0d0191
+			public const int about_separator = 2131558801;
+			
+			// aapt resource value: 0x7f0d018e
+			public const int about_sub_wrapper = 2131558798;
 			
 			static Style()
 			{

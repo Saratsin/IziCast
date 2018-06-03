@@ -17,5 +17,7 @@ namespace IziCast.Core.Services.Interfaces
 		IVideoSender CurrentChromecastVideoSender { get; set; }
 
         Task<bool> EnsureAtLeastOneVideoSenderIsAvailable();
+
+		void LoadSendersIcons();
     }
 }

@@ -7,6 +7,8 @@ using IziCast.Core.Models.IsBusyHandler;
 using IziCast.Core.Services;
 using MvvmCross.Commands;
 using IziCast.Core.Services.Interfaces;
+using MvvmCross;
+using MvvmCross.ViewModels;
 
 namespace IziCast.Core.ViewModels
 {
@@ -98,13 +100,14 @@ namespace IziCast.Core.ViewModels
 
             await CloseAsync().ConfigureAwait(false);
         }
-
+              
         private async Task CloseAsync()
         {
             _autoClose = false;
 
             await HideChromecastButtonAsyncCommand.ExecuteAsync().ConfigureAwait(false);
             await NavigationService.Close(this).ConfigureAwait(false);
+			Mvx.Resolve<IMvxAppStart>().ResetStart();
         }
     }
 }
