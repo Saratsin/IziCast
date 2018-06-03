@@ -1,7 +1,3 @@
-[submodule "Submodules/SharpCaster"]
-	path = Submodules/SharpCaster
-	url = https://Saratsin@github.com/Saratsin/SharpCaster.git
-	branch = refactoring
 [submodule "Submodules/MvxOverlay"]
 	path = Submodules/MvxOverlay
 	url = https://github.com/Saratsin/MvxOverlay
