@@ -23,9 +23,8 @@ namespace IziCast.Droid.Views
 			var aboutContainer = FindViewById<FrameLayout>(Resource.Id.about_container);
 
 			var versionName = PackageManager.GetPackageInfo(PackageName, PackageInfoFlags.MetaData).VersionName;
-            var versionElement = new Element();
 
-			versionElement.SetTitle(string.Format(ViewModel.TextSource.GetText("VersionFormat"), versionName));
+            var versionElement = new Element().SetTitle(string.Format(ViewModel.TextSource.GetText("VersionFormat"), versionName));
 
 			var aboutPage = new AboutPage(this).SetDescription(ViewModel.TextSource.GetText("Description"))
                                                .SetImage(Resource.Mipmap.ic_launcher)
