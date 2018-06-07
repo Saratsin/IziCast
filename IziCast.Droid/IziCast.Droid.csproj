@@ -15,7 +15,7 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
-    <AndroidSupportedAbis>armeabi-v7a;armeabi;x86;arm64-v8a;x86_64</AndroidSupportedAbis>
+    <AndroidSupportedAbis>armeabi-v7a;armeabi;x86;x86_64</AndroidSupportedAbis>
     <NuGetPackageImportStamp />
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
@@ -30,7 +30,6 @@
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
     <LangVersion>Latest</LangVersion>
-    <AndroidSupportedAbis>armeabi;armeabi-v7a;x86;x86_64</AndroidSupportedAbis>
     <AndroidUseSharedRuntime>true</AndroidUseSharedRuntime>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -46,6 +45,7 @@
     <BundleAssemblies>true</BundleAssemblies>
     <AotAssemblies>true</AotAssemblies>
     <EnableLLVM>true</EnableLLVM>
+    <EnableProguard>true</EnableProguard>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Animated.Vector.Drawable">

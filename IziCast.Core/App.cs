@@ -10,7 +10,6 @@ using MvvmCross.IoC;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using IziCast.Core.Sevices.Interfaces;
-using MvvmCross.Views;
 using MvvmCross.Plugin.ResxLocalization;
 using IziCast.Core.Localization;
 using MvvmCross.Localization;

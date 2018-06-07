@@ -16,10 +16,5 @@ namespace IziCast.Droid
 		public SplashActivity() : base(Resource.Layout.splash_screen_activity)
         {         
         }
-
-		protected override void OnCreate(Bundle bundle)
-		{
-			base.OnCreate(bundle);
-		}
 	}
 }
