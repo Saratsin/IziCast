@@ -10,6 +10,7 @@ using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using IziCast.Droid.Controls;
 using Android.Support.Design.Widget;
+using FFImageLoading.Cross;
 
 namespace IziCast.Droid
 {
@@ -48,6 +49,11 @@ namespace IziCast.Droid
         {
             @switch.CheckedChange += (sender, args) => @switch.Checked = !@switch.Checked;
         }
+
+		public void Include(MvxCachedImageView imageView)
+		{
+			imageView.ImagePath = "ImagePath";
+		}
 
         public void Include(View view)
         {

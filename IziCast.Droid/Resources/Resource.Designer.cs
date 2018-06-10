@@ -11936,11 +11936,8 @@ namespace IziCast.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0b0048
-			public const int ApplicationName = 2131427400;
-			
 			// aapt resource value: 0x7f0b0047
-			public const int VersionName = 2131427399;
+			public const int ApplicationName = 2131427399;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int abc_action_bar_home_description = 2131427348;

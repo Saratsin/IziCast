@@ -8,7 +8,7 @@ namespace IziCast.Core.ViewModels
 
 		public string Email { get; } = @"schew4uk@gmail.com";
 
-		public string GitHubId { get; } = "Saratsin";
+		public string GitHubId { get; } = "Saratsin/IziCast";
 
 		public string TwitterId { get; } = "schew4uk";
     }
