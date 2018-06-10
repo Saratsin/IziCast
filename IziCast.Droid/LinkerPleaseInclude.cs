@@ -9,6 +9,7 @@ using MvvmCross.Binding.BindingContext;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using IziCast.Droid.Controls;
+using Android.Support.Design.Widget;
 
 namespace IziCast.Droid
 {
@@ -32,6 +33,16 @@ namespace IziCast.Droid
         {
             checkBox.CheckedChange += (sender, args) => checkBox.Checked = !checkBox.Checked;
         }
+
+		public void Include(TextInputLayout textInputLayout)
+		{
+			textInputLayout.Hint = "Hello world";
+		}
+
+		public void Include(EditText editText)
+		{
+			editText.Text = "Hi";
+		}
 
         public void Include(Switch @switch)
         {
