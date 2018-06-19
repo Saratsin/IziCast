@@ -35,14 +35,10 @@ namespace IziCast.Droid
             checkBox.CheckedChange += (sender, args) => checkBox.Checked = !checkBox.Checked;
         }
 
-		public void Include(TextInputLayout textInputLayout)
-		{
-			textInputLayout.Hint = "Hello world";
-		}
-
 		public void Include(EditText editText)
 		{
-			editText.Text = "Hi";
+            editText.Hint = "Hello world";
+			editText.Text = "Hello world";
 		}
 
         public void Include(Switch @switch)
@@ -57,6 +53,7 @@ namespace IziCast.Droid
 
         public void Include(View view)
         {
+            view.Enabled = true;
             view.Click += (s, e) => view.ContentDescription = view.ContentDescription + "";
         }
 

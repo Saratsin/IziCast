@@ -80,13 +80,15 @@ namespace IziCast.Core.ViewModels
             }
         }
 
-        public MvxAsyncCommand SendDataUrlToChromecastAsyncCommand => new MvxAsyncCommand(SendDataUrlToChromecastAsync);
+        public MvxAsyncCommand SendDataUrlToChromecastCommand => new MvxAsyncCommand(SendDataUrlToChromecast);
 
-        private Task SendDataUrlToChromecastAsync()
+        public MvxAsyncCommand AboutButtonClickedCommand => new MvxAsyncCommand(AboutButtonClicked);
+
+        private Task SendDataUrlToChromecast()
         {
             return Handler.SilentHandleWithDelay(async () =>
             {
-                if (SendDataButtonStatus == ConnectivityStatus.Connected)
+                if (SendDataButtonStatus != ConnectivityStatus.Disconnected)
                     return;
 
                 SendDataButtonStatus = ConnectivityStatus.Connecting;
@@ -96,8 +98,6 @@ namespace IziCast.Core.ViewModels
                 SendDataButtonStatus = sendingResult.OperationSucceeded ? ConnectivityStatus.Connected : ConnectivityStatus.Disconnected;
             });
         }
-
-		public MvxAsyncCommand AboutButtonClickedCommand => new MvxAsyncCommand(AboutButtonClicked);
 
         private Task AboutButtonClicked()
 		{
