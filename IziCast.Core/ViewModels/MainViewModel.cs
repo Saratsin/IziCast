@@ -77,6 +77,12 @@ namespace IziCast.Core.ViewModels
 
                 _videoSenderService.CurrentChromecastVideoSender = value;
                 RaisePropertyChanged();
+                var a = true;
+                if (a)
+                {
+                    throw new Exception("Player Exception for testing purposes");
+                }
+
             }
         }
 

@@ -38,6 +38,12 @@ namespace IziCast.Droid.Views
 			var padding = this.DpToPx(5);
 			aboutPage.SetPadding(padding, padding, padding, padding);
 
+			var a = true;
+			if (a)
+			{
+				throw new Exception("About Exception for testing purposes");
+			}
+			
 			aboutContainer.AddView(aboutPage, ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent);
 		}
 	}
